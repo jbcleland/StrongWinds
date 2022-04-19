@@ -1,0 +1,248 @@
+,Name,Duration,Sustainedwind speeds,Pressure,Areas affected,Deaths,Damage(USD),Month,Year,Month_only
+0,Five,"October 6 – 11, 1852",105,969,"Jamaica, Yucatán Peninsula, Florida",Unknown,Minor,October 6 – 11,1852,October
+1,Eight,"October 19 – 22, 1853",105,996,"Florida, Georgia",Unknown,Significant,October 19 – 22,1853,October
+2,Four,"September 18 – 20, 1854",105,965,Texas,4,$20 thousand,September 18 – 20,1854,September
+3,One,"August 6, 1855",105,Unknown,Tampico,Unknown,Unknown,August 6,1855,August
+4,Two,"August 10 – 11, 1855",105,Unknown,No land areas,0,None,August 10 – 11,1855,August
+5,Two,"September 6 – 17, 1857",105,961,"North Carolina, East Coast of the United States",424,Unknown,September 6 – 17,1857,September
+6,Four,"September 24 – 30, 1857",105,Unknown,"Mexico, Texas",0,Unknown,September 24 – 30,1857,September
+7,Three,"September 14 – 17, 1858",105,979,"Florida, New York, Massachusetts, Maine",0,Unknown,September 14 – 17,1858,September
+8,Six,"October 21 – 26, 1858",105,Unknown,"Bahamas, Bermuda",0,Minor,October 21 – 26,1858,October
+9,One,"July 1, 1859",105,Unknown,Mexico (Veracruz),0,Unknown,July 1,1859,July
+10,Two,"August 17 – 19, 1859",105,982,No land areas,0,None,August 17 – 19,1859,August
+11,Four,"September 12 – 13, 1859",105,Unknown,No land areas,0,None,September 12 – 13,1859,September
+12,Two,"August 24 – 26, 1860",100,Unknown,No land areas,0,Minimal,August 24 – 26,1860,August
+13,Four,"September 11 – 16, 1860",100,969,"Louisiana, Mississippi, Alabama",Unknown,>$1 million,September 11 – 16,1860,September
+14,Six,"September 30 – October 3, 1860",105,969,"Louisiana, Mississippi",15+,Severe,September 30 – October 3,1860,September
+15,Seven,"October 20 – 24, 1860",105,Unknown,No land areas,0,None,October 20 – 24,1860,October
+16,One,"July 6 – 12, 1861",105,Unknown,No land areas,0,Minimal,July 6 – 12,1861,July
+17,Three,"August 25 – 30, 1861",105,958,No land areas,0,None,August 25 – 30,1861,August
+18,Two,"August 18 – 21, 1862",105,Unknown,No land areas,0,None,August 18 – 21,1862,August
+19,Three,"September 12 – 20, 1862",105,Unknown,No land areas,0,None,September 12 – 20,1862,September
+20,One,"August 8 – 9, 1863",105,Unknown,No land areas,0,None,August 8 – 9,1863,August
+21,Two,"August 18 – 19, 1863",105,Unknown,No land areas,0,None,August 18 – 19,1863,August
+22,Three,"August 19 – 23, 1863",105,975,St. Paul Island,0,Minor,August 19 – 23,1863,August
+23,Four,"August 27 – 28, 1863",105,Unknown,No land areas,0,None,August 27 – 28,1863,August
+24,Four,"September 6 – 14, 1865",105,969,"Guadeloupe, Louisiana, Texas",325,Severe,September 6 – 14,1865,September
+25,Seven,"October 18 – 25, 1865",105,969,"Panama, Florida",1,$300 thousand,October 18 – 25,1865,October
+26,One,"July 11 – 16, 1866",105,969,"Louisiana, Texas",Unknown,Unknown,July 11 – 16,1866,July
+27,Two,"August 13 – 18, 1866",105,Unknown,"Mexico (Yucatán Peninsula, Veracruz)",Unknown,Minor,August 13 – 18,1866,August
+28,Four,"September 22 – 24, 1866",105,Unknown,Newfoundland,8,Unknown,September 22 – 24,1866,September
+29,Two,"July 28 – August 3, 1867",105,969,"East Coast of the United States, Massachusetts",13,High,July 28 – August 3,1867,July
+30,Three,"August 2, 1867",105,Unknown,No land areas,0,None,August 2,1867,August
+31,Six,"September 29 – October 1, 1867",105,Unknown,No land areas,0,None,September 29 – October 1,1867,September
+32,Seven,"October 2 – 9, 1867",105,969,"Mexico (Tamaulipas), Texas, Louisiana, Gulf Coast of the United States, Florida, North Carolina","""Many""",Severe,October 2 – 9,1867,October
+33,One,"September 3 – 7, 1868",105,Unknown,No land areas,2,Minimal,September 3 – 7,1868,September
+34,Three,"October 5 – 7, 1868",105,Unknown,No land areas,0,None,October 5 – 7,1868,October
+35,Four,"October 15 – 17, 1868",105,Unknown,No land areas,0,Minimal,October 15 – 17,1868,October
+36,One,"August 12, 1869",105,Unknown,No land areas,0,None,August 12,1869,August
+37,Two,"August 16 – 17, 1869",105,969,Texas,Unknown,Intense,August 16 – 17,1869,August
+38,Seven,"September 11 – 18, 1869",105,979,No land areas,0,None,September 11 – 18,1869,September
+39,Ten,"October 4 – 5, 1869",105,965,"New York, Connecticut, Massachusetts, Maine, New Brunswick",37,Severe,October 4 – 5,1869,October
+40,Two,"August 30 – September 4, 1870",105,Unknown,No land areas,0,None,August 30 – September 4,1870,August
+41,Nine,"October 19 – 22, 1870",105,970,"Cuba, Florida",52,Severe,October 19 – 22,1870,October
+42,Ten,"October 23 – 24, 1870",105,Unknown,Nova Scotia,0,None,October 23 – 24,1870,October
+43,Five,"August 30 – September 2, 1871",105,Unknown,No land areas,0,None,August 30 – September 2,1871,August
+44,Two,"August 20 – September 1, 1872",105,Unknown,Newfoundland,0,None,August 20 – September 1,1872,August
+45,Seven,"October 31 – November 4, 1874",105,Unknown,"Jamaica, Cuba, Bahamas",0,None,October 31 – November 4,1874,October
+46,Five,"October 7 – 10, 1875",105,Unknown,No land areas,0,None,October 7 – 10,1875,October
+47,Four,"September 29 – October 5, 1876",105,Unknown,Nicaragua,0,Severe,September 29 – October 5,1876,September
+48,Four,"August 25 – 30, 1878",105,972,Bahamas,0,None,August 25 – 30,1878,August
+49,Five,"September 1 – 13, 1878",105,970,"Leeward Islands, Haiti, Cuba, Florida, South Carolina, Ontario",9,Significant,September 1 – 13,1878,September
+50,Six,"September 12 – 18, 1878",105,Unknown,No land areas,0,None,September 12 – 18,1878,September
+51,Eleven,"October 18 – 21, 1878",105,963,"Cuba, Bahamas, North Carolina, Virginia, Delaware, Washington, D.C., Maryland, New York, Pennsylvania, New England",72,$2 million,October 18 – 21,1878,October
+52,Two,"August 19 – 24, 1879",105,964,"Yucatán Peninsula, Texas, Louisiana",0,Unknown,August 19 – 24,1879,August
+53,Eight,"November 18 – 20, 1879",105,968,Canada[nb 1],0,Minor,November 18 – 20,1879,November
+54,Four,"August 24 – September 1, 1880",105,972,"Florida, Mississippi",68,Unknown,August 24 – September 1,1880,August
+55,Five,"August 21 – 29, 1881",105,970,"Georgia, Mississippi",700,Severe,August 21 – 29,1881,August
+56,Six,"September 7 – 11, 1881",105,975,East Coast of the United States,0,Unknown,September 7 – 11,1881,September
+57,Four,"October 7 – 17, 1884",105,980,"Jamaica, Cuba, Bahamas, Turks and Caicos Islands",8,Unknown,October 7 – 17,1884,October
+58,Two,"August 21 – 27, 1885",105,953,"Bahamas, Florida, Georgia, South Carolina, North Carolina, Maryland",25,$1.8 million,August 21 – 27,1885,August
+59,One,"June 13 – 15, 1886",100,997,"Texas, Louisiana",Unknown,Unknown,June 13 – 15,1886,June
+60,Two,"June 17 – 24, 1886",100,Unknown,"Florida, Southeastern United States, Mid-Atlantic states",0,Severe,June 17 – 24,1886,June
+61,Three,"June 27 – July 4, 1886",100,999,"Florida, North Carolina, Maryland",18,Unknown,June 27 – July 4,1886,June
+62,Eight,"September 16 – 24, 1886",100,973,"Cuba, Texas",0,Unknown,September 16 – 24,1886,September
+63,Nine,"September 22 – 30, 1886",100,990,No land areas,0,None,September 22 – 30,1886,September
+64,Four,"July 20 – 28, 1887",100,981,"Cuba, Yucatán Peninsula, Florida, Georgia, Alabama",0,Extensive,July 20 – 28,1887,July
+65,Eight,"September 1 – 4, 1887",105,963,Ireland,0,None,September 1 – 4,1887,September
+66,Nine,"September 11 – 22, 1887",100,973,"Yucatán Peninsula, Texas, Extreme Northeastern Mexico",14,Unknown,September 11 – 22,1887,September
+67,Fifteen,"October 15 – 19, 1887",105,975,No land areas,0,None,October 15 – 19,1887,October
+68,Seven,"October 8 – 12, 1888",110,970,"Florida, East Coast of the United States",0,Unknown,October 8 – 12,1888,October
+69,Nine,"November 17 – 25, 1888",100,982,No land areas,0,None,November 17 – 25,1888,November
+70,Four,"September 1 – 12, 1889",105,981,"Puerto Rico, Virginia",40,Minimal,September 1 – 12,1889,September
+71,Six,"September 12 – 25, 1889",110,985,"Yucatán Peninsula, Florida",0,Minor,September 12 – 25,1889,September
+72,Four,"September 2 – 8, 1891",100,Unknown,"New England, Nova Scotia, Newfoundland",0,Minor,September 2 – 8,1891,September
+73,Five,"September 16 – 26, 1891",100,980,Bermuda,0,Minimal,September 16 – 26,1891,September
+74,Six,"September 29 – October 5, 1891",100,981,"Nova Scotia, Newfoundland[nb 2]",0,None,September 29 – October 5,1891,September
+75,Three,"September 3 – 17, 1892",100,Unknown,No land areas,0,None,September 3 – 17,1892,September
+76,Five,"September 12 – 23, 1892",100,Unknown,Azores,0,Minor,September 12 – 23,1892,September
+77,Seven,"October 5 – 16, 1892",100,Unknown,"Trinidad and Tobago, Venezuela, Colombia, Nicaragua, Honduras, Mexico",0,Unknown,October 5 – 16,1892,October
+78,Two,"July 4 – 7, 1893",100,Unknown,"Nicaragua, Belize, Yucatán Peninsula, Tabasco",Many,Unknown,July 4 – 7,1893,July
+79,Five,"August 15 – 19, 1893",100,Unknown,"Sable Island, Newfoundland",0,Minor,August 15 – 19,1893,August
+80,Seven,"August 20 – 29, 1893",100,Unknown,Azores,5,Unknown,August 20 – 29,1893,August
+81,Eight,"September 4 – 9, 1893",100,973,"Yucatán Peninsula, Louisiana, Alabama",0,Unknown,September 4 – 9,1893,September
+82,Seven,"October 21 – 29, 1894",,955,No land areas,0,None,October 21 – 29,1894,October
+83,Two,"August 22 – 30, 1895",110,963,"Yucatán Peninsula, Texas",0,Minimal,August 22 – 30,1895,August
+84,Five,"October 12 – 26, 1895",105,973,"Cuba, Bahamas",Unknown,Unknown,October 12 – 26,1895,October
+85,One,"July 4–9, 1896",100,Unknown,"Cuba (questioned), Florida, Alabama, Tennessee, Indiana, Michigan, Canada, Greenland[nb 3]",1,$100 thousand,July 4–9,1896,July
+86,Three,"September 18 – 28, 1896",100,Unknown,"Cuba, North Carolina",0,Minimal,September 18 – 28,1896,September
+87,Five,"October 7 – 13, 1896",100,Unknown,"Florida, North Carolina, Virginia, New England",4,$500 thousand,October 7 – 13,1896,October
+88,Six,"October 26 – November 9, 1896",100,Unknown,No land areas,0,None,October 26 – November 9,1896,October
+89,One,"August 31 – September 9, 1897",100,972,No land areas,45,None,August 31 – September 9,1897,August
+90,Four,"September 5 – 19, 1898",110,965,"Lesser Antilles, Windward Islands",383,$2.5 million,September 5 – 19,1898,September
+91,Two,"July 28 – August 2, 1899",100,979,"Dominican Republic, Bahamas, Florida, Alabama",7,>$1 million,July 28 – August 2,1899,July
+92,Four,"August 29 – September 5, 1899",105,Unknown,"Lesser Antilles, Puerto Rico, Haiti, Bermuda",0,Unknown,August 29 – September 5,1899,August
+93,Nine,"October 26 – 31, 1899",110,955,"Cuba, Bahamas, Jamaica, North Carolina",1+,$200 thousand,October 26 – 31,1899,October
+94,Three,"September 8 – 23, 1900",100,Unknown,No land areas,0,None,September 8 – 23,1900,September
+95,Seven,"August 29 – September 10, 1901",105,991,Cape Verde,0,Severe,August 29 – September 10,1901,August
+96,Three,"September 16 – 22, 1902",100,981,No land areas,0,None,September 16 – 22,1902,September
+97,Four,"October 3 – 11, 1902",105,970,"Oaxaca, Florida, Alabama",0,Unknown,October 3 – 11,1902,October
+98,Four,"September 12 – 17, 1903",100,990,"North Carolina, Virginia, Washington D.C., Maryland, Delaware, New Jersey, New York",57,$9 million,September 12 – 17,1903,September
+99,Six,"September 26 – 30, 1903",110,988,Bermuda,2,Severe,September 26 – 30,1903,September
+100,Seven,"October 1 – 9, 1903",100,Unknown,No land areas,0,None,October 1 – 9,1903,October
+101,Two,"June 14 – 23, 1906",105,979,"Cuba, Florida",0,Minor,June 14 – 23,1906,June
+102,One,"March 6 – 9, 1908",100,991,"Saint Barthélemy, Saint Martin, Saint Kitts",0,Moderate,March 6 – 9,1908,March
+103,Eight,"September 21 – October 7, 1908",110,971,"Lesser Antilles, Hispaniola, Cuba, Bahamas",0,Extensive,September 21 – October 7,1908,September
+104,Nine,"October 14 – 19, 1908",105,Unknown,Nicaragua,0,None,October 14 – 19,1908,October
+105,Two,"June 25 – 30, 1909",100,972,"Texas, Mexico",0,$1.3 million,June 25 – 30,1909,June
+106,Twelve,"November 8 – 14, 1909",105,Unknown,Greater Antilles,198,$10 million,November 8 – 14,1909,November
+107,Three,"September 5 – 15, 1910",110,965,"Puerto Rico, Texas, Louisiana",0,Unknown,September 5 – 15,1910,September
+108,Four,"September 24 – 27, 1910",100,Unknown,No land areas,0,None,September 24 – 27,1910,September
+109,Three,"August 23 – 30, 1911",100,972,"Georgia, South Carolina",17,$27.4 million,August 23 – 30,1911,August
+110,Four,"September 3 – 12, 1911",100,990,"Colombia, Nicaragua",10,$2 million,September 3 – 12,1911,September
+111,Six,"October 11 – 18, 1912",100,970,"Yucatán Peninsula, Texas",42,$28 thousand,October 11 – 18,1912,October
+112,Four,"August 31 – September 6, 1915",100,982,"Cuba, Florida, Michigan",0,Minor,August 31 – September 6,1915,August
+113,Three,"July 10 – 22, 1916",105,980,"Massachusetts, Nova Scotia",0,Minor,July 10 – 22,1916,July
+114,Seven,"August 21 – 26, 1916",110,997,"Puerto Rico, Dominican Republic, Haiti, Cuba, Florida",0,$1 million,August 21 – 26,1916,August
+115,Fourteen,"October 9 – 19, 1916",110,970,"Yucatán Peninsula, Florida, Alabama",69,Limited,October 9 – 19,1916,October
+116,Two,"August 22 – 26, 1918",105,968,"Honduras, Belize",0,Minor,August 22 – 26,1918,August
+117,Five,"September 2 – 6, 1918",110,972,Bermuda,21,Minor,September 2 – 6,1918,September
+118,One,"September 7 – 14, 1920",110,985,No land areas,0,None,September 7 – 14,1920,September
+119,Two,"September 16 – 23, 1920",100,975,"Nicaragua, Yucatán Peninsula, Texas, Louisiana",1,$1.45 million,September 16 – 23,1920,September
+120,Four,"October 11 – 22, 1922",110,984,"Colombia, Yucatán Peninsula, Tabasco",0,Unknown,October 11 – 22,1922,October
+121,Two,"September 1 – 9, 1923",105,989,No land areas,0,None,September 1 – 9,1923,September
+122,Four,"August 26 – September 3, 1924",110,965,"Guadeloupe, Montserrat, Anguilla, Saint Thomas, Leeward Islands",89,Heavy,August 26 – September 3,1924,August
+123,Five,"September 10 – 14, 1926",105,1000,No land areas,0,None,September 10 – 14,1926,September
+124,Eight,"September 21 – October 1, 1926",105,978,Azores (São Miguel Island),0,Minor,September 21 – October 1,1926,September
+125,Four,"September 23 – 28, 1927",110,967,No land areas,0,None,September 23 – 28,1927,September
+126,One,"August 3 – 10, 1928",105,971,"Bahamas, Florida, Georgia, South Carolina",2,$235 thousand,August 3 – 10,1928,August
+127,Seven,"September 8 – 16, 1931",100,987,"Puerto Rico, Dominican Republic, Haiti, Jamaica, Belize, Yucatán Peninsula, Veracruz",2,Moderate,September 8 – 16,1931,September
+128,Fifteen,"November 3 – 10, 1932",100,973,Azores,0,Unknown,November 3 – 10,1932,November
+129,Two,"June 24 – July 8, 1933",110,965,"Trinidad, Venezuela, Jamaica, Cayman Islands, Cuba, Tamaulipas",35,$7.5 million,June 24 – July 8,1933,June
+130,Thirteen,"September 10 – 15, 1933",110,960,"Guatemala, Belize, Quintana Roo, Yucatán Peninsula, Tampico",67,Millions,September 10 – 15,1933,September
+131,One,"June 4 – 18, 1934",100,966,"Belize, Guatemala, Chiapas, Yucatán Peninsula, Louisiana, Mississippi, Tennessee",">1,000",$4.4 million,June 4 – 18,1934,June
+132,Seven,"September 3 – 7, 1934",105,967,East Coast of the United States,8,$10 thousand,September 3 – 7,1934,September
+133,Ten,"October 1 – 4, 1934",100,984,No land areas,0,None,October 1 – 4,1934,October
+134,Seven,"October 30 – November 8, 1935",105,964,"The Bahamas, Florida",19,$5.5 million,October 30 – November 8,1935,October
+135,Five,"July 27 – August 1, 1936",105,964,"Bahamas, Florida, Alabama",4,$200 thousand,July 27 – August 1,1936,July
+136,Ten,"August 25 – September 5, 1936",110,959,No land areas,0,None,August 25 – September 5,1936,August
+137,Fifteen,"September 18 – 25, 1936",105,977,Nova Scotia,0,None,September 18 – 25,1936,September
+138,Four,"September 9 – 14, 1937",100,992,"Nova Scotia, Canada",0,$1.5 million,September 9 – 14,1937,September
+139,Eight,"September 20 – 26, 1937",100,982,No land areas,0,None,September 20 – 26,1937,September
+140,Two,"August 3 – 10, 1940",100,972,"Texas, Louisiana, Arkansas",7,$10.75 million,August 3 – 10,1940,August
+141,Three,"August 5 – 14, 1940",100,972,"South Carolina, Mid-Atlantic states",52,$13 million,August 5 – 14,1940,August
+142,Four,"August 26 – September 2, 1940",110,961,"North Carolina, New England, Nova Scotia, Quebec",7,$4.05 million,August 26 – September 2,1940,August
+143,Five,"September 7 – 17, 1940",100,988,"Nova Scotia, Newfoundland",3,$1.49 million,September 7 – 17,1940,September
+144,Seven,"September 22 – 28, 1940",100,977,Azores,0,None,September 22 – 28,1940,September
+145,Four,"August 25 – September 3, 1942",110,Unknown,No land areas,0,None,August 25 – September 3,1942,August
+146,Eleven,"November 5 – 11, 1942",110,992,"Cuba, Belize, Mexico",9,$9 million,November 5 – 11,1942,November
+147,One,"July 25 – 30, 1943",105,967,"Texas, Louisiana",19,$17 million,July 25 – 30,1943,July
+148,Six,"September 15 – 20, 1943",100,Unknown,Gulf Coast of the United States,0,$419 thousand,September 15 – 20,1943,September
+149,Nine,"October 11 – 17, 1943",110,Unknown,"Leeward Islands, Puerto Rico, Bermuda",0,$300 thousand,October 11 – 17,1943,October
+150,Nine,"September 21 – 26, 1944",100,Unknown,No land areas,0,None,September 21 – 26,1944,September
+151,One,"June 20 – 27, 1945",100,985,East Coast of the United States,1,$750 thousand,June 20 – 27,1945,June
+152,Eleven,"October 10 – 13, 1945",100,982,"Greater Antilles, Bahamas",5,$2 million,October 10 – 13,1945,October
+153,Four,"September 12 – 15, 1946",100,975,"Bahamas, Nova Scotia, Newfoundland",0,None,September 12 – 15,1946,September
+154,Six,"October 5 – 9, 1946",100,977,"Cuba, Florida, Georgia, South Carolina",5,$5.2 million,October 5 – 9,1946,October
+155,Charlie,"August 9 – 16, 1947",110,977,"Quintana Roo, Tamaulipas",48,Unknown,August 9 – 16,1947,August
+156,King,"October 8 – 16, 1947",105,965,"Honduras, Florida, Alabama",1,$3.26 million,October 8 – 16,1947,October
+157,One,"August 21 – 25, 1949",110,974,North Carolina,2,$50 thousand,August 21 – 25,1949,August
+158,Eleven,"September 27 – October 6, 1949",110,965,"Guatemala, Campeche, Texas",2,$6.7 million,September 27 – October 6,1949,September
+159,Baker,"August 18 – September 1, 1950",105,978,"Leeward Islands, Puerto Rico, Hispaniola, Cuba, Gulf Coast of the United States",38,$2.5 million,August 18 – September 1,1950,August
+160,Charlie,"August 21 – September 5, 1950",110,974,No land areas,0,None,August 21 – September 5,1950,August
+161,George,"September 27 – October 5, 1950",110,960,Iceland,0,None,September 27 – October 5,1950,September
+162,Item,"October 8 – 11, 1950",105,976,"Yucatán Peninsula, Western Mexico",0,$1.5 million,October 8 – 11,1950,October
+163,How,"September 29 – October 5, 1951",100,972,"Florida, Iceland",17,$2 million,September 29 – October 5,1951,September
+164,Able,"August 18 – September 3, 1952",100,980,"South Carolina, North Carolina, Virginia, Maryland",3,$21.7 million,August 18 – September 3,1952,August
+165,Baker,"August 31 – September 8, 1952",110,969,No land areas,0,None,August 31 – September 8,1952,August
+166,Easy,"October 6 – 11, 1952",105,968,No land areas,0,None,October 6 – 11,1952,October
+167,Alice,"June 24 – 27, 1954",110,975,Mexico,56,$2 million,June 24 – 27,1954,June
+168,Thirteen,"September 25 – October 6, 1954",100,964,No land areas,0,None,September 25 – October 6,1954,September
+169,Diane,"August 7 – 20, 1955",105,969,"North Carolina, Pennsylvania, New York, New Jersey, New England",184,$754.7 million,August 7 – 20,1955,August
+170,Edith,"August 21 – 31, 1955",105,967,No land areas,0,None,August 21 – 31,1955,August
+171,Flora,"September 2 – 9, 1955",105,967,No land areas,0,None,September 2 – 9,1955,September
+172,Katie,"October 14 – 19, 1955",110,984,"Central America, Dominican Republic, Hispaniola, Puerto Rico, Cuba, Bahamas, Dominica",7,$200 thousand,October 14 – 19,1955,October
+173,Greta,"October 31 – November 6, 1956",100,970,"Cuba, Bahamas, Florida, Guadeloupe",1,$3.58 million,October 31 – November 6,1956,October
+174,Ella,"August 30 – September 6, 1958",110,983,"Haiti, Dominican Republic, Cuba, Louisiana, Texas",37,>$100 thousand,August 30 – September 6,1958,August
+175,Ilsa,"September 24 – 30, 1958",110,956,Bermuda,0,None,September 24 – 30,1958,September
+176,Janice,"October 4 – 11, 1958",100,968,"Jamaica, Cuba, Bahamas",9,$200 thousand,October 4 – 11,1958,October
+177,Anna,"July 20 – 24, 1961",105,976,"Windward Islands, Colombia, Venezuela, Central America, Jamaica",1,$300 thousand,July 20 – 24,1961,July
+178,Daisy,"September 29 – October 7, 1962",105,963,"Leeward Islands, Bermuda, New England, Atlantic Canada",32,$1.1 million,September 29 – October 7,1962,September
+179,Ella,"October 14 – 22, 1962",110,958,"Cuba, East Coast of the United States, Atlantic Canada",2,Unknown,October 14 – 22,1962,October
+180,Edith,"September 23 – 29, 1963",100,990,"Lesser Antilles, Puerto Rico, Hispaniola, Turks and Caicos Islands, Bahamas",10,$46.6 million,September 23 – 29,1963,September
+181,Ginny,"October 17 – 29, 1963",110,948,"Hispaniola, Turks and Caicos Islands, Bahamas, North Carolina, Virginia, Maryland, New Jersey, New York, New England, Nova Scotia, Newfoundland",5,$500 thousand,October 17 – 29,1963,October
+182,Ethel,"September 4 – 14, 1964",105,974,Bermuda,0,Minimal,September 4 – 14,1964,September
+183,Anna,"August 21 – 25, 1965",105,976,No land areas,0,None,August 21 – 25,1965,August
+184,Elena,"October 12 – 19, 1965",110,977,No land areas,0,None,October 12 – 19,1965,October
+185,Chloe,"September 5 – 21, 1967",110,958,"Cape Verde, Spain, France",14,Unknown,September 5 – 21,1967,September
+186,Kara,"October 7 – 18, 1969",105,978,North Carolina,0,None,October 7 – 18,1969,October
+187,Laurie,"October 17 – 27, 1969",105,973,Mexico,0,Minor,October 17 – 27,1969,October
+188,Eighteen,"October 12 – 17, 1970",105,974,"Bermuda, Nova Scotia, Newfoundland",0,Unknown,October 12 – 17,1970,October
+189,Ginger,"September 6 – October 3, 1971",110,959,"Bahamas, North Carolina",1,$10 million,September 6 – October 3,1971,September
+190,Betty,"August 22 – September 1, 1972",105,976,No land areas,0,None,August 22 – September 1,1972,August
+191,Fifi,"September 14 – 22, 1974",110,971,"Hispaniola, Jamaica, Mexico, Central America",8210,$1.8 billion,September 14 – 22,1974,September
+192,Doris,"August 28 – September 4, 1975",110,965,No land areas,0,None,August 28 – September 4,1975,August
+193,Faye,"September 18 – 29, 1975",105,977,Bermuda,0,Minimal,September 18 – 29,1975,September
+194,Emmy,"August 20 – September 4, 1976",105,974,"Lesser Antilles, Azores",68,Minimal,August 20 – September 4,1976,August
+195,Gloria,"September 26 – October 4, 1976",105,970,No land areas,0,None,September 26 – October 4,1976,September
+196,Flossie,"September 4 – 15, 1978",100,976,No land areas,0,None,September 4 – 15,1978,September
+197,Gloria,"September 4 – 15, 1979",100,975,No land areas,0,None,September 4 – 15,1979,September
+198,Bonnie,"August 14 – 19, 1980",100,975,No land areas,0,None,August 14 – 19,1980,August
+199,Ivan,"October 4 – 11, 1980",105,970,No land areas,0,None,October 4 – 11,1980,October
+200,Jeanne,"November 8 – 16, 1980",100,986,"Florida, Gulf of Mexico, Gulf Coast of the United States",0,Minimal,November 8 – 16,1980,November
+201,Gert,"September 7 – 15, 1981",105,988,Puerto Rico,0,None,September 7 – 15,1981,September
+202,Josephine,"October 7 – 18, 1984",105,965,East Coast of the United States,1,Minor,October 7 – 18,1984,October
+203,Earl,"September 10 – 18, 1986",105,979,No land areas,0,None,September 10 – 18,1986,September
+204,Dean,"July 31 – August 9, 1989",105,968,"Leeward Islands, Bermuda, North Carolina, Newfoundland",0,$8.9 million,July 31 – August 9,1989,July
+205,Erin,"August 18 – 27, 1989",105,968,Cape Verde,0,None,August 18 – 27,1989,August
+206,Diana,"August 4 – 9, 1990",100,980,"Costa Rica, Nicaragua, Honduras, Belize, Yucatán Peninsula, Mainland Mexico",139,$90.7 million,August 4 – 9,1990,August
+207,Isidore,"September 4 – 17, 1990",100,978,No land areas,0,None,September 4 – 17,1990,September
+208,Grace,"October 25 – 29, 1991",105,980,No land areas,0,None,October 25 – 29,1991,October
+209,Bonnie,"September 17 – 30, 1992",110,965,Azores,1,Minimal,September 17 – 30,1992,September
+210,Charley,"September 21 – 27, 1992",110,965,Azores,0,None,September 21 – 27,1992,September
+211,Gert,"September 14 – 21, 1993",100,970,"Nicaragua, Belize, Mexico",116,$170 million,September 14 – 21,1993,September
+212,Florence,"November 2 – 8, 1994",110,972,No land areas,0,None,November 2 – 8,1994,November
+213,Erin,"July 31 – August 6, 1995",100,973,"Florida, Mid-Atlantic States, New England",13,$700 million,July 31 – August 6,1995,July
+214,Humberto,"August 21 – September 1, 1995",110,968,No land areas,0,None,August 21 – September 1,1995,August
+215,Iris,"August 22 – September 4, 1995",110,965,"Antigua, Montserrat, Barbuda",5,Unknown,August 22 – September 4,1995,August
+216,Danielle,"August 24 – September 3, 1998",105,960,"Puerto Rico, East Coast of the United States, Atlantic Canada, United Kingdom",0,$50 thousand,August 24 – September 3,1998,August
+217,Earl,"August 31 – September 3, 1998",100,985,"Mexico, Florida",3,$79 million,August 31 – September 3,1998,August
+218,Jeanne,"September 21 – October 1, 1998",105,969,No land areas,0,None,September 21 – October 1,1998,September
+219,Karl,"September 23 – 28, 1998",105,970,No land areas,0,None,September 23 – 28,1998,September
+220,Dennis,"August 24 – September 7, 1999",105,962,"North Carolina, Mid-Atlantic states, Canada",4,$157 million,August 24 – September 7,1999,August
+221,Irene,"October 12 – 19, 1999",110,958,"Cuba, Florida, South Carolina, North Carolina",18,$800 million,October 12 – 19,1999,October
+222,Jose,"October 17 – 25, 1999",100,979,"Lesser Antilles, Puerto Rico",3,$5 million,October 17 – 25,1999,October
+223,Michael,"October 15 – 20, 2000",110,965,"Bermuda, Maine, Atlantic Canada",0,Minimal,October 15 – 20,2000,October
+224,Humberto,"September 21 – 27, 2001",105,970,Bermuda,0,Minimal,September 21 – 27,2001,September
+225,Gustav,"September 8 – 12, 2002",100,960,"North Carolina, Virginia, New Jersey",4,$340 thousand,September 8 – 12,2002,September
+226,Juan,"September 24 – 29, 2003",110,969,"Nova Scotia, Prince Edward Island",8,$200 million,September 24 – 29,2003,September
+227,Danielle,"August 13 – 21, 2004",110,964,Cape Verde,0,None,August 13 – 21,2004,August
+228,Irene,"August 4 – 18, 2005",105,970,East Coast of the United States,1,None,August 4 – 18,2005,August
+229,Dolly,"July 20 – 27, 2008",100,963,"Guatemala, Yucatán Peninsula, Northeastern Mexico, South Central United States",26,$1.6 billion,July 20 – 27,2008,July
+230,Ida,"November 1 – 10, 2009",105,975,"Nicaragua, Cayman Islands, Yucatán Peninsula, Cuba, Alabama, Georgia, South Carolina",4,$11.4 million,November 1 – 10,2009,November
+231,Alex,"June 25 – July 2, 2010",110,946,"Greater Antilles, Belize, Yucatán Peninsula, Northern Mexico, South Texas",52,$1.52 billion,June 25 – July 2,2010,June
+232,Paula,"October 11 – 15, 2010",105,981,"Nicaragua, Honduras, Mexico, Cuba, Bahamas, Florida",1,Unknown,October 11 – 15,2010,October
+233,Richard,"October 20 – 26, 2010",100,977,"Honduras, Belize, Guatemala, Mexico",2,$80 million,October 20 – 26,2010,October
+234,Tomas,"October 29 – November 7, 2010",100,982,"Windward Islands, Leeward Antilles, Greater Antilles, Lucayan Archipelago",51,$463.4 million,October 29 – November 7,2010,October
+235,Ernesto,"August 1 – 10, 2012",100,973,"Windward Islands, Jamaica, Central America, Mexico",12,$252.2 million,August 1 – 10,2012,August
+236,Gordon,"August 15 – 20, 2012",110,965,Azores,0,None,August 15 – 20,2012,August
+237,Kirk,"August 28 – September 4, 2012",105,970,No land areas,0,None,August 28 – September 4,2012,August
+238,Arthur,"July 1 – 5, 2014",100,973,"Bahamas, North Carolina, Nova Scotia",1,$28.6 million,July 1 – 5,2014,July
+239,Gert,"August 12 – 17, 2017",110,962,"Bermuda, East Coast of the United States, Atlantic Canada",2,None,August 12 – 17,2017,August
+240,Katia,"September 5 – 9, 2017",105,972,Mexico,3,$3.26 million,September 5 – 9,2017,September
+241,Chris,"July 6 – 12, 2018",105,969,"Bermuda, Iceland",1,Minimal,July 6 – 12,2018,July
+242,Helene,"September 7 – 16, 2018",110,967,"West Africa, Cape Verde, Azores, Ireland, United Kingdom, Norway",3,Minimal,September 7 – 16,2018,September
+243,Oscar,"October 26 – 31, 2018",110,966,Faroe Islands,0,None,October 26 – 31,2018,October
+244,Jerry,"September 17 – 24, 2019",105,976,"Leeward Islands, Puerto Rico, Bermuda",0,None,September 17 – 24,2019,September
+245,Paulette,"September 7 – 23, 2020",105,965,Bermuda,1,$50 million,September 7 – 23,2020,September
+246,Sally,"September 11 – 17, 2020",110,965,"The Bahamas, Florida, Cuba, Gulf Coast of the United States",8,$7.3 billion,September 11 – 17,2020,September

@@ -1,0 +1,71 @@
+
+# Detail Hurrican inforamtion 
+
+wiki2020 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[17]
+wiki2010 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[16]
+wiki2000 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[15]
+wiki1990 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[14]
+wiki1980 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[13]
+wiki1970 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[12]
+wiki1960 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[12]
+wiki1950 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[10]
+wiki1940 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[9]
+wiki1930 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[8]
+wiki1920 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[7]
+wiki1910 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[6]
+wiki1900 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[5]
+wiki1890 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[4]
+wiki1880 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[3]
+wiki1870 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[2]
+wiki1860 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[1]
+wiki1850 = pd.read_html(str(soup.find_all('table', class_=  'wikitable sortable')))[0]
+
+#print(wiki1850)
+#print(wiki1860)
+#print(wiki1870)
+#print(wiki1880)
+#print(wiki1890)
+#print(wiki1900)
+#print(wiki1910)
+#print(wiki1920)
+#print(wiki1930)
+#print(wiki1940)
+#print(wiki1950)
+#print(wiki1960)
+#print(wiki1970)
+#print(wiki1980)
+#print(wiki1990)
+#print(wiki2000)
+#print(wiki2010)
+#print(wiki2020)
+
+
+wiki1870.to_csv('1870.csv')
+wiki1880.to_csv('1880.csv')
+wiki1890.to_csv('1890.csv')
+wiki1900.to_csv('1900.csv')
+wiki1910.to_csv('1910.csv')
+wiki1920.to_csv('1920.csv')
+wiki1930.to_csv('1930.csv')
+wiki1940.to_csv('1940.csv')
+wiki1950.to_csv('1950.csv')
+wiki1960.to_csv('1960.csv')
+wiki1970.to_csv('1970.csv')
+wiki1980.to_csv('1980.csv')
+wiki1990.to_csv('1990.csv')
+wiki2000.to_csv('2000.csv')
+wiki2010.to_csv('2010.csv')
+wiki2020.to_csv('2020.csv')
+
+
+
+cat1['Month_only'] = [x.split(' ')[0] for x in cat1['Month']]
+cat2['Month_only'] = [x.split(' ')[0] for x in cat2['Month']]
+cat3['Month_only'] = [x.split(' ')[0] for x in cat3['Month']]
+cat5['Month_only'] = [x.split(' ')[0] for x in cat5['Month']]
+
+
+cat1['Sustainedwind speeds']= cat1['Sustainedwind speeds'].str.split( expand=True)
+cat2['Sustainedwind speeds']= cat2['Sustainedwind speeds'].str.split( expand=True)
+cat3['Sustainedwind speeds']= cat3['Sustainedwind speeds'].str.split( expand=True)
+cat5['Maximumsustained winds']= cat5['Maximumsustained winds'].str.split( expand=True)

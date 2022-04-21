@@ -789,7 +789,11 @@
           </datasource-dependencies>
           <aggregation value='true' />
         </view>
-        <style />
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.0bs4grv0w0nm151378ydd13yn79z].[sum:Actual Dollars:qk]' value='40' />
+          </style-rule>
+        </style>
         <panes>
           <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
             <view>
@@ -899,34 +903,6 @@
       </table>
       <simple-id uuid='{555E316A-A7A7-4ED0-87C8-8A6E30DBC480}' />
     </worksheet>
-    <worksheet name='Sheet 7'>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Sheet1 (0-initial_load_strong_winds)' name='federated.0bs4grv0w0nm151378ydd13yn79z' />
-          </datasources>
-          <datasource-dependencies datasource='federated.0bs4grv0w0nm151378ydd13yn79z'>
-            <column datatype='integer' name='[Cat]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Deaths]' role='measure' type='quantitative' />
-            <column-instance column='[Cat]' derivation='None' name='[none:Cat:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Deaths]' derivation='Sum' name='[sum:Deaths:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-          </pane>
-        </panes>
-        <rows>[federated.0bs4grv0w0nm151378ydd13yn79z].[sum:Deaths:qk]</rows>
-        <cols>[federated.0bs4grv0w0nm151378ydd13yn79z].[none:Cat:qk]</cols>
-      </table>
-      <simple-id uuid='{3CD95701-1376-4EE2-9809-979340B22A40}' />
-    </worksheet>
     <worksheet name='Winds'>
       <table>
         <view>
@@ -1001,8 +977,15 @@
               </groupfilter>
             </groupfilter>
           </filter>
+          <filter class='categorical' column='[federated.0bs4grv0w0nm151378ydd13yn79z].[yr:Month-Year:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:Month-Year:ok]' />
+              <groupfilter function='member' level='[yr:Month-Year:ok]' member='%null%' />
+            </groupfilter>
+          </filter>
           <slices>
             <column>[federated.0bs4grv0w0nm151378ydd13yn79z].[none:Name:nk]</column>
+            <column>[federated.0bs4grv0w0nm151378ydd13yn79z].[yr:Month-Year:ok]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1044,7 +1027,7 @@
       <simple-id uuid='{10621439-5ADA-4B58-8569-03EC9EA9419C}' />
     </worksheet>
   </worksheets>
-  <windows source-height='30'>
+  <windows film-mode='true' source-height='30'>
     <window class='worksheet' name='Count'>
       <cards>
         <edge name='left'>
@@ -1068,7 +1051,7 @@
       </cards>
       <simple-id uuid='{AB305076-FFBB-4AA7-873B-0374CAD7DDBC}' />
     </window>
-    <window class='worksheet' maximized='true' name='Winds'>
+    <window class='worksheet' name='Winds'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1089,7 +1072,7 @@
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='160'>
+          <strip size='100'>
             <card pane-specification-id='6' param='[federated.0bs4grv0w0nm151378ydd13yn79z].[none:Cat:qk]' type='color' />
           </strip>
         </edge>
@@ -1198,7 +1181,7 @@
       </cards>
       <simple-id uuid='{FDEE52A1-C52F-4677-8742-9E3C407F26F7}' />
     </window>
-    <window class='worksheet' name='Dollars Bubble'>
+    <window class='worksheet' maximized='true' name='Dollars Bubble'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1219,7 +1202,7 @@
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='160'>
+          <strip size='134'>
             <card pane-specification-id='0' param='[federated.0bs4grv0w0nm151378ydd13yn79z].[attr:Cat:qk]' type='color' />
           </strip>
         </edge>
@@ -1247,35 +1230,12 @@
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='160'>
+          <strip size='300'>
             <card pane-specification-id='4' param='[federated.0bs4grv0w0nm151378ydd13yn79z].[ctd:Cat:qk]' type='color' />
           </strip>
         </edge>
       </cards>
       <simple-id uuid='{F2E6B87C-2D8C-4EB5-9173-3E047E30D586}' />
-    </window>
-    <window class='worksheet' name='Sheet 7'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{9FE6CA56-E39A-42DC-BD03-3C3CE7E02ADA}' />
     </window>
   </windows>
 </workbook>

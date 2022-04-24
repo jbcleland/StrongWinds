@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<kml xmlns="http://earth.google.com/kml/2.2"> 
+	<Document> 
+	<name>al022010 </name> 
+	<open>0</open> 
+	<description>
+		<![CDATA[<TABLE>
+		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for al022010</TD></TR>
+		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
+		<TR><TD><B>Date Created:</B> 10-20-2010</TD></TR>
+		<TR><TD><B>Created:</B> National Hurricane Center</TD></TR>
+		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. The NHC best track in KML format is an experimental products that the National Hurricane Center is testing during the 2008 hurricane season.   No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
+		<TR><TD><B>For More Information: </B><a href="http://www.nhc.noaa.gov">http://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
+	</description>
+	<Schema parent="Placemark" name="al022010"> 
+		<SimpleField type="wstring" name="StormName"></SimpleField> 
+		<SimpleField type="wstring" name="StormNumber"></SimpleField> 
+		<SimpleField type="wstring" name="StormType"></SimpleField> 
+		<SimpleField type="wstring" name="Basin"></SimpleField> 
+		<SimpleField type="wstring" name="lat"></SimpleField> 
+		<SimpleField type="wstring" name="lon"></SimpleField> 
+		<SimpleField type="wstring" name="Intensity"></SimpleField> 
+		<SimpleField type="wstring" name="MSLP"></SimpleField> 
+		<SimpleField type="wstring" name="DTG"></SimpleField> 
+	</Schema>
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Folder id="data"> 
+ 	    <name>Data</name> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 07</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low INVEST (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 07</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.5 N, 91.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-91.1,21.5,0</coordinates> 
+	       </Point> 
+	       <lat>21.5</lat> 
+	       <lon>-91.1</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2010070706</atcfdtg> 
+	       <dtg>0600 UTC JUL 07</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 07</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low INVEST (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 07</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.1 N, 92.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-92,22.1,0</coordinates> 
+	       </Point> 
+	       <lat>22.1</lat> 
+	       <lon>-92</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2010070712</atcfdtg> 
+	       <dtg>1200 UTC JUL 07</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 07</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low INVEST (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 07</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.8 N, 92.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-92.8,22.8,0</coordinates> 
+	       </Point> 
+	       <lat>22.8</lat> 
+	       <lon>-92.8</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2010070718</atcfdtg> 
+	       <dtg>1800 UTC JUL 07</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression INVEST (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>23.7 N, 93.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-93.7,23.7,0</coordinates> 
+	       </Point> 
+	       <lat>23.7</lat> 
+	       <lon>-93.7</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2010070800</atcfdtg> 
+	       <dtg>0000 UTC JUL 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression TWO (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.7 N, 95.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-95,24.7,0</coordinates> 
+	       </Point> 
+	       <lat>24.7</lat> 
+	       <lon>-95</lon> 
+	       <stormName>TWO</stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2010070806</atcfdtg> 
+	       <dtg>0600 UTC JUL 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression TWO (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>26.1 N, 96.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-96.6,26.1,0</coordinates> 
+	       </Point> 
+	       <lat>26.1</lat> 
+	       <lon>-96.6</lon> 
+	       <stormName>TWO</stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2010070812</atcfdtg> 
+	       <dtg>1200 UTC JUL 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1400 UTC JUL 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression  (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1400 UTC JUL 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>26.1 N, 97.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-97.1,26.1,0</coordinates> 
+	       </Point> 
+	       <lat>26.1</lat> 
+	       <lon>-97.1</lon> 
+	       <stormName></stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2010070814</atcfdtg> 
+	       <dtg>1400 UTC JUL 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression TWO (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>26.1 N, 97.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1007 mb; 29.74 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-97.8,26.1,0</coordinates> 
+	       </Point> 
+	       <lat>26.1</lat> 
+	       <lon>-97.8</lon> 
+	       <stormName>TWO</stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1007</minSeaLevelPres> 
+	       <atcfdtg>2010070818</atcfdtg> 
+	       <dtg>1800 UTC JUL 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression  (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>25.9 N, 98.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1007 mb; 29.74 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-98.8,25.9,0</coordinates> 
+	       </Point> 
+	       <lat>25.9</lat> 
+	       <lon>-98.8</lon> 
+	       <stormName></stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1007</minSeaLevelPres> 
+	       <atcfdtg>2010070900</atcfdtg> 
+	       <dtg>0000 UTC JUL 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low  (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>26.1 N, 99.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-99.7,26.1,0</coordinates> 
+	       </Point> 
+	       <lat>26.1</lat> 
+	       <lon>-99.7</lon> 
+	       <stormName></stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2010070906</atcfdtg> 
+	       <dtg>0600 UTC JUL 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low  (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>26.5 N, 100.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-100.6,26.5,0</coordinates> 
+	       </Point> 
+	       <lat>26.5</lat> 
+	       <lon>-100.6</lon> 
+	       <stormName></stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2010070912</atcfdtg> 
+	       <dtg>1200 UTC JUL 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low  (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.3 N, 101.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-101.3,27.3,0</coordinates> 
+	       </Point> 
+	       <lat>27.3</lat> 
+	       <lon>-101.3</lon> 
+	       <stormName></stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2010070918</atcfdtg> 
+	       <dtg>1800 UTC JUL 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low  (al022010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>28.1 N, 102.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-102.2,28.1,0</coordinates> 
+	       </Point> 
+	       <lat>28.1</lat> 
+	       <lon>-102.2</lon> 
+	       <stormName></stormName> 
+	       <stormNum>02</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2010071000</atcfdtg> 
+	       <dtg>0000 UTC JUL 10</dtg> 
+	   </Placemark> 
+	</Folder>
+<Folder>
+<name>Legend</name>
+<open>0</open>
+<visibility>1</visibility>
+<ScreenOverlay>
+<name>Legend</name>
+<Icon>
+   breakPoint_legend.png
+</Icon>
+ <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+         <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay>
+</Folder>
+</Document> 
+</kml>

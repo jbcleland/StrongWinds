@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<kml xmlns="http://earth.google.com/kml/2.2"> 
+	<Document> 
+	<name>al072013 GABRIELLE</name> 
+	<open>0</open> 
+	<description>
+		<![CDATA[<TABLE>
+		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for al072013</TD></TR>
+		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
+		<TR><TD><B>Date Created:</B> 10-25-2013</TD></TR>
+		<TR><TD><B>Created:</B> National Hurricane Center</TD></TR>
+		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. The NHC best track in KML format is an experimental products that the National Hurricane Center is testing during the 2008 hurricane season.   No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
+		<TR><TD><B>For More Information: </B><a href="http://www.nhc.noaa.gov">http://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
+	</description>
+	<Schema parent="Placemark" name="al072013"> 
+		<SimpleField type="wstring" name="StormName"></SimpleField> 
+		<SimpleField type="wstring" name="StormNumber"></SimpleField> 
+		<SimpleField type="wstring" name="StormType"></SimpleField> 
+		<SimpleField type="wstring" name="Basin"></SimpleField> 
+		<SimpleField type="wstring" name="lat"></SimpleField> 
+		<SimpleField type="wstring" name="lon"></SimpleField> 
+		<SimpleField type="wstring" name="Intensity"></SimpleField> 
+		<SimpleField type="wstring" name="MSLP"></SimpleField> 
+		<SimpleField type="wstring" name="DTG"></SimpleField> 
+	</Schema>
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Folder id="data"> 
+ 	    <name>Data</name> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 04</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression SEVEN (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 04</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>16.2 N, 65.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-65.9,16.2,0</coordinates> 
+	       </Point> 
+	       <lat>16.2</lat> 
+	       <lon>-65.9</lon> 
+	       <stormName>SEVEN</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2013090418</atcfdtg> 
+	       <dtg>1800 UTC SEP 04</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 05</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 05</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>16.7 N, 66.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-66.3,16.7,0</coordinates> 
+	       </Point> 
+	       <lat>16.7</lat> 
+	       <lon>-66.3</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013090500</atcfdtg> 
+	       <dtg>0000 UTC SEP 05</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 05</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 05</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>17.1 N, 67.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-67,17.1,0</coordinates> 
+	       </Point> 
+	       <lat>17.1</lat> 
+	       <lon>-67</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013090506</atcfdtg> 
+	       <dtg>0600 UTC SEP 05</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 05</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 05</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>17.4 N, 67.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-67.7,17.4,0</coordinates> 
+	       </Point> 
+	       <lat>17.4</lat> 
+	       <lon>-67.7</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2013090512</atcfdtg> 
+	       <dtg>1200 UTC SEP 05</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 05</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 05</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>17.9 N, 68.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.4,17.9,0</coordinates> 
+	       </Point> 
+	       <lat>17.9</lat> 
+	       <lon>-68.4</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2013090518</atcfdtg> 
+	       <dtg>1800 UTC SEP 05</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 06</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 06</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>18.8 N, 68.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.4,18.8,0</coordinates> 
+	       </Point> 
+	       <lat>18.8</lat> 
+	       <lon>-68.4</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2013090600</atcfdtg> 
+	       <dtg>0000 UTC SEP 06</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 06</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 06</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>19.5 N, 68.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.5,19.5,0</coordinates> 
+	       </Point> 
+	       <lat>19.5</lat> 
+	       <lon>-68.5</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2013090606</atcfdtg> 
+	       <dtg>0600 UTC SEP 06</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 06</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 06</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>20.0 N, 68.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.6,20,0</coordinates> 
+	       </Point> 
+	       <lat>20</lat> 
+	       <lon>-68.6</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2013090612</atcfdtg> 
+	       <dtg>1200 UTC SEP 06</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 06</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 06</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>20.4 N, 68.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.7,20.4,0</coordinates> 
+	       </Point> 
+	       <lat>20.4</lat> 
+	       <lon>-68.7</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2013090618</atcfdtg> 
+	       <dtg>1800 UTC SEP 06</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 07</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 07</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.2 N, 68.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.7,21.2,0</coordinates> 
+	       </Point> 
+	       <lat>21.2</lat> 
+	       <lon>-68.7</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2013090700</atcfdtg> 
+	       <dtg>0000 UTC SEP 07</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 07</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 07</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.0 N, 68.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.8,22,0</coordinates> 
+	       </Point> 
+	       <lat>22</lat> 
+	       <lon>-68.8</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2013090706</atcfdtg> 
+	       <dtg>0600 UTC SEP 07</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 07</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 07</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.8 N, 69.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-69.2,22.8,0</coordinates> 
+	       </Point> 
+	       <lat>22.8</lat> 
+	       <lon>-69.2</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013090712</atcfdtg> 
+	       <dtg>1200 UTC SEP 07</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 07</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 07</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>23.6 N, 69.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-69.2,23.6,0</coordinates> 
+	       </Point> 
+	       <lat>23.6</lat> 
+	       <lon>-69.2</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013090718</atcfdtg> 
+	       <dtg>1800 UTC SEP 07</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.4 N, 69.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-69.1,24.4,0</coordinates> 
+	       </Point> 
+	       <lat>24.4</lat> 
+	       <lon>-69.1</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013090800</atcfdtg> 
+	       <dtg>0000 UTC SEP 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.7 N, 68.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.9,24.7,0</coordinates> 
+	       </Point> 
+	       <lat>24.7</lat> 
+	       <lon>-68.9</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013090806</atcfdtg> 
+	       <dtg>0600 UTC SEP 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.8 N, 68.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.8,24.8,0</coordinates> 
+	       </Point> 
+	       <lat>24.8</lat> 
+	       <lon>-68.8</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013090812</atcfdtg> 
+	       <dtg>1200 UTC SEP 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.9 N, 68.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.7,24.9,0</coordinates> 
+	       </Point> 
+	       <lat>24.9</lat> 
+	       <lon>-68.7</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013090818</atcfdtg> 
+	       <dtg>1800 UTC SEP 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>25.1 N, 68.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.2,25.1,0</coordinates> 
+	       </Point> 
+	       <lat>25.1</lat> 
+	       <lon>-68.2</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013090900</atcfdtg> 
+	       <dtg>0000 UTC SEP 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>25.4 N, 67.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-67.8,25.4,0</coordinates> 
+	       </Point> 
+	       <lat>25.4</lat> 
+	       <lon>-67.8</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013090906</atcfdtg> 
+	       <dtg>0600 UTC SEP 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>25.9 N, 66.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-66.9,25.9,0</coordinates> 
+	       </Point> 
+	       <lat>25.9</lat> 
+	       <lon>-66.9</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013090912</atcfdtg> 
+	       <dtg>1200 UTC SEP 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>26.6 N, 65.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-65.9,26.6,0</coordinates> 
+	       </Point> 
+	       <lat>26.6</lat> 
+	       <lon>-65.9</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013090918</atcfdtg> 
+	       <dtg>1800 UTC SEP 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.6 N, 65.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1007 mb; 29.74 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-65.1,27.6,0</coordinates> 
+	       </Point> 
+	       <lat>27.6</lat> 
+	       <lon>-65.1</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1007</minSeaLevelPres> 
+	       <atcfdtg>2013091000</atcfdtg> 
+	       <dtg>0000 UTC SEP 10</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>29.0 N, 65.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-65,29,0</coordinates> 
+	       </Point> 
+	       <lat>29</lat> 
+	       <lon>-65</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2013091006</atcfdtg> 
+	       <dtg>0600 UTC SEP 10</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>30.1 N, 64.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1003 mb; 29.62 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-64.8,30.1,0</coordinates> 
+	       </Point> 
+	       <lat>30.1</lat> 
+	       <lon>-64.8</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>1003</minSeaLevelPres> 
+	       <atcfdtg>2013091012</atcfdtg> 
+	       <dtg>1200 UTC SEP 10</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>31.1 N, 64.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1004 mb; 29.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-64.7,31.1,0</coordinates> 
+	       </Point> 
+	       <lat>31.1</lat> 
+	       <lon>-64.7</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>1004</minSeaLevelPres> 
+	       <atcfdtg>2013091018</atcfdtg> 
+	       <dtg>1800 UTC SEP 10</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>31.9 N, 64.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1004 mb; 29.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-64.9,31.9,0</coordinates> 
+	       </Point> 
+	       <lat>31.9</lat> 
+	       <lon>-64.9</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>1004</minSeaLevelPres> 
+	       <atcfdtg>2013091100</atcfdtg> 
+	       <dtg>0000 UTC SEP 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>32.3 N, 65.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-65.4,32.3,0</coordinates> 
+	       </Point> 
+	       <lat>32.3</lat> 
+	       <lon>-65.4</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013091106</atcfdtg> 
+	       <dtg>0600 UTC SEP 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>32.5 N, 65.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-65.7,32.5,0</coordinates> 
+	       </Point> 
+	       <lat>32.5</lat> 
+	       <lon>-65.7</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013091112</atcfdtg> 
+	       <dtg>1200 UTC SEP 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>32.6 N, 66.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-66.2,32.6,0</coordinates> 
+	       </Point> 
+	       <lat>32.6</lat> 
+	       <lon>-66.2</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013091118</atcfdtg> 
+	       <dtg>1800 UTC SEP 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>32.9 N, 66.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-66.8,32.9,0</coordinates> 
+	       </Point> 
+	       <lat>32.9</lat> 
+	       <lon>-66.8</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013091200</atcfdtg> 
+	       <dtg>0000 UTC SEP 12</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>33.2 N, 67.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-67.4,33.2,0</coordinates> 
+	       </Point> 
+	       <lat>33.2</lat> 
+	       <lon>-67.4</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013091206</atcfdtg> 
+	       <dtg>0600 UTC SEP 12</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>33.6 N, 67.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-67.6,33.6,0</coordinates> 
+	       </Point> 
+	       <lat>33.6</lat> 
+	       <lon>-67.6</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013091212</atcfdtg> 
+	       <dtg>1200 UTC SEP 12</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.0 N, 67.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-67.9,34,0</coordinates> 
+	       </Point> 
+	       <lat>34</lat> 
+	       <lon>-67.9</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013091218</atcfdtg> 
+	       <dtg>1800 UTC SEP 12</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 13</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 13</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.7 N, 68.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.1,34.7,0</coordinates> 
+	       </Point> 
+	       <lat>34.7</lat> 
+	       <lon>-68.1</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013091300</atcfdtg> 
+	       <dtg>0000 UTC SEP 13</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 13</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 13</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>35.9 N, 67.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1007 mb; 29.74 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-67.5,35.9,0</coordinates> 
+	       </Point> 
+	       <lat>35.9</lat> 
+	       <lon>-67.5</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1007</minSeaLevelPres> 
+	       <atcfdtg>2013091306</atcfdtg> 
+	       <dtg>0600 UTC SEP 13</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 13</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression GABRIELLE (al072013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 13</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>37.7 N, 66.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-66.6,37.7,0</coordinates> 
+	       </Point> 
+	       <lat>37.7</lat> 
+	       <lon>-66.6</lon> 
+	       <stormName>GABRIELLE</stormName> 
+	       <stormNum>07</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2013091312</atcfdtg> 
+	       <dtg>1200 UTC SEP 13</dtg> 
+	   </Placemark> 
+	</Folder>
+<Folder>
+<name>Legend</name>
+<open>0</open>
+<visibility>1</visibility>
+<ScreenOverlay>
+<name>Legend</name>
+<Icon>
+   <href>breakPoint_legend.png</href>
+</Icon>
+ <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+         <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay>
+</Folder>
+</Document> 
+</kml>

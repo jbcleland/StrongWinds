@@ -1,0 +1,1605 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<kml xmlns="http://earth.google.com/kml/2.2"> 
+	<Document> 
+	<name>al122010 JULIA</name> 
+	<open>0</open> 
+	<description>
+		<![CDATA[<TABLE>
+		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for al122010</TD></TR>
+		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
+		<TR><TD><B>Date Created:</B> 09-20-2010</TD></TR>
+		<TR><TD><B>Created:</B> National Hurricane Center</TD></TR>
+		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. The NHC best track in KML format is an experimental products that the National Hurricane Center is testing during the 2008 hurricane season.   No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
+		<TR><TD><B>For More Information: </B><a href="http://www.nhc.noaa.gov">http://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
+	</description>
+	<Schema parent="Placemark" name="al122010"> 
+		<SimpleField type="wstring" name="StormName"></SimpleField> 
+		<SimpleField type="wstring" name="StormNumber"></SimpleField> 
+		<SimpleField type="wstring" name="StormType"></SimpleField> 
+		<SimpleField type="wstring" name="Basin"></SimpleField> 
+		<SimpleField type="wstring" name="lat"></SimpleField> 
+		<SimpleField type="wstring" name="lon"></SimpleField> 
+		<SimpleField type="wstring" name="Intensity"></SimpleField> 
+		<SimpleField type="wstring" name="MSLP"></SimpleField> 
+		<SimpleField type="wstring" name="DTG"></SimpleField> 
+	</Schema>
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Folder id="data"> 
+ 	    <name>Data</name> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>10.9 N, 7.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>15 knots;  17 mph;  28 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-7,10.9,0</coordinates> 
+	       </Point> 
+	       <lat>10.9</lat> 
+	       <lon>-7</lon> 
+	       <stormName></stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>15</intensity> 
+	       <intensityMPH>17</intensityMPH> 
+	       <intensityKPH>28</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2010091006</atcfdtg> 
+	       <dtg>0600 UTC SEP 10</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>11.3 N, 8.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>15 knots;  17 mph;  28 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-8.2,11.3,0</coordinates> 
+	       </Point> 
+	       <lat>11.3</lat> 
+	       <lon>-8.2</lon> 
+	       <stormName></stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>15</intensity> 
+	       <intensityMPH>17</intensityMPH> 
+	       <intensityKPH>28</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2010091012</atcfdtg> 
+	       <dtg>1200 UTC SEP 10</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>11.8 N, 9.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>15 knots;  17 mph;  28 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-9.6,11.8,0</coordinates> 
+	       </Point> 
+	       <lat>11.8</lat> 
+	       <lon>-9.6</lon> 
+	       <stormName></stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>15</intensity> 
+	       <intensityMPH>17</intensityMPH> 
+	       <intensityKPH>28</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2010091018</atcfdtg> 
+	       <dtg>1800 UTC SEP 10</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>12.3 N, 11.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>15 knots;  17 mph;  28 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-11.4,12.3,0</coordinates> 
+	       </Point> 
+	       <lat>12.3</lat> 
+	       <lon>-11.4</lon> 
+	       <stormName></stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>15</intensity> 
+	       <intensityMPH>17</intensityMPH> 
+	       <intensityKPH>28</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2010091100</atcfdtg> 
+	       <dtg>0000 UTC SEP 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance INVEST (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>12.6 N, 13.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-13.3,12.6,0</coordinates> 
+	       </Point> 
+	       <lat>12.6</lat> 
+	       <lon>-13.3</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2010091106</atcfdtg> 
+	       <dtg>0600 UTC SEP 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance INVEST (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>12.0 N, 16.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-16.1,12,0</coordinates> 
+	       </Point> 
+	       <lat>12</lat> 
+	       <lon>-16.1</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2010091112</atcfdtg> 
+	       <dtg>1200 UTC SEP 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance INVEST (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>12.1 N, 17.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1007 mb; 29.74 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-17.2,12.1,0</coordinates> 
+	       </Point> 
+	       <lat>12.1</lat> 
+	       <lon>-17.2</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>20</intensity> 
+	       <intensityMPH>23</intensityMPH> 
+	       <intensityKPH>37</intensityKPH> 
+	       <minSeaLevelPres>1007</minSeaLevelPres> 
+	       <atcfdtg>2010091118</atcfdtg> 
+	       <dtg>1800 UTC SEP 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance INVEST (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>12.2 N, 18.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-18.2,12.2,0</coordinates> 
+	       </Point> 
+	       <lat>12.2</lat> 
+	       <lon>-18.2</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2010091200</atcfdtg> 
+	       <dtg>0000 UTC SEP 12</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance INVEST (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>12.6 N, 19.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-19.9,12.6,0</coordinates> 
+	       </Point> 
+	       <lat>12.6</lat> 
+	       <lon>-19.9</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2010091206</atcfdtg> 
+	       <dtg>0600 UTC SEP 12</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression TWELVE (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>12.9 N, 21.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-21.1,12.9,0</coordinates> 
+	       </Point> 
+	       <lat>12.9</lat> 
+	       <lon>-21.1</lon> 
+	       <stormName>TWELVE</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2010091212</atcfdtg> 
+	       <dtg>1200 UTC SEP 12</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression TWELVE (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>13.1 N, 22.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-22,13.1,0</coordinates> 
+	       </Point> 
+	       <lat>13.1</lat> 
+	       <lon>-22</lon> 
+	       <stormName>TWELVE</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2010091218</atcfdtg> 
+	       <dtg>1800 UTC SEP 12</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 13</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm TWELVE (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 13</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>13.4 N, 22.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-22.9,13.4,0</coordinates> 
+	       </Point> 
+	       <lat>13.4</lat> 
+	       <lon>-22.9</lon> 
+	       <stormName>TWELVE</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2010091300</atcfdtg> 
+	       <dtg>0000 UTC SEP 13</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 13</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 13</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>14.0 N, 24.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1004 mb; 29.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-24.2,14,0</coordinates> 
+	       </Point> 
+	       <lat>14</lat> 
+	       <lon>-24.2</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1004</minSeaLevelPres> 
+	       <atcfdtg>2010091306</atcfdtg> 
+	       <dtg>0600 UTC SEP 13</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 13</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 13</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>14.6 N, 25.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1004 mb; 29.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-25.6,14.6,0</coordinates> 
+	       </Point> 
+	       <lat>14.6</lat> 
+	       <lon>-25.6</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1004</minSeaLevelPres> 
+	       <atcfdtg>2010091312</atcfdtg> 
+	       <dtg>1200 UTC SEP 13</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 13</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 13</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>14.9 N, 26.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-26.5,14.9,0</coordinates> 
+	       </Point> 
+	       <lat>14.9</lat> 
+	       <lon>-26.5</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1000</minSeaLevelPres> 
+	       <atcfdtg>2010091318</atcfdtg> 
+	       <dtg>1800 UTC SEP 13</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 14</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 14</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>15.4 N, 27.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-27.5,15.4,0</coordinates> 
+	       </Point> 
+	       <lat>15.4</lat> 
+	       <lon>-27.5</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1000</minSeaLevelPres> 
+	       <atcfdtg>2010091400</atcfdtg> 
+	       <dtg>0000 UTC SEP 14</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 14</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 14</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>15.7 N, 28.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>991 mb; 29.27 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-28.4,15.7,0</coordinates> 
+	       </Point> 
+	       <lat>15.7</lat> 
+	       <lon>-28.4</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>991</minSeaLevelPres> 
+	       <atcfdtg>2010091406</atcfdtg> 
+	       <dtg>0600 UTC SEP 14</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 14</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 14</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>15.9 N, 29.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>984 mb; 29.06 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>70 knots;  81 mph;  130 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-29.2,15.9,0</coordinates> 
+	       </Point> 
+	       <lat>15.9</lat> 
+	       <lon>-29.2</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>70</intensity> 
+	       <intensityMPH>81</intensityMPH> 
+	       <intensityKPH>130</intensityKPH> 
+	       <minSeaLevelPres>984</minSeaLevelPres> 
+	       <atcfdtg>2010091412</atcfdtg> 
+	       <dtg>1200 UTC SEP 14</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 14</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 14</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>16.0 N, 29.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>982 mb; 29.00 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>75 knots;  86 mph;  139 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-29.9,16,0</coordinates> 
+	       </Point> 
+	       <lat>16</lat> 
+	       <lon>-29.9</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>75</intensity> 
+	       <intensityMPH>86</intensityMPH> 
+	       <intensityKPH>139</intensityKPH> 
+	       <minSeaLevelPres>982</minSeaLevelPres> 
+	       <atcfdtg>2010091418</atcfdtg> 
+	       <dtg>1800 UTC SEP 14</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 15</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 15</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>16.3 N, 30.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>974 mb; 28.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>90 knots;  104 mph;  167 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat2</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-30.5,16.3,0</coordinates> 
+	       </Point> 
+	       <lat>16.3</lat> 
+	       <lon>-30.5</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>90</intensity> 
+	       <intensityMPH>104</intensityMPH> 
+	       <intensityKPH>167</intensityKPH> 
+	       <minSeaLevelPres>974</minSeaLevelPres> 
+	       <atcfdtg>2010091500</atcfdtg> 
+	       <dtg>0000 UTC SEP 15</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 15</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 15</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>16.9 N, 31.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>955 mb; 28.20 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>110 knots;  127 mph;  204 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat3</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-31.4,16.9,0</coordinates> 
+	       </Point> 
+	       <lat>16.9</lat> 
+	       <lon>-31.4</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>110</intensity> 
+	       <intensityMPH>127</intensityMPH> 
+	       <intensityKPH>204</intensityKPH> 
+	       <minSeaLevelPres>955</minSeaLevelPres> 
+	       <atcfdtg>2010091506</atcfdtg> 
+	       <dtg>0600 UTC SEP 15</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 15</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 15</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>17.7 N, 32.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>950 mb; 28.06 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>115 knots;  132 mph;  213 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat4</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-32.2,17.7,0</coordinates> 
+	       </Point> 
+	       <lat>17.7</lat> 
+	       <lon>-32.2</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>115</intensity> 
+	       <intensityMPH>132</intensityMPH> 
+	       <intensityKPH>213</intensityKPH> 
+	       <minSeaLevelPres>950</minSeaLevelPres> 
+	       <atcfdtg>2010091512</atcfdtg> 
+	       <dtg>1200 UTC SEP 15</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 15</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 15</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>18.6 N, 33.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>956 mb; 28.23 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>110 knots;  127 mph;  204 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat3</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-33,18.6,0</coordinates> 
+	       </Point> 
+	       <lat>18.6</lat> 
+	       <lon>-33</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>110</intensity> 
+	       <intensityMPH>127</intensityMPH> 
+	       <intensityKPH>204</intensityKPH> 
+	       <minSeaLevelPres>956</minSeaLevelPres> 
+	       <atcfdtg>2010091518</atcfdtg> 
+	       <dtg>1800 UTC SEP 15</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 16</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 16</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>19.7 N, 33.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>962 mb; 28.41 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>100 knots;  115 mph;  185 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat3</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-33.8,19.7,0</coordinates> 
+	       </Point> 
+	       <lat>19.7</lat> 
+	       <lon>-33.8</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>100</intensity> 
+	       <intensityMPH>115</intensityMPH> 
+	       <intensityKPH>185</intensityKPH> 
+	       <minSeaLevelPres>962</minSeaLevelPres> 
+	       <atcfdtg>2010091600</atcfdtg> 
+	       <dtg>0000 UTC SEP 16</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 16</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 16</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>20.7 N, 35.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>966 mb; 28.53 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>95 knots;  109 mph;  176 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat2</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-35.6,20.7,0</coordinates> 
+	       </Point> 
+	       <lat>20.7</lat> 
+	       <lon>-35.6</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>95</intensity> 
+	       <intensityMPH>109</intensityMPH> 
+	       <intensityKPH>176</intensityKPH> 
+	       <minSeaLevelPres>966</minSeaLevelPres> 
+	       <atcfdtg>2010091606</atcfdtg> 
+	       <dtg>0600 UTC SEP 16</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 16</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 16</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.9 N, 37.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>971 mb; 28.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>85 knots;  98 mph;  157 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat2</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-37.6,21.9,0</coordinates> 
+	       </Point> 
+	       <lat>21.9</lat> 
+	       <lon>-37.6</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>85</intensity> 
+	       <intensityMPH>98</intensityMPH> 
+	       <intensityKPH>157</intensityKPH> 
+	       <minSeaLevelPres>971</minSeaLevelPres> 
+	       <atcfdtg>2010091612</atcfdtg> 
+	       <dtg>1200 UTC SEP 16</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 16</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 16</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.6 N, 40.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>981 mb; 28.97 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>75 knots;  86 mph;  139 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-40,22.6,0</coordinates> 
+	       </Point> 
+	       <lat>22.6</lat> 
+	       <lon>-40</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>75</intensity> 
+	       <intensityMPH>86</intensityMPH> 
+	       <intensityKPH>139</intensityKPH> 
+	       <minSeaLevelPres>981</minSeaLevelPres> 
+	       <atcfdtg>2010091618</atcfdtg> 
+	       <dtg>1800 UTC SEP 16</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>23.1 N, 42.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>981 mb; 28.97 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>75 knots;  86 mph;  139 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-42,23.1,0</coordinates> 
+	       </Point> 
+	       <lat>23.1</lat> 
+	       <lon>-42</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>75</intensity> 
+	       <intensityMPH>86</intensityMPH> 
+	       <intensityKPH>139</intensityKPH> 
+	       <minSeaLevelPres>981</minSeaLevelPres> 
+	       <atcfdtg>2010091700</atcfdtg> 
+	       <dtg>0000 UTC SEP 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>23.6 N, 44.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>981 mb; 28.97 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>75 knots;  86 mph;  139 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-44,23.6,0</coordinates> 
+	       </Point> 
+	       <lat>23.6</lat> 
+	       <lon>-44</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>75</intensity> 
+	       <intensityMPH>86</intensityMPH> 
+	       <intensityKPH>139</intensityKPH> 
+	       <minSeaLevelPres>981</minSeaLevelPres> 
+	       <atcfdtg>2010091706</atcfdtg> 
+	       <dtg>0600 UTC SEP 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>23.9 N, 45.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>981 mb; 28.97 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>75 knots;  86 mph;  139 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-45.8,23.9,0</coordinates> 
+	       </Point> 
+	       <lat>23.9</lat> 
+	       <lon>-45.8</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>75</intensity> 
+	       <intensityMPH>86</intensityMPH> 
+	       <intensityKPH>139</intensityKPH> 
+	       <minSeaLevelPres>981</minSeaLevelPres> 
+	       <atcfdtg>2010091712</atcfdtg> 
+	       <dtg>1200 UTC SEP 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.8 N, 47.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>987 mb; 29.15 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-47.6,24.8,0</coordinates> 
+	       </Point> 
+	       <lat>24.8</lat> 
+	       <lon>-47.6</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>987</minSeaLevelPres> 
+	       <atcfdtg>2010091718</atcfdtg> 
+	       <dtg>1800 UTC SEP 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>25.5 N, 48.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>991 mb; 29.27 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-48.6,25.5,0</coordinates> 
+	       </Point> 
+	       <lat>25.5</lat> 
+	       <lon>-48.6</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>991</minSeaLevelPres> 
+	       <atcfdtg>2010091800</atcfdtg> 
+	       <dtg>0000 UTC SEP 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>26.7 N, 49.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>994 mb; 29.36 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-49.7,26.7,0</coordinates> 
+	       </Point> 
+	       <lat>26.7</lat> 
+	       <lon>-49.7</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>994</minSeaLevelPres> 
+	       <atcfdtg>2010091806</atcfdtg> 
+	       <dtg>0600 UTC SEP 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>28.2 N, 50.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>998 mb; 29.47 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-50.6,28.2,0</coordinates> 
+	       </Point> 
+	       <lat>28.2</lat> 
+	       <lon>-50.6</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>998</minSeaLevelPres> 
+	       <atcfdtg>2010091812</atcfdtg> 
+	       <dtg>1200 UTC SEP 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>29.8 N, 51.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>993 mb; 29.33 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-51.4,29.8,0</coordinates> 
+	       </Point> 
+	       <lat>29.8</lat> 
+	       <lon>-51.4</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>993</minSeaLevelPres> 
+	       <atcfdtg>2010091818</atcfdtg> 
+	       <dtg>1800 UTC SEP 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>31.6 N, 51.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>989 mb; 29.21 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-51.9,31.6,0</coordinates> 
+	       </Point> 
+	       <lat>31.6</lat> 
+	       <lon>-51.9</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>989</minSeaLevelPres> 
+	       <atcfdtg>2010091900</atcfdtg> 
+	       <dtg>0000 UTC SEP 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>32.9 N, 52.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>993 mb; 29.33 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52,32.9,0</coordinates> 
+	       </Point> 
+	       <lat>32.9</lat> 
+	       <lon>-52</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>993</minSeaLevelPres> 
+	       <atcfdtg>2010091906</atcfdtg> 
+	       <dtg>0600 UTC SEP 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>33.7 N, 51.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>998 mb; 29.47 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-51.5,33.7,0</coordinates> 
+	       </Point> 
+	       <lat>33.7</lat> 
+	       <lon>-51.5</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>998</minSeaLevelPres> 
+	       <atcfdtg>2010091912</atcfdtg> 
+	       <dtg>1200 UTC SEP 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.6 N, 50.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>998 mb; 29.47 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-50.1,34.6,0</coordinates> 
+	       </Point> 
+	       <lat>34.6</lat> 
+	       <lon>-50.1</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>998</minSeaLevelPres> 
+	       <atcfdtg>2010091918</atcfdtg> 
+	       <dtg>1800 UTC SEP 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 20</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 20</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.9 N, 49.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>995 mb; 29.39 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-49,34.9,0</coordinates> 
+	       </Point> 
+	       <lat>34.9</lat> 
+	       <lon>-49</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>995</minSeaLevelPres> 
+	       <atcfdtg>2010092000</atcfdtg> 
+	       <dtg>0000 UTC SEP 20</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 20</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 20</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.9 N, 48.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>998 mb; 29.47 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-48,34.9,0</coordinates> 
+	       </Point> 
+	       <lat>34.9</lat> 
+	       <lon>-48</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>998</minSeaLevelPres> 
+	       <atcfdtg>2010092006</atcfdtg> 
+	       <dtg>0600 UTC SEP 20</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 20</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm JULIA (al122010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 20</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.7 N, 46.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>999 mb; 29.50 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-46.8,34.7,0</coordinates> 
+	       </Point> 
+	       <lat>34.7</lat> 
+	       <lon>-46.8</lon> 
+	       <stormName>JULIA</stormName> 
+	       <stormNum>12</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>999</minSeaLevelPres> 
+	       <atcfdtg>2010092012</atcfdtg> 
+	       <dtg>1200 UTC SEP 20</dtg> 
+	   </Placemark> 
+	</Folder>
+<Folder>
+<name>Legend</name>
+<open>0</open>
+<visibility>1</visibility>
+<ScreenOverlay>
+<name>Legend</name>
+<Icon>
+   breakPoint_legend.png
+</Icon>
+ <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+         <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay>
+</Folder>
+</Document> 
+</kml>

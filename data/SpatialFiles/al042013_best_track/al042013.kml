@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<kml xmlns="http://earth.google.com/kml/2.2"> 
+	<Document> 
+	<name>al042013 DORIAN</name> 
+	<open>0</open> 
+	<description>
+		<![CDATA[<TABLE>
+		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for al042013</TD></TR>
+		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
+		<TR><TD><B>Date Created:</B> 09-26-2013</TD></TR>
+		<TR><TD><B>Created:</B> National Hurricane Center</TD></TR>
+		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. The NHC best track in KML format is an experimental products that the National Hurricane Center is testing during the 2008 hurricane season.   No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
+		<TR><TD><B>For More Information: </B><a href="http://www.nhc.noaa.gov">http://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
+	</description>
+	<Schema parent="Placemark" name="al042013"> 
+		<SimpleField type="wstring" name="StormName"></SimpleField> 
+		<SimpleField type="wstring" name="StormNumber"></SimpleField> 
+		<SimpleField type="wstring" name="StormType"></SimpleField> 
+		<SimpleField type="wstring" name="Basin"></SimpleField> 
+		<SimpleField type="wstring" name="lat"></SimpleField> 
+		<SimpleField type="wstring" name="lon"></SimpleField> 
+		<SimpleField type="wstring" name="Intensity"></SimpleField> 
+		<SimpleField type="wstring" name="MSLP"></SimpleField> 
+		<SimpleField type="wstring" name="DTG"></SimpleField> 
+	</Schema>
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Folder id="data"> 
+ 	    <name>Data</name> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 22</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low INVEST (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 22</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>11.3 N, 20.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-20,11.3,0</coordinates> 
+	       </Point> 
+	       <lat>11.3</lat> 
+	       <lon>-20</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013072218</atcfdtg> 
+	       <dtg>1800 UTC JUL 22</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 23</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low INVEST (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 23</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>11.5 N, 20.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-20.9,11.5,0</coordinates> 
+	       </Point> 
+	       <lat>11.5</lat> 
+	       <lon>-20.9</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013072300</atcfdtg> 
+	       <dtg>0000 UTC JUL 23</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 23</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low INVEST (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 23</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>11.7 N, 21.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-21.8,11.7,0</coordinates> 
+	       </Point> 
+	       <lat>11.7</lat> 
+	       <lon>-21.8</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013072306</atcfdtg> 
+	       <dtg>0600 UTC JUL 23</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 23</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low INVEST (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 23</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>12.0 N, 22.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-22.8,12,0</coordinates> 
+	       </Point> 
+	       <lat>12</lat> 
+	       <lon>-22.8</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2013072312</atcfdtg> 
+	       <dtg>1200 UTC JUL 23</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 23</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression INVEST (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 23</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>12.4 N, 23.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-23.9,12.4,0</coordinates> 
+	       </Point> 
+	       <lat>12.4</lat> 
+	       <lon>-23.9</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013072318</atcfdtg> 
+	       <dtg>1800 UTC JUL 23</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 24</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression INVEST (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 24</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>13.0 N, 25.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1007 mb; 29.74 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-25.4,13,0</coordinates> 
+	       </Point> 
+	       <lat>13</lat> 
+	       <lon>-25.4</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1007</minSeaLevelPres> 
+	       <atcfdtg>2013072400</atcfdtg> 
+	       <dtg>0000 UTC JUL 24</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 24</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm FOUR (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 24</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>13.5 N, 27.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-27.1,13.5,0</coordinates> 
+	       </Point> 
+	       <lat>13.5</lat> 
+	       <lon>-27.1</lon> 
+	       <stormName>FOUR</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2013072406</atcfdtg> 
+	       <dtg>0600 UTC JUL 24</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 24</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 24</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>13.9 N, 29.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-29,13.9,0</coordinates> 
+	       </Point> 
+	       <lat>13.9</lat> 
+	       <lon>-29</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2013072412</atcfdtg> 
+	       <dtg>1200 UTC JUL 24</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 24</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 24</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>14.4 N, 30.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1004 mb; 29.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-30.8,14.4,0</coordinates> 
+	       </Point> 
+	       <lat>14.4</lat> 
+	       <lon>-30.8</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1004</minSeaLevelPres> 
+	       <atcfdtg>2013072418</atcfdtg> 
+	       <dtg>1800 UTC JUL 24</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 25</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 25</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>14.9 N, 32.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1004 mb; 29.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-32.4,14.9,0</coordinates> 
+	       </Point> 
+	       <lat>14.9</lat> 
+	       <lon>-32.4</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1004</minSeaLevelPres> 
+	       <atcfdtg>2013072500</atcfdtg> 
+	       <dtg>0000 UTC JUL 25</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 25</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 25</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>15.3 N, 33.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1002 mb; 29.59 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-33.9,15.3,0</coordinates> 
+	       </Point> 
+	       <lat>15.3</lat> 
+	       <lon>-33.9</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>1002</minSeaLevelPres> 
+	       <atcfdtg>2013072506</atcfdtg> 
+	       <dtg>0600 UTC JUL 25</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 25</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 25</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>15.7 N, 35.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1002 mb; 29.59 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-35.5,15.7,0</coordinates> 
+	       </Point> 
+	       <lat>15.7</lat> 
+	       <lon>-35.5</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>1002</minSeaLevelPres> 
+	       <atcfdtg>2013072512</atcfdtg> 
+	       <dtg>1200 UTC JUL 25</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 25</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 25</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>16.0 N, 37.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1003 mb; 29.62 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-37.1,16,0</coordinates> 
+	       </Point> 
+	       <lat>16</lat> 
+	       <lon>-37.1</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>1003</minSeaLevelPres> 
+	       <atcfdtg>2013072518</atcfdtg> 
+	       <dtg>1800 UTC JUL 25</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 26</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 26</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>16.4 N, 38.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-38.7,16.4,0</coordinates> 
+	       </Point> 
+	       <lat>16.4</lat> 
+	       <lon>-38.7</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2013072600</atcfdtg> 
+	       <dtg>0000 UTC JUL 26</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 26</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 26</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>16.9 N, 40.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-40.7,16.9,0</coordinates> 
+	       </Point> 
+	       <lat>16.9</lat> 
+	       <lon>-40.7</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2013072606</atcfdtg> 
+	       <dtg>0600 UTC JUL 26</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 26</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 26</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>17.3 N, 42.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1008 mb; 29.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-42.8,17.3,0</coordinates> 
+	       </Point> 
+	       <lat>17.3</lat> 
+	       <lon>-42.8</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1008</minSeaLevelPres> 
+	       <atcfdtg>2013072612</atcfdtg> 
+	       <dtg>1200 UTC JUL 26</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 26</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 26</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>17.6 N, 45.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-45,17.6,0</coordinates> 
+	       </Point> 
+	       <lat>17.6</lat> 
+	       <lon>-45</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2013072618</atcfdtg> 
+	       <dtg>1800 UTC JUL 26</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>17.8 N, 47.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1012 mb; 29.89 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-47.1,17.8,0</coordinates> 
+	       </Point> 
+	       <lat>17.8</lat> 
+	       <lon>-47.1</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1012</minSeaLevelPres> 
+	       <atcfdtg>2013072700</atcfdtg> 
+	       <dtg>0000 UTC JUL 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>18.0 N, 49.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1012 mb; 29.89 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-49.2,18,0</coordinates> 
+	       </Point> 
+	       <lat>18</lat> 
+	       <lon>-49.2</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1012</minSeaLevelPres> 
+	       <atcfdtg>2013072706</atcfdtg> 
+	       <dtg>0600 UTC JUL 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>18.3 N, 51.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1012 mb; 29.89 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-51.1,18.3,0</coordinates> 
+	       </Point> 
+	       <lat>18.3</lat> 
+	       <lon>-51.1</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1012</minSeaLevelPres> 
+	       <atcfdtg>2013072712</atcfdtg> 
+	       <dtg>1200 UTC JUL 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>18.6 N, 53.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1012 mb; 29.89 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-53,18.6,0</coordinates> 
+	       </Point> 
+	       <lat>18.6</lat> 
+	       <lon>-53</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1012</minSeaLevelPres> 
+	       <atcfdtg>2013072718</atcfdtg> 
+	       <dtg>1800 UTC JUL 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>19.0 N, 54.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1012 mb; 29.89 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-54.9,19,0</coordinates> 
+	       </Point> 
+	       <lat>19</lat> 
+	       <lon>-54.9</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1012</minSeaLevelPres> 
+	       <atcfdtg>2013072800</atcfdtg> 
+	       <dtg>0000 UTC JUL 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>19.4 N, 56.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-56.8,19.4,0</coordinates> 
+	       </Point> 
+	       <lat>19.4</lat> 
+	       <lon>-56.8</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013072806</atcfdtg> 
+	       <dtg>0600 UTC JUL 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance INVEST (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>19.8 N, 58.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-58.6,19.8,0</coordinates> 
+	       </Point> 
+	       <lat>19.8</lat> 
+	       <lon>-58.6</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013072812</atcfdtg> 
+	       <dtg>1200 UTC JUL 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>20.1 N, 60.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-60.3,20.1,0</coordinates> 
+	       </Point> 
+	       <lat>20.1</lat> 
+	       <lon>-60.3</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013072818</atcfdtg> 
+	       <dtg>1800 UTC JUL 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>20.4 N, 62.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1014 mb; 29.95 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-62,20.4,0</coordinates> 
+	       </Point> 
+	       <lat>20.4</lat> 
+	       <lon>-62</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1014</minSeaLevelPres> 
+	       <atcfdtg>2013072900</atcfdtg> 
+	       <dtg>0000 UTC JUL 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>20.6 N, 63.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1014 mb; 29.95 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-63.7,20.6,0</coordinates> 
+	       </Point> 
+	       <lat>20.6</lat> 
+	       <lon>-63.7</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1014</minSeaLevelPres> 
+	       <atcfdtg>2013072906</atcfdtg> 
+	       <dtg>0600 UTC JUL 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>20.8 N, 65.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1015 mb; 29.98 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-65.3,20.8,0</coordinates> 
+	       </Point> 
+	       <lat>20.8</lat> 
+	       <lon>-65.3</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1015</minSeaLevelPres> 
+	       <atcfdtg>2013072912</atcfdtg> 
+	       <dtg>1200 UTC JUL 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.0 N, 66.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1015 mb; 29.98 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-66.9,21,0</coordinates> 
+	       </Point> 
+	       <lat>21</lat> 
+	       <lon>-66.9</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1015</minSeaLevelPres> 
+	       <atcfdtg>2013072918</atcfdtg> 
+	       <dtg>1800 UTC JUL 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.3 N, 68.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1015 mb; 29.98 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.5,21.3,0</coordinates> 
+	       </Point> 
+	       <lat>21.3</lat> 
+	       <lon>-68.5</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1015</minSeaLevelPres> 
+	       <atcfdtg>2013073000</atcfdtg> 
+	       <dtg>0000 UTC JUL 30</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.5 N, 69.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1015 mb; 29.98 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-69.8,21.5,0</coordinates> 
+	       </Point> 
+	       <lat>21.5</lat> 
+	       <lon>-69.8</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1015</minSeaLevelPres> 
+	       <atcfdtg>2013073006</atcfdtg> 
+	       <dtg>0600 UTC JUL 30</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.7 N, 71.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1015 mb; 29.98 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-71,21.7,0</coordinates> 
+	       </Point> 
+	       <lat>21.7</lat> 
+	       <lon>-71</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1015</minSeaLevelPres> 
+	       <atcfdtg>2013073012</atcfdtg> 
+	       <dtg>1200 UTC JUL 30</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.9 N, 72.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1015 mb; 29.98 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-72.2,21.9,0</coordinates> 
+	       </Point> 
+	       <lat>21.9</lat> 
+	       <lon>-72.2</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1015</minSeaLevelPres> 
+	       <atcfdtg>2013073018</atcfdtg> 
+	       <dtg>1800 UTC JUL 30</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC JUL 31</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC JUL 31</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.1 N, 73.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1015 mb; 29.98 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-73.3,22.1,0</coordinates> 
+	       </Point> 
+	       <lat>22.1</lat> 
+	       <lon>-73.3</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1015</minSeaLevelPres> 
+	       <atcfdtg>2013073100</atcfdtg> 
+	       <dtg>0000 UTC JUL 31</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC JUL 31</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC JUL 31</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.4 N, 74.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1015 mb; 29.98 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-74.4,22.4,0</coordinates> 
+	       </Point> 
+	       <lat>22.4</lat> 
+	       <lon>-74.4</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1015</minSeaLevelPres> 
+	       <atcfdtg>2013073106</atcfdtg> 
+	       <dtg>0600 UTC JUL 31</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC JUL 31</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC JUL 31</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.6 N, 75.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1015 mb; 29.98 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-75.3,22.6,0</coordinates> 
+	       </Point> 
+	       <lat>22.6</lat> 
+	       <lon>-75.3</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1015</minSeaLevelPres> 
+	       <atcfdtg>2013073112</atcfdtg> 
+	       <dtg>1200 UTC JUL 31</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC JUL 31</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC JUL 31</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.8 N, 75.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1015 mb; 29.98 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-75.9,22.8,0</coordinates> 
+	       </Point> 
+	       <lat>22.8</lat> 
+	       <lon>-75.9</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1015</minSeaLevelPres> 
+	       <atcfdtg>2013073118</atcfdtg> 
+	       <dtg>1800 UTC JUL 31</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 01</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 01</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>23.0 N, 76.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1014 mb; 29.95 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-76.5,23,0</coordinates> 
+	       </Point> 
+	       <lat>23</lat> 
+	       <lon>-76.5</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1014</minSeaLevelPres> 
+	       <atcfdtg>2013080100</atcfdtg> 
+	       <dtg>0000 UTC AUG 01</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 01</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 01</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>23.3 N, 77.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-77,23.3,0</coordinates> 
+	       </Point> 
+	       <lat>23.3</lat> 
+	       <lon>-77</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013080106</atcfdtg> 
+	       <dtg>0600 UTC AUG 01</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 01</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 01</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>23.7 N, 77.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-77.7,23.7,0</coordinates> 
+	       </Point> 
+	       <lat>23.7</lat> 
+	       <lon>-77.7</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013080112</atcfdtg> 
+	       <dtg>1200 UTC AUG 01</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 01</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 01</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.2 N, 78.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-78.4,24.2,0</coordinates> 
+	       </Point> 
+	       <lat>24.2</lat> 
+	       <lon>-78.4</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013080118</atcfdtg> 
+	       <dtg>1800 UTC AUG 01</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 02</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 02</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.9 N, 79.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-79,24.9,0</coordinates> 
+	       </Point> 
+	       <lat>24.9</lat> 
+	       <lon>-79</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013080200</atcfdtg> 
+	       <dtg>0000 UTC AUG 02</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 02</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 02</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>25.7 N, 79.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-79.3,25.7,0</coordinates> 
+	       </Point> 
+	       <lat>25.7</lat> 
+	       <lon>-79.3</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013080206</atcfdtg> 
+	       <dtg>0600 UTC AUG 02</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 02</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 02</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>26.5 N, 79.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-79.4,26.5,0</coordinates> 
+	       </Point> 
+	       <lat>26.5</lat> 
+	       <lon>-79.4</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013080212</atcfdtg> 
+	       <dtg>1200 UTC AUG 02</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 02</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 02</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.4 N, 79.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-79.4,27.4,0</coordinates> 
+	       </Point> 
+	       <lat>27.4</lat> 
+	       <lon>-79.4</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013080218</atcfdtg> 
+	       <dtg>1800 UTC AUG 02</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 03</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 03</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>28.4 N, 79.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-79.3,28.4,0</coordinates> 
+	       </Point> 
+	       <lat>28.4</lat> 
+	       <lon>-79.3</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013080300</atcfdtg> 
+	       <dtg>0000 UTC AUG 03</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 03</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 03</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>29.4 N, 79.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-79.1,29.4,0</coordinates> 
+	       </Point> 
+	       <lat>29.4</lat> 
+	       <lon>-79.1</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013080306</atcfdtg> 
+	       <dtg>0600 UTC AUG 03</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 03</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 03</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>30.3 N, 78.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-78.8,30.3,0</coordinates> 
+	       </Point> 
+	       <lat>30.3</lat> 
+	       <lon>-78.8</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013080312</atcfdtg> 
+	       <dtg>1200 UTC AUG 03</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 03</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 03</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>31.1 N, 78.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-78.1,31.1,0</coordinates> 
+	       </Point> 
+	       <lat>31.1</lat> 
+	       <lon>-78.1</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2013080318</atcfdtg> 
+	       <dtg>1800 UTC AUG 03</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 04</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low  (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 04</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>31.8 N, 77.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1012 mb; 29.89 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-77.2,31.8,0</coordinates> 
+	       </Point> 
+	       <lat>31.8</lat> 
+	       <lon>-77.2</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1012</minSeaLevelPres> 
+	       <atcfdtg>2013080400</atcfdtg> 
+	       <dtg>0000 UTC AUG 04</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 04</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low DORIAN (al042013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 04</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>32.4 N, 75.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1011 mb; 29.86 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-75.6,32.4,0</coordinates> 
+	       </Point> 
+	       <lat>32.4</lat> 
+	       <lon>-75.6</lon> 
+	       <stormName>DORIAN</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1011</minSeaLevelPres> 
+	       <atcfdtg>2013080406</atcfdtg> 
+	       <dtg>0600 UTC AUG 04</dtg> 
+	   </Placemark> 
+	</Folder>
+<Folder>
+<name>Legend</name>
+<open>0</open>
+<visibility>1</visibility>
+<ScreenOverlay>
+<name>Legend</name>
+<Icon>
+   <href>breakPoint_legend.png</href>
+</Icon>
+ <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+         <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay>
+</Folder>
+</Document> 
+</kml>

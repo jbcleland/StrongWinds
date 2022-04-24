@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<kml xmlns="http://earth.google.com/kml/2.2"> 
+	<Document> 
+	<name>al042014 </name> 
+	<open>0</open> 
+	<description>
+		<![CDATA[<TABLE>
+		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for al042014</TD></TR>
+		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
+		<TR><TD><B>Date Created:</B> 02-11-2015</TD></TR>
+		<TR><TD><B>Created:</B> National Hurricane Center</TD></TR>
+		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. The NHC best track in KML format is an experimental products that the National Hurricane Center is testing during the 2008 hurricane season.   No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
+		<TR><TD><B>For More Information: </B><a href="http://www.nhc.noaa.gov">http://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
+	</description>
+	<Schema parent="Placemark" name="al042014"> 
+		<SimpleField type="wstring" name="StormName"></SimpleField> 
+		<SimpleField type="wstring" name="StormNumber"></SimpleField> 
+		<SimpleField type="wstring" name="StormType"></SimpleField> 
+		<SimpleField type="wstring" name="Basin"></SimpleField> 
+		<SimpleField type="wstring" name="lat"></SimpleField> 
+		<SimpleField type="wstring" name="lon"></SimpleField> 
+		<SimpleField type="wstring" name="Intensity"></SimpleField> 
+		<SimpleField type="wstring" name="MSLP"></SimpleField> 
+		<SimpleField type="wstring" name="DTG"></SimpleField> 
+	</Schema>
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Folder id="data"> 
+ 	    <name>Data</name> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 23</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression FOUR (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 23</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.5 N, 72.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-72.2,21.5,0</coordinates> 
+	       </Point> 
+	       <lat>21.5</lat> 
+	       <lon>-72.2</lon> 
+	       <stormName>FOUR</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2014082318</atcfdtg> 
+	       <dtg>1800 UTC AUG 23</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 24</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression FOUR (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 24</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.0 N, 72.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1004 mb; 29.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-72.5,22,0</coordinates> 
+	       </Point> 
+	       <lat>22</lat> 
+	       <lon>-72.5</lon> 
+	       <stormName>FOUR</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1004</minSeaLevelPres> 
+	       <atcfdtg>2014082400</atcfdtg> 
+	       <dtg>0000 UTC AUG 24</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 24</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm FOUR (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 24</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.6 N, 72.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1002 mb; 29.59 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-72.9,22.6,0</coordinates> 
+	       </Point> 
+	       <lat>22.6</lat> 
+	       <lon>-72.9</lon> 
+	       <stormName>FOUR</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1002</minSeaLevelPres> 
+	       <atcfdtg>2014082406</atcfdtg> 
+	       <dtg>0600 UTC AUG 24</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 24</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 24</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>23.3 N, 73.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1001 mb; 29.56 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-73,23.3,0</coordinates> 
+	       </Point> 
+	       <lat>23.3</lat> 
+	       <lon>-73</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1001</minSeaLevelPres> 
+	       <atcfdtg>2014082412</atcfdtg> 
+	       <dtg>1200 UTC AUG 24</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 24</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 24</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.0 N, 73.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1001 mb; 29.56 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-73,24,0</coordinates> 
+	       </Point> 
+	       <lat>24</lat> 
+	       <lon>-73</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1001</minSeaLevelPres> 
+	       <atcfdtg>2014082418</atcfdtg> 
+	       <dtg>1800 UTC AUG 24</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 25</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 25</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.2 N, 73.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>998 mb; 29.47 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-73,24.2,0</coordinates> 
+	       </Point> 
+	       <lat>24.2</lat> 
+	       <lon>-73</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>998</minSeaLevelPres> 
+	       <atcfdtg>2014082500</atcfdtg> 
+	       <dtg>0000 UTC AUG 25</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 25</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 25</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.4 N, 72.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>996 mb; 29.42 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-72.9,24.4,0</coordinates> 
+	       </Point> 
+	       <lat>24.4</lat> 
+	       <lon>-72.9</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>996</minSeaLevelPres> 
+	       <atcfdtg>2014082506</atcfdtg> 
+	       <dtg>0600 UTC AUG 25</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 25</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 25</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.7 N, 72.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>993 mb; 29.33 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-72.7,24.7,0</coordinates> 
+	       </Point> 
+	       <lat>24.7</lat> 
+	       <lon>-72.7</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>993</minSeaLevelPres> 
+	       <atcfdtg>2014082512</atcfdtg> 
+	       <dtg>1200 UTC AUG 25</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 25</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 25</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.9 N, 72.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>992 mb; 29.30 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-72.4,24.9,0</coordinates> 
+	       </Point> 
+	       <lat>24.9</lat> 
+	       <lon>-72.4</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>992</minSeaLevelPres> 
+	       <atcfdtg>2014082518</atcfdtg> 
+	       <dtg>1800 UTC AUG 25</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 26</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 26</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>25.1 N, 72.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>989 mb; 29.21 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-72.1,25.1,0</coordinates> 
+	       </Point> 
+	       <lat>25.1</lat> 
+	       <lon>-72.1</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>989</minSeaLevelPres> 
+	       <atcfdtg>2014082600</atcfdtg> 
+	       <dtg>0000 UTC AUG 26</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 26</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 26</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>25.6 N, 72.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>989 mb; 29.21 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-72,25.6,0</coordinates> 
+	       </Point> 
+	       <lat>25.6</lat> 
+	       <lon>-72</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>989</minSeaLevelPres> 
+	       <atcfdtg>2014082606</atcfdtg> 
+	       <dtg>0600 UTC AUG 26</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 26</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 26</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>26.7 N, 71.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>988 mb; 29.18 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-71.8,26.7,0</coordinates> 
+	       </Point> 
+	       <lat>26.7</lat> 
+	       <lon>-71.8</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>988</minSeaLevelPres> 
+	       <atcfdtg>2014082612</atcfdtg> 
+	       <dtg>1200 UTC AUG 26</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 26</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 26</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>28.1 N, 71.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>987 mb; 29.15 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-71.4,28.1,0</coordinates> 
+	       </Point> 
+	       <lat>28.1</lat> 
+	       <lon>-71.4</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>987</minSeaLevelPres> 
+	       <atcfdtg>2014082618</atcfdtg> 
+	       <dtg>1800 UTC AUG 26</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>29.5 N, 71.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>983 mb; 29.03 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>70 knots;  81 mph;  130 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-71.5,29.5,0</coordinates> 
+	       </Point> 
+	       <lat>29.5</lat> 
+	       <lon>-71.5</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>70</intensity> 
+	       <intensityMPH>81</intensityMPH> 
+	       <intensityKPH>130</intensityKPH> 
+	       <minSeaLevelPres>983</minSeaLevelPres> 
+	       <atcfdtg>2014082700</atcfdtg> 
+	       <dtg>0000 UTC AUG 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>30.6 N, 72.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>983 mb; 29.03 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>70 knots;  81 mph;  130 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-72,30.6,0</coordinates> 
+	       </Point> 
+	       <lat>30.6</lat> 
+	       <lon>-72</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>70</intensity> 
+	       <intensityMPH>81</intensityMPH> 
+	       <intensityKPH>130</intensityKPH> 
+	       <minSeaLevelPres>983</minSeaLevelPres> 
+	       <atcfdtg>2014082706</atcfdtg> 
+	       <dtg>0600 UTC AUG 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>31.6 N, 72.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>983 mb; 29.03 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>70 knots;  81 mph;  130 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-72.2,31.6,0</coordinates> 
+	       </Point> 
+	       <lat>31.6</lat> 
+	       <lon>-72.2</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>70</intensity> 
+	       <intensityMPH>81</intensityMPH> 
+	       <intensityKPH>130</intensityKPH> 
+	       <minSeaLevelPres>983</minSeaLevelPres> 
+	       <atcfdtg>2014082712</atcfdtg> 
+	       <dtg>1200 UTC AUG 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>32.3 N, 71.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>984 mb; 29.06 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-71.8,32.3,0</coordinates> 
+	       </Point> 
+	       <lat>32.3</lat> 
+	       <lon>-71.8</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>984</minSeaLevelPres> 
+	       <atcfdtg>2014082718</atcfdtg> 
+	       <dtg>1800 UTC AUG 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>33.5 N, 70.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>984 mb; 29.06 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70.7,33.5,0</coordinates> 
+	       </Point> 
+	       <lat>33.5</lat> 
+	       <lon>-70.7</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>984</minSeaLevelPres> 
+	       <atcfdtg>2014082800</atcfdtg> 
+	       <dtg>0000 UTC AUG 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.8 N, 69.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>982 mb; 29.00 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-69,34.8,0</coordinates> 
+	       </Point> 
+	       <lat>34.8</lat> 
+	       <lon>-69</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>982</minSeaLevelPres> 
+	       <atcfdtg>2014082806</atcfdtg> 
+	       <dtg>0600 UTC AUG 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>36.3 N, 67.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>979 mb; 28.91 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>70 knots;  81 mph;  130 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-67.1,36.3,0</coordinates> 
+	       </Point> 
+	       <lat>36.3</lat> 
+	       <lon>-67.1</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>70</intensity> 
+	       <intensityMPH>81</intensityMPH> 
+	       <intensityKPH>130</intensityKPH> 
+	       <minSeaLevelPres>979</minSeaLevelPres> 
+	       <atcfdtg>2014082812</atcfdtg> 
+	       <dtg>1200 UTC AUG 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>37.5 N, 63.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>971 mb; 28.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>75 knots;  86 mph;  139 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-63.6,37.5,0</coordinates> 
+	       </Point> 
+	       <lat>37.5</lat> 
+	       <lon>-63.6</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>75</intensity> 
+	       <intensityMPH>86</intensityMPH> 
+	       <intensityKPH>139</intensityKPH> 
+	       <minSeaLevelPres>971</minSeaLevelPres> 
+	       <atcfdtg>2014082818</atcfdtg> 
+	       <dtg>1800 UTC AUG 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>39.1 N, 58.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>965 mb; 28.50 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>75 knots;  86 mph;  139 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-58.8,39.1,0</coordinates> 
+	       </Point> 
+	       <lat>39.1</lat> 
+	       <lon>-58.8</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>75</intensity> 
+	       <intensityMPH>86</intensityMPH> 
+	       <intensityKPH>139</intensityKPH> 
+	       <minSeaLevelPres>965</minSeaLevelPres> 
+	       <atcfdtg>2014082900</atcfdtg> 
+	       <dtg>0000 UTC AUG 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>41.2 N, 53.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>967 mb; 28.56 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>70 knots;  81 mph;  130 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-53.9,41.2,0</coordinates> 
+	       </Point> 
+	       <lat>41.2</lat> 
+	       <lon>-53.9</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>70</intensity> 
+	       <intensityMPH>81</intensityMPH> 
+	       <intensityKPH>130</intensityKPH> 
+	       <minSeaLevelPres>967</minSeaLevelPres> 
+	       <atcfdtg>2014082906</atcfdtg> 
+	       <dtg>0600 UTC AUG 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone CRISTOBAL (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>44.2 N, 49.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>970 mb; 28.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-49,44.2,0</coordinates> 
+	       </Point> 
+	       <lat>44.2</lat> 
+	       <lon>-49</lon> 
+	       <stormName>CRISTOBAL</stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>970</minSeaLevelPres> 
+	       <atcfdtg>2014082912</atcfdtg> 
+	       <dtg>1200 UTC AUG 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>46.7 N, 45.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>972 mb; 28.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-45.9,46.7,0</coordinates> 
+	       </Point> 
+	       <lat>46.7</lat> 
+	       <lon>-45.9</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>972</minSeaLevelPres> 
+	       <atcfdtg>2014082918</atcfdtg> 
+	       <dtg>1800 UTC AUG 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>48.6 N, 42.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>974 mb; 28.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-42.8,48.6,0</coordinates> 
+	       </Point> 
+	       <lat>48.6</lat> 
+	       <lon>-42.8</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>974</minSeaLevelPres> 
+	       <atcfdtg>2014083000</atcfdtg> 
+	       <dtg>0000 UTC AUG 30</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>49.9 N, 39.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>974 mb; 28.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-39.5,49.9,0</coordinates> 
+	       </Point> 
+	       <lat>49.9</lat> 
+	       <lon>-39.5</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>974</minSeaLevelPres> 
+	       <atcfdtg>2014083006</atcfdtg> 
+	       <dtg>0600 UTC AUG 30</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>51.3 N, 36.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>971 mb; 28.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-36.2,51.3,0</coordinates> 
+	       </Point> 
+	       <lat>51.3</lat> 
+	       <lon>-36.2</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>971</minSeaLevelPres> 
+	       <atcfdtg>2014083012</atcfdtg> 
+	       <dtg>1200 UTC AUG 30</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>54.0 N, 32.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>971 mb; 28.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-32,54,0</coordinates> 
+	       </Point> 
+	       <lat>54</lat> 
+	       <lon>-32</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>971</minSeaLevelPres> 
+	       <atcfdtg>2014083018</atcfdtg> 
+	       <dtg>1800 UTC AUG 30</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 31</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 31</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>58.0 N, 28.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>971 mb; 28.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-28.9,58,0</coordinates> 
+	       </Point> 
+	       <lat>58</lat> 
+	       <lon>-28.9</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>971</minSeaLevelPres> 
+	       <atcfdtg>2014083100</atcfdtg> 
+	       <dtg>0000 UTC AUG 31</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 31</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 31</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>61.0 N, 27.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>963 mb; 28.44 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-27,61,0</coordinates> 
+	       </Point> 
+	       <lat>61</lat> 
+	       <lon>-27</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>963</minSeaLevelPres> 
+	       <atcfdtg>2014083106</atcfdtg> 
+	       <dtg>0600 UTC AUG 31</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 31</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 31</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>62.0 N, 26.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>964 mb; 28.47 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-26,62,0</coordinates> 
+	       </Point> 
+	       <lat>62</lat> 
+	       <lon>-26</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>964</minSeaLevelPres> 
+	       <atcfdtg>2014083112</atcfdtg> 
+	       <dtg>1200 UTC AUG 31</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 31</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 31</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>63.0 N, 24.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>968 mb; 28.59 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-24.5,63,0</coordinates> 
+	       </Point> 
+	       <lat>63</lat> 
+	       <lon>-24.5</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>968</minSeaLevelPres> 
+	       <atcfdtg>2014083118</atcfdtg> 
+	       <dtg>1800 UTC AUG 31</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 01</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 01</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>64.0 N, 22.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>974 mb; 28.77 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-22,64,0</coordinates> 
+	       </Point> 
+	       <lat>64</lat> 
+	       <lon>-22</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>974</minSeaLevelPres> 
+	       <atcfdtg>2014090100</atcfdtg> 
+	       <dtg>0000 UTC SEP 01</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 01</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 01</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>65.0 N, 19.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>978 mb; 28.88 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-19.5,65,0</coordinates> 
+	       </Point> 
+	       <lat>65</lat> 
+	       <lon>-19.5</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>978</minSeaLevelPres> 
+	       <atcfdtg>2014090106</atcfdtg> 
+	       <dtg>0600 UTC SEP 01</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC SEP 01</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC SEP 01</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>66.0 N, 17.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>980 mb; 28.94 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-17,66,0</coordinates> 
+	       </Point> 
+	       <lat>66</lat> 
+	       <lon>-17</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>980</minSeaLevelPres> 
+	       <atcfdtg>2014090112</atcfdtg> 
+	       <dtg>1200 UTC SEP 01</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC SEP 01</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC SEP 01</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>67.0 N, 15.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>982 mb; 29.00 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-15.4,67,0</coordinates> 
+	       </Point> 
+	       <lat>67</lat> 
+	       <lon>-15.4</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>982</minSeaLevelPres> 
+	       <atcfdtg>2014090118</atcfdtg> 
+	       <dtg>1800 UTC SEP 01</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC SEP 02</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC SEP 02</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>68.0 N, 15.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>984 mb; 29.06 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-15,68,0</coordinates> 
+	       </Point> 
+	       <lat>68</lat> 
+	       <lon>-15</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>984</minSeaLevelPres> 
+	       <atcfdtg>2014090200</atcfdtg> 
+	       <dtg>0000 UTC SEP 02</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC SEP 02</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al042014)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC SEP 02</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>69.0 N, 15.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>985 mb; 29.09 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-15,69,0</coordinates> 
+	       </Point> 
+	       <lat>69</lat> 
+	       <lon>-15</lon> 
+	       <stormName></stormName> 
+	       <stormNum>04</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>985</minSeaLevelPres> 
+	       <atcfdtg>2014090206</atcfdtg> 
+	       <dtg>0600 UTC SEP 02</dtg> 
+	   </Placemark> 
+	</Folder>
+<Folder>
+<name>Legend</name>
+<open>0</open>
+<visibility>1</visibility>
+<ScreenOverlay>
+<name>Legend</name>
+<Icon>
+   breakPoint_legend.png
+</Icon>
+ <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+         <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay>
+</Folder>
+</Document> 
+</kml>

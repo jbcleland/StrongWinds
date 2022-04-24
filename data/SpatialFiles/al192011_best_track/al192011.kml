@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<kml xmlns="http://earth.google.com/kml/2.2"> 
+	<Document> 
+	<name>al192011 </name> 
+	<open>0</open> 
+	<description>
+		<![CDATA[<TABLE>
+		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for al192011</TD></TR>
+		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
+		<TR><TD><B>Date Created:</B> 01-12-2012</TD></TR>
+		<TR><TD><B>Created:</B> National Hurricane Center</TD></TR>
+		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. The NHC best track in KML format is an experimental products that the National Hurricane Center is testing during the 2008 hurricane season.   No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
+		<TR><TD><B>For More Information: </B><a href="http://www.nhc.noaa.gov">http://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
+	</description>
+	<Schema parent="Placemark" name="al192011"> 
+		<SimpleField type="wstring" name="StormName"></SimpleField> 
+		<SimpleField type="wstring" name="StormNumber"></SimpleField> 
+		<SimpleField type="wstring" name="StormType"></SimpleField> 
+		<SimpleField type="wstring" name="Basin"></SimpleField> 
+		<SimpleField type="wstring" name="lat"></SimpleField> 
+		<SimpleField type="wstring" name="lon"></SimpleField> 
+		<SimpleField type="wstring" name="Intensity"></SimpleField> 
+		<SimpleField type="wstring" name="MSLP"></SimpleField> 
+		<SimpleField type="wstring" name="DTG"></SimpleField> 
+	</Schema>
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Folder id="data"> 
+ 	    <name>Data</name> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 06</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 06</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>28.5 N, 70.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70,28.5,0</coordinates> 
+	       </Point> 
+	       <lat>28.5</lat> 
+	       <lon>-70</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2011110600</atcfdtg> 
+	       <dtg>0000 UTC NOV 06</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 06</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 06</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>28.5 N, 69.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-69.2,28.5,0</coordinates> 
+	       </Point> 
+	       <lat>28.5</lat> 
+	       <lon>-69.2</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2011110606</atcfdtg> 
+	       <dtg>0600 UTC NOV 06</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 06</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 06</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>28.4 N, 68.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.8,28.4,0</coordinates> 
+	       </Point> 
+	       <lat>28.4</lat> 
+	       <lon>-68.8</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2011110612</atcfdtg> 
+	       <dtg>1200 UTC NOV 06</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 06</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 06</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>28.0 N, 68.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.5,28,0</coordinates> 
+	       </Point> 
+	       <lat>28</lat> 
+	       <lon>-68.5</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2011110618</atcfdtg> 
+	       <dtg>1800 UTC NOV 06</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 07</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 07</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.9 N, 68.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.6,27.9,0</coordinates> 
+	       </Point> 
+	       <lat>27.9</lat> 
+	       <lon>-68.6</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2011110700</atcfdtg> 
+	       <dtg>0000 UTC NOV 07</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 07</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 07</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.7 N, 68.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-68.7,27.7,0</coordinates> 
+	       </Point> 
+	       <lat>27.7</lat> 
+	       <lon>-68.7</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2011110706</atcfdtg> 
+	       <dtg>0600 UTC NOV 07</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 07</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 07</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.5 N, 69.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-69,27.5,0</coordinates> 
+	       </Point> 
+	       <lat>27.5</lat> 
+	       <lon>-69</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2011110712</atcfdtg> 
+	       <dtg>1200 UTC NOV 07</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 07</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 07</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.6 N, 69.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1004 mb; 29.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-69.3,27.6,0</coordinates> 
+	       </Point> 
+	       <lat>27.6</lat> 
+	       <lon>-69.3</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1004</minSeaLevelPres> 
+	       <atcfdtg>2011110718</atcfdtg> 
+	       <dtg>1800 UTC NOV 07</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.6 N, 69.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1002 mb; 29.59 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-69.6,27.6,0</coordinates> 
+	       </Point> 
+	       <lat>27.6</lat> 
+	       <lon>-69.6</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1002</minSeaLevelPres> 
+	       <atcfdtg>2011110800</atcfdtg> 
+	       <dtg>0000 UTC NOV 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Subtropical Storm INVEST (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.7 N, 69.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1001 mb; 29.56 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ss</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-69.8,27.7,0</coordinates> 
+	       </Point> 
+	       <lat>27.7</lat> 
+	       <lon>-69.8</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Subtropical Storm</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1001</minSeaLevelPres> 
+	       <atcfdtg>2011110806</atcfdtg> 
+	       <dtg>0600 UTC NOV 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Subtropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.8 N, 70.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ss</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70,27.8,0</coordinates> 
+	       </Point> 
+	       <lat>27.8</lat> 
+	       <lon>-70</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Subtropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1000</minSeaLevelPres> 
+	       <atcfdtg>2011110812</atcfdtg> 
+	       <dtg>1200 UTC NOV 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 08</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 08</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.8 N, 70.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>999 mb; 29.50 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70,27.8,0</coordinates> 
+	       </Point> 
+	       <lat>27.8</lat> 
+	       <lon>-70</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>999</minSeaLevelPres> 
+	       <atcfdtg>2011110818</atcfdtg> 
+	       <dtg>1800 UTC NOV 08</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.8 N, 70.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>999 mb; 29.50 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70.1,27.8,0</coordinates> 
+	       </Point> 
+	       <lat>27.8</lat> 
+	       <lon>-70.1</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>999</minSeaLevelPres> 
+	       <atcfdtg>2011110900</atcfdtg> 
+	       <dtg>0000 UTC NOV 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.8 N, 70.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>996 mb; 29.42 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70.2,27.8,0</coordinates> 
+	       </Point> 
+	       <lat>27.8</lat> 
+	       <lon>-70.2</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>996</minSeaLevelPres> 
+	       <atcfdtg>2011110906</atcfdtg> 
+	       <dtg>0600 UTC NOV 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.9 N, 70.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>994 mb; 29.36 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70.4,27.9,0</coordinates> 
+	       </Point> 
+	       <lat>27.9</lat> 
+	       <lon>-70.4</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>994</minSeaLevelPres> 
+	       <atcfdtg>2011110912</atcfdtg> 
+	       <dtg>1200 UTC NOV 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 09</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 09</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>28.3 N, 70.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>991 mb; 29.27 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70.6,28.3,0</coordinates> 
+	       </Point> 
+	       <lat>28.3</lat> 
+	       <lon>-70.6</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>991</minSeaLevelPres> 
+	       <atcfdtg>2011110918</atcfdtg> 
+	       <dtg>1800 UTC NOV 09</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>29.0 N, 70.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>987 mb; 29.15 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70.7,29,0</coordinates> 
+	       </Point> 
+	       <lat>29</lat> 
+	       <lon>-70.7</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>987</minSeaLevelPres> 
+	       <atcfdtg>2011111000</atcfdtg> 
+	       <dtg>0000 UTC NOV 10</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>29.7 N, 70.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>984 mb; 29.06 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70.9,29.7,0</coordinates> 
+	       </Point> 
+	       <lat>29.7</lat> 
+	       <lon>-70.9</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>984</minSeaLevelPres> 
+	       <atcfdtg>2011111006</atcfdtg> 
+	       <dtg>0600 UTC NOV 10</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>30.2 N, 70.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>982 mb; 29.00 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70.7,30.2,0</coordinates> 
+	       </Point> 
+	       <lat>30.2</lat> 
+	       <lon>-70.7</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>982</minSeaLevelPres> 
+	       <atcfdtg>2011111012</atcfdtg> 
+	       <dtg>1200 UTC NOV 10</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 10</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 10</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>30.5 N, 70.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>983 mb; 29.03 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-70,30.5,0</coordinates> 
+	       </Point> 
+	       <lat>30.5</lat> 
+	       <lon>-70</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>983</minSeaLevelPres> 
+	       <atcfdtg>2011111018</atcfdtg> 
+	       <dtg>1800 UTC NOV 10</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>31.0 N, 69.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>984 mb; 29.06 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-69,31,0</coordinates> 
+	       </Point> 
+	       <lat>31</lat> 
+	       <lon>-69</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>984</minSeaLevelPres> 
+	       <atcfdtg>2011111100</atcfdtg> 
+	       <dtg>0000 UTC NOV 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>32.2 N, 67.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>987 mb; 29.15 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-67.2,32.2,0</coordinates> 
+	       </Point> 
+	       <lat>32.2</lat> 
+	       <lon>-67.2</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>987</minSeaLevelPres> 
+	       <atcfdtg>2011111106</atcfdtg> 
+	       <dtg>0600 UTC NOV 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>33.4 N, 65.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>991 mb; 29.27 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-65.3,33.4,0</coordinates> 
+	       </Point> 
+	       <lat>33.4</lat> 
+	       <lon>-65.3</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>991</minSeaLevelPres> 
+	       <atcfdtg>2011111112</atcfdtg> 
+	       <dtg>1200 UTC NOV 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 11</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 11</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.8 N, 62.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>995 mb; 29.39 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-62.6,34.8,0</coordinates> 
+	       </Point> 
+	       <lat>34.8</lat> 
+	       <lon>-62.6</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>995</minSeaLevelPres> 
+	       <atcfdtg>2011111118</atcfdtg> 
+	       <dtg>1800 UTC NOV 11</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone SEAN (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>35.9 N, 59.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-59.4,35.9,0</coordinates> 
+	       </Point> 
+	       <lat>35.9</lat> 
+	       <lon>-59.4</lon> 
+	       <stormName>SEAN</stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1000</minSeaLevelPres> 
+	       <atcfdtg>2011111200</atcfdtg> 
+	       <dtg>0000 UTC NOV 12</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>38.0 N, 57.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-57.2,38,0</coordinates> 
+	       </Point> 
+	       <lat>38</lat> 
+	       <lon>-57.2</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1000</minSeaLevelPres> 
+	       <atcfdtg>2011111206</atcfdtg> 
+	       <dtg>0600 UTC NOV 12</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>40.0 N, 55.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-55,40,0</coordinates> 
+	       </Point> 
+	       <lat>40</lat> 
+	       <lon>-55</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1000</minSeaLevelPres> 
+	       <atcfdtg>2011111212</atcfdtg> 
+	       <dtg>1200 UTC NOV 12</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 12</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al192011)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 12</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>42.5 N, 52.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52.4,42.5,0</coordinates> 
+	       </Point> 
+	       <lat>42.5</lat> 
+	       <lon>-52.4</lon> 
+	       <stormName></stormName> 
+	       <stormNum>19</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1000</minSeaLevelPres> 
+	       <atcfdtg>2011111218</atcfdtg> 
+	       <dtg>1800 UTC NOV 12</dtg> 
+	   </Placemark> 
+	</Folder>
+<Folder>
+<name>Legend</name>
+<open>0</open>
+<visibility>1</visibility>
+<ScreenOverlay>
+<name>Legend</name>
+<Icon>
+   breakPoint_legend.png
+</Icon>
+ <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+         <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay>
+</Folder>
+</Document> 
+</kml>

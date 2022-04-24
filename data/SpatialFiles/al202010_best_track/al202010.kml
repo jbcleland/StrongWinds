@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<kml xmlns="http://earth.google.com/kml/2.2"> 
+	<Document> 
+	<name>al202010 SHARY</name> 
+	<open>0</open> 
+	<description>
+		<![CDATA[<TABLE>
+		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for al202010</TD></TR>
+		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
+		<TR><TD><B>Date Created:</B> 10-30-2010</TD></TR>
+		<TR><TD><B>Created:</B> National Hurricane Center</TD></TR>
+		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. The NHC best track in KML format is an experimental products that the National Hurricane Center is testing during the 2008 hurricane season.   No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
+		<TR><TD><B>For More Information: </B><a href="http://www.nhc.noaa.gov">http://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
+	</description>
+	<Schema parent="Placemark" name="al202010"> 
+		<SimpleField type="wstring" name="StormName"></SimpleField> 
+		<SimpleField type="wstring" name="StormNumber"></SimpleField> 
+		<SimpleField type="wstring" name="StormType"></SimpleField> 
+		<SimpleField type="wstring" name="Basin"></SimpleField> 
+		<SimpleField type="wstring" name="lat"></SimpleField> 
+		<SimpleField type="wstring" name="lon"></SimpleField> 
+		<SimpleField type="wstring" name="Intensity"></SimpleField> 
+		<SimpleField type="wstring" name="MSLP"></SimpleField> 
+		<SimpleField type="wstring" name="DTG"></SimpleField> 
+	</Schema>
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Folder id="data"> 
+ 	    <name>Data</name> 
+	   <Placemark> 
+	      <name>1800 UTC OCT 26</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC OCT 26</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.5 N, 52.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52,21.5,0</coordinates> 
+	       </Point> 
+	       <lat>21.5</lat> 
+	       <lon>-52</lon> 
+	       <stormName></stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2010102618</atcfdtg> 
+	       <dtg>1800 UTC OCT 26</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC OCT 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC OCT 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.7 N, 52.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52.3,21.7,0</coordinates> 
+	       </Point> 
+	       <lat>21.7</lat> 
+	       <lon>-52.3</lon> 
+	       <stormName></stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2010102700</atcfdtg> 
+	       <dtg>0000 UTC OCT 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC OCT 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC OCT 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>21.9 N, 52.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52.7,21.9,0</coordinates> 
+	       </Point> 
+	       <lat>21.9</lat> 
+	       <lon>-52.7</lon> 
+	       <stormName></stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2010102706</atcfdtg> 
+	       <dtg>0600 UTC OCT 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC OCT 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance  (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC OCT 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.2 N, 53.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-53.1,22.2,0</coordinates> 
+	       </Point> 
+	       <lat>22.2</lat> 
+	       <lon>-53.1</lon> 
+	       <stormName></stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2010102712</atcfdtg> 
+	       <dtg>1200 UTC OCT 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC OCT 27</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance INVEST (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC OCT 27</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.6 N, 54.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-54,22.6,0</coordinates> 
+	       </Point> 
+	       <lat>22.6</lat> 
+	       <lon>-54</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2010102718</atcfdtg> 
+	       <dtg>1800 UTC OCT 27</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC OCT 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Disturbance INVEST (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC OCT 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>22.9 N, 55.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#db</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-55.3,22.9,0</coordinates> 
+	       </Point> 
+	       <lat>22.9</lat> 
+	       <lon>-55.3</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Disturbance</stormType> 
+	       <intensity>25</intensity> 
+	       <intensityMPH>29</intensityMPH> 
+	       <intensityKPH>46</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2010102800</atcfdtg> 
+	       <dtg>0000 UTC OCT 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC OCT 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low INVEST (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC OCT 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>23.5 N, 56.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-56.7,23.5,0</coordinates> 
+	       </Point> 
+	       <lat>23.5</lat> 
+	       <lon>-56.7</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2010102806</atcfdtg> 
+	       <dtg>0600 UTC OCT 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC OCT 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low INVEST (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC OCT 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.1 N, 58.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-58.7,24.1,0</coordinates> 
+	       </Point> 
+	       <lat>24.1</lat> 
+	       <lon>-58.7</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2010102812</atcfdtg> 
+	       <dtg>1200 UTC OCT 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC OCT 28</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression INVEST (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC OCT 28</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>25.6 N, 61.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-61.2,25.6,0</coordinates> 
+	       </Point> 
+	       <lat>25.6</lat> 
+	       <lon>-61.2</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2010102818</atcfdtg> 
+	       <dtg>1800 UTC OCT 28</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC OCT 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SHARY (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC OCT 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>26.8 N, 63.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1004 mb; 29.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-63,26.8,0</coordinates> 
+	       </Point> 
+	       <lat>26.8</lat> 
+	       <lon>-63</lon> 
+	       <stormName>SHARY</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1004</minSeaLevelPres> 
+	       <atcfdtg>2010102900</atcfdtg> 
+	       <dtg>0000 UTC OCT 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC OCT 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SHARY (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC OCT 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>28.1 N, 64.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1002 mb; 29.59 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-64.6,28.1,0</coordinates> 
+	       </Point> 
+	       <lat>28.1</lat> 
+	       <lon>-64.6</lon> 
+	       <stormName>SHARY</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1002</minSeaLevelPres> 
+	       <atcfdtg>2010102906</atcfdtg> 
+	       <dtg>0600 UTC OCT 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC OCT 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SHARY (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC OCT 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>29.3 N, 65.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>998 mb; 29.47 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-65.9,29.3,0</coordinates> 
+	       </Point> 
+	       <lat>29.3</lat> 
+	       <lon>-65.9</lon> 
+	       <stormName>SHARY</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>998</minSeaLevelPres> 
+	       <atcfdtg>2010102912</atcfdtg> 
+	       <dtg>1200 UTC OCT 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC OCT 29</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SHARY (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC OCT 29</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>30.2 N, 65.8 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>993 mb; 29.33 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-65.8,30.2,0</coordinates> 
+	       </Point> 
+	       <lat>30.2</lat> 
+	       <lon>-65.8</lon> 
+	       <stormName>SHARY</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>993</minSeaLevelPres> 
+	       <atcfdtg>2010102918</atcfdtg> 
+	       <dtg>1800 UTC OCT 29</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC OCT 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SHARY (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC OCT 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>31.3 N, 64.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>993 mb; 29.33 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-64,31.3,0</coordinates> 
+	       </Point> 
+	       <lat>31.3</lat> 
+	       <lon>-64</lon> 
+	       <stormName>SHARY</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>993</minSeaLevelPres> 
+	       <atcfdtg>2010103000</atcfdtg> 
+	       <dtg>0000 UTC OCT 30</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC OCT 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane SHARY (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC OCT 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>32.9 N, 60.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>989 mb; 29.21 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-60.9,32.9,0</coordinates> 
+	       </Point> 
+	       <lat>32.9</lat> 
+	       <lon>-60.9</lon> 
+	       <stormName>SHARY</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>989</minSeaLevelPres> 
+	       <atcfdtg>2010103006</atcfdtg> 
+	       <dtg>0600 UTC OCT 30</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC OCT 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane SHARY (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC OCT 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>35.1 N, 57.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>989 mb; 29.21 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-57.2,35.1,0</coordinates> 
+	       </Point> 
+	       <lat>35.1</lat> 
+	       <lon>-57.2</lon> 
+	       <stormName>SHARY</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>989</minSeaLevelPres> 
+	       <atcfdtg>2010103012</atcfdtg> 
+	       <dtg>1200 UTC OCT 30</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC OCT 30</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm SHARY (al202010)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC OCT 30</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>37.9 N, 52.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>991 mb; 29.27 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52.9,37.9,0</coordinates> 
+	       </Point> 
+	       <lat>37.9</lat> 
+	       <lon>-52.9</lon> 
+	       <stormName>SHARY</stormName> 
+	       <stormNum>20</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>991</minSeaLevelPres> 
+	       <atcfdtg>2010103018</atcfdtg> 
+	       <dtg>1800 UTC OCT 30</dtg> 
+	   </Placemark> 
+	</Folder>
+<Folder>
+<name>Legend</name>
+<open>0</open>
+<visibility>1</visibility>
+<ScreenOverlay>
+<name>Legend</name>
+<Icon>
+   breakPoint_legend.png
+</Icon>
+ <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+         <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay>
+</Folder>
+</Document> 
+</kml>

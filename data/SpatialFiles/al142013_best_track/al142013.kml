@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<kml xmlns="http://earth.google.com/kml/2.2"> 
+	<Document> 
+	<name>al142013 </name> 
+	<open>0</open> 
+	<description>
+		<![CDATA[<TABLE>
+		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for al142013</TD></TR>
+		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
+		<TR><TD><B>Date Created:</B> 01-23-2014</TD></TR>
+		<TR><TD><B>Created:</B> National Hurricane Center</TD></TR>
+		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. The NHC best track in KML format is an experimental products that the National Hurricane Center is testing during the 2008 hurricane season.   No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
+		<TR><TD><B>For More Information: </B><a href="http://www.nhc.noaa.gov">http://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
+	</description>
+	<Schema parent="Placemark" name="al142013"> 
+		<SimpleField type="wstring" name="StormName"></SimpleField> 
+		<SimpleField type="wstring" name="StormNumber"></SimpleField> 
+		<SimpleField type="wstring" name="StormType"></SimpleField> 
+		<SimpleField type="wstring" name="Basin"></SimpleField> 
+		<SimpleField type="wstring" name="lat"></SimpleField> 
+		<SimpleField type="wstring" name="lon"></SimpleField> 
+		<SimpleField type="wstring" name="Intensity"></SimpleField> 
+		<SimpleField type="wstring" name="MSLP"></SimpleField> 
+		<SimpleField type="wstring" name="DTG"></SimpleField> 
+	</Schema>
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Folder id="data"> 
+ 	    <name>Data</name> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>23.9 N, 52.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52.4,23.9,0</coordinates> 
+	       </Point> 
+	       <lat>23.9</lat> 
+	       <lon>-52.4</lon> 
+	       <stormName></stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2013111700</atcfdtg> 
+	       <dtg>0000 UTC NOV 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone INVEST (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>24.3 N, 52.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52.7,24.3,0</coordinates> 
+	       </Point> 
+	       <lat>24.3</lat> 
+	       <lon>-52.7</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2013111706</atcfdtg> 
+	       <dtg>0600 UTC NOV 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone INVEST (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>25.0 N, 52.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1005 mb; 29.68 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52.9,25,0</coordinates> 
+	       </Point> 
+	       <lat>25</lat> 
+	       <lon>-52.9</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1005</minSeaLevelPres> 
+	       <atcfdtg>2013111712</atcfdtg> 
+	       <dtg>1200 UTC NOV 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone INVEST (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>26.0 N, 52.9 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1002 mb; 29.59 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52.9,26,0</coordinates> 
+	       </Point> 
+	       <lat>26</lat> 
+	       <lon>-52.9</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1002</minSeaLevelPres> 
+	       <atcfdtg>2013111718</atcfdtg> 
+	       <dtg>1800 UTC NOV 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone INVEST (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.1 N, 52.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>997 mb; 29.44 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52.7,27.1,0</coordinates> 
+	       </Point> 
+	       <lat>27.1</lat> 
+	       <lon>-52.7</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>997</minSeaLevelPres> 
+	       <atcfdtg>2013111800</atcfdtg> 
+	       <dtg>0000 UTC NOV 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone INVEST (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>28.3 N, 52.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>992 mb; 29.30 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-52.7,28.3,0</coordinates> 
+	       </Point> 
+	       <lat>28.3</lat> 
+	       <lon>-52.7</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>992</minSeaLevelPres> 
+	       <atcfdtg>2013111806</atcfdtg> 
+	       <dtg>0600 UTC NOV 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Subtropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>29.1 N, 53.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>987 mb; 29.15 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ss</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-53.4,29.1,0</coordinates> 
+	       </Point> 
+	       <lat>29.1</lat> 
+	       <lon>-53.4</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Subtropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>987</minSeaLevelPres> 
+	       <atcfdtg>2013111812</atcfdtg> 
+	       <dtg>1200 UTC NOV 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Subtropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>29.7 N, 54.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>987 mb; 29.15 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ss</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-54,29.7,0</coordinates> 
+	       </Point> 
+	       <lat>29.7</lat> 
+	       <lon>-54</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Subtropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>987</minSeaLevelPres> 
+	       <atcfdtg>2013111818</atcfdtg> 
+	       <dtg>1800 UTC NOV 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Subtropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>30.2 N, 54.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>985 mb; 29.09 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ss</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-54.5,30.2,0</coordinates> 
+	       </Point> 
+	       <lat>30.2</lat> 
+	       <lon>-54.5</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Subtropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>985</minSeaLevelPres> 
+	       <atcfdtg>2013111900</atcfdtg> 
+	       <dtg>0000 UTC NOV 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Subtropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>30.8 N, 54.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>982 mb; 29.00 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ss</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-54.7,30.8,0</coordinates> 
+	       </Point> 
+	       <lat>30.8</lat> 
+	       <lon>-54.7</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Subtropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>982</minSeaLevelPres> 
+	       <atcfdtg>2013111906</atcfdtg> 
+	       <dtg>0600 UTC NOV 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Subtropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>31.6 N, 54.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>982 mb; 29.00 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ss</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-54.7,31.6,0</coordinates> 
+	       </Point> 
+	       <lat>31.6</lat> 
+	       <lon>-54.7</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Subtropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>982</minSeaLevelPres> 
+	       <atcfdtg>2013111912</atcfdtg> 
+	       <dtg>1200 UTC NOV 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Subtropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>32.5 N, 54.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>982 mb; 29.00 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ss</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-54.4,32.5,0</coordinates> 
+	       </Point> 
+	       <lat>32.5</lat> 
+	       <lon>-54.4</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Subtropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>982</minSeaLevelPres> 
+	       <atcfdtg>2013111918</atcfdtg> 
+	       <dtg>1800 UTC NOV 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 20</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Subtropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 20</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>33.3 N, 53.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>985 mb; 29.09 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ss</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-53.2,33.3,0</coordinates> 
+	       </Point> 
+	       <lat>33.3</lat> 
+	       <lon>-53.2</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Subtropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>985</minSeaLevelPres> 
+	       <atcfdtg>2013112000</atcfdtg> 
+	       <dtg>0000 UTC NOV 20</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 20</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 20</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.1 N, 51.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>988 mb; 29.18 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-51.4,34.1,0</coordinates> 
+	       </Point> 
+	       <lat>34.1</lat> 
+	       <lon>-51.4</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>988</minSeaLevelPres> 
+	       <atcfdtg>2013112006</atcfdtg> 
+	       <dtg>0600 UTC NOV 20</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 20</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 20</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>35.1 N, 49.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>988 mb; 29.18 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-49,35.1,0</coordinates> 
+	       </Point> 
+	       <lat>35.1</lat> 
+	       <lon>-49</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>988</minSeaLevelPres> 
+	       <atcfdtg>2013112012</atcfdtg> 
+	       <dtg>1200 UTC NOV 20</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 20</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 20</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>36.3 N, 46.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>988 mb; 29.18 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-46.4,36.3,0</coordinates> 
+	       </Point> 
+	       <lat>36.3</lat> 
+	       <lon>-46.4</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>988</minSeaLevelPres> 
+	       <atcfdtg>2013112018</atcfdtg> 
+	       <dtg>1800 UTC NOV 20</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 21</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 21</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>37.5 N, 43.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>984 mb; 29.06 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-43.5,37.5,0</coordinates> 
+	       </Point> 
+	       <lat>37.5</lat> 
+	       <lon>-43.5</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>984</minSeaLevelPres> 
+	       <atcfdtg>2013112100</atcfdtg> 
+	       <dtg>0000 UTC NOV 21</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 21</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 21</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>38.8 N, 40.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>984 mb; 29.06 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-40,38.8,0</coordinates> 
+	       </Point> 
+	       <lat>38.8</lat> 
+	       <lon>-40</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>984</minSeaLevelPres> 
+	       <atcfdtg>2013112106</atcfdtg> 
+	       <dtg>0600 UTC NOV 21</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 21</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 21</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>39.9 N, 36.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>980 mb; 28.94 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-36.6,39.9,0</coordinates> 
+	       </Point> 
+	       <lat>39.9</lat> 
+	       <lon>-36.6</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>980</minSeaLevelPres> 
+	       <atcfdtg>2013112112</atcfdtg> 
+	       <dtg>1200 UTC NOV 21</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 21</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 21</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>40.7 N, 33.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>980 mb; 28.94 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-33.3,40.7,0</coordinates> 
+	       </Point> 
+	       <lat>40.7</lat> 
+	       <lon>-33.3</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>980</minSeaLevelPres> 
+	       <atcfdtg>2013112118</atcfdtg> 
+	       <dtg>1800 UTC NOV 21</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 22</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low MELISSA (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 22</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>41.3 N, 30.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>984 mb; 29.06 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-30.2,41.3,0</coordinates> 
+	       </Point> 
+	       <lat>41.3</lat> 
+	       <lon>-30.2</lon> 
+	       <stormName>MELISSA</stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>50</intensity> 
+	       <intensityMPH>58</intensityMPH> 
+	       <intensityKPH>93</intensityKPH> 
+	       <minSeaLevelPres>984</minSeaLevelPres> 
+	       <atcfdtg>2013112200</atcfdtg> 
+	       <dtg>0000 UTC NOV 22</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 22</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low  (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 22</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>41.6 N, 27.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>988 mb; 29.18 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-27.5,41.6,0</coordinates> 
+	       </Point> 
+	       <lat>41.6</lat> 
+	       <lon>-27.5</lon> 
+	       <stormName></stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>988</minSeaLevelPres> 
+	       <atcfdtg>2013112206</atcfdtg> 
+	       <dtg>0600 UTC NOV 22</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC NOV 22</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC NOV 22</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>41.6 N, 24.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>992 mb; 29.30 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-24.7,41.6,0</coordinates> 
+	       </Point> 
+	       <lat>41.6</lat> 
+	       <lon>-24.7</lon> 
+	       <stormName></stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>992</minSeaLevelPres> 
+	       <atcfdtg>2013112212</atcfdtg> 
+	       <dtg>1200 UTC NOV 22</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC NOV 22</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC NOV 22</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>41.3 N, 22.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>996 mb; 29.42 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-22,41.3,0</coordinates> 
+	       </Point> 
+	       <lat>41.3</lat> 
+	       <lon>-22</lon> 
+	       <stormName></stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>996</minSeaLevelPres> 
+	       <atcfdtg>2013112218</atcfdtg> 
+	       <dtg>1800 UTC NOV 22</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC NOV 23</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC NOV 23</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>40.8 N, 19.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-19.5,40.8,0</coordinates> 
+	       </Point> 
+	       <lat>40.8</lat> 
+	       <lon>-19.5</lon> 
+	       <stormName></stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1000</minSeaLevelPres> 
+	       <atcfdtg>2013112300</atcfdtg> 
+	       <dtg>0000 UTC NOV 23</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC NOV 23</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Extratropical Cyclone  (al142013)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC NOV 23</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>40.0 N, 17.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1004 mb; 29.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ex</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-17.1,40,0</coordinates> 
+	       </Point> 
+	       <lat>40</lat> 
+	       <lon>-17.1</lon> 
+	       <stormName></stormName> 
+	       <stormNum>14</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Extratropical Cyclone</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1004</minSeaLevelPres> 
+	       <atcfdtg>2013112306</atcfdtg> 
+	       <dtg>0600 UTC NOV 23</dtg> 
+	   </Placemark> 
+	</Folder>
+<Folder>
+<name>Legend</name>
+<open>0</open>
+<visibility>1</visibility>
+<ScreenOverlay>
+<name>Legend</name>
+<Icon>
+   <href>breakPoint_legend.png</href>
+</Icon>
+ <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+         <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay>
+</Folder>
+</Document> 
+</kml>

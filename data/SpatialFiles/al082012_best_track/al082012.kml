@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<kml xmlns="http://earth.google.com/kml/2.2"> 
+	<Document> 
+	<name>al082012 </name> 
+	<open>0</open> 
+	<description>
+		<![CDATA[<TABLE>
+		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for al082012</TD></TR>
+		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
+		<TR><TD><B>Date Created:</B> 01-16-2013</TD></TR>
+		<TR><TD><B>Created:</B> National Hurricane Center</TD></TR>
+		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. The NHC best track in KML format is an experimental products that the National Hurricane Center is testing during the 2008 hurricane season.   No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
+		<TR><TD><B>For More Information: </B><a href="http://www.nhc.noaa.gov">http://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
+	</description>
+	<Schema parent="Placemark" name="al082012"> 
+		<SimpleField type="wstring" name="StormName"></SimpleField> 
+		<SimpleField type="wstring" name="StormNumber"></SimpleField> 
+		<SimpleField type="wstring" name="StormType"></SimpleField> 
+		<SimpleField type="wstring" name="Basin"></SimpleField> 
+		<SimpleField type="wstring" name="lat"></SimpleField> 
+		<SimpleField type="wstring" name="lon"></SimpleField> 
+		<SimpleField type="wstring" name="Intensity"></SimpleField> 
+		<SimpleField type="wstring" name="MSLP"></SimpleField> 
+		<SimpleField type="wstring" name="DTG"></SimpleField> 
+	</Schema>
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Folder id="data"> 
+ 	    <name>Data</name> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 15</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression INVEST (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 15</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>27.6 N, 54.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1013 mb; 29.92 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-54.6,27.6,0</coordinates> 
+	       </Point> 
+	       <lat>27.6</lat> 
+	       <lon>-54.6</lon> 
+	       <stormName>INVEST</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1013</minSeaLevelPres> 
+	       <atcfdtg>2012081512</atcfdtg> 
+	       <dtg>1200 UTC AUG 15</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 15</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Depression EIGHT (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 15</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>29.1 N, 55.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1012 mb; 29.89 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#td</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-55.1,29.1,0</coordinates> 
+	       </Point> 
+	       <lat>29.1</lat> 
+	       <lon>-55.1</lon> 
+	       <stormName>EIGHT</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Depression</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1012</minSeaLevelPres> 
+	       <atcfdtg>2012081518</atcfdtg> 
+	       <dtg>1800 UTC AUG 15</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 16</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm EIGHT (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 16</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>30.5 N, 55.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1010 mb; 29.83 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-55.4,30.5,0</coordinates> 
+	       </Point> 
+	       <lat>30.5</lat> 
+	       <lon>-55.4</lon> 
+	       <stormName>EIGHT</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>35</intensity> 
+	       <intensityMPH>40</intensityMPH> 
+	       <intensityKPH>65</intensityKPH> 
+	       <minSeaLevelPres>1010</minSeaLevelPres> 
+	       <atcfdtg>2012081600</atcfdtg> 
+	       <dtg>0000 UTC AUG 16</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 16</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 16</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>31.7 N, 55.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1009 mb; 29.80 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-55.2,31.7,0</coordinates> 
+	       </Point> 
+	       <lat>31.7</lat> 
+	       <lon>-55.2</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1009</minSeaLevelPres> 
+	       <atcfdtg>2012081606</atcfdtg> 
+	       <dtg>0600 UTC AUG 16</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 16</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 16</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>32.9 N, 54.4 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1006 mb; 29.71 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-54.4,32.9,0</coordinates> 
+	       </Point> 
+	       <lat>32.9</lat> 
+	       <lon>-54.4</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>1006</minSeaLevelPres> 
+	       <atcfdtg>2012081612</atcfdtg> 
+	       <dtg>1200 UTC AUG 16</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 16</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 16</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>33.9 N, 53.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>998 mb; 29.47 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-53,33.9,0</coordinates> 
+	       </Point> 
+	       <lat>33.9</lat> 
+	       <lon>-53</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>998</minSeaLevelPres> 
+	       <atcfdtg>2012081618</atcfdtg> 
+	       <dtg>1800 UTC AUG 16</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.3 N, 51.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>995 mb; 29.39 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-51.1,34.3,0</coordinates> 
+	       </Point> 
+	       <lat>34.3</lat> 
+	       <lon>-51.1</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>995</minSeaLevelPres> 
+	       <atcfdtg>2012081700</atcfdtg> 
+	       <dtg>0000 UTC AUG 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.6 N, 49.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>998 mb; 29.47 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-49.1,34.6,0</coordinates> 
+	       </Point> 
+	       <lat>34.6</lat> 
+	       <lon>-49.1</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>998</minSeaLevelPres> 
+	       <atcfdtg>2012081706</atcfdtg> 
+	       <dtg>0600 UTC AUG 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.4 N, 47.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>997 mb; 29.44 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-47,34.4,0</coordinates> 
+	       </Point> 
+	       <lat>34.4</lat> 
+	       <lon>-47</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>997</minSeaLevelPres> 
+	       <atcfdtg>2012081712</atcfdtg> 
+	       <dtg>1200 UTC AUG 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 17</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 17</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.3 N, 45.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>993 mb; 29.33 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-45,34.3,0</coordinates> 
+	       </Point> 
+	       <lat>34.3</lat> 
+	       <lon>-45</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>55</intensity> 
+	       <intensityMPH>63</intensityMPH> 
+	       <intensityKPH>102</intensityKPH> 
+	       <minSeaLevelPres>993</minSeaLevelPres> 
+	       <atcfdtg>2012081718</atcfdtg> 
+	       <dtg>1800 UTC AUG 17</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.2 N, 43.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>990 mb; 29.24 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-43.1,34.2,0</coordinates> 
+	       </Point> 
+	       <lat>34.2</lat> 
+	       <lon>-43.1</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>990</minSeaLevelPres> 
+	       <atcfdtg>2012081800</atcfdtg> 
+	       <dtg>0000 UTC AUG 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.0 N, 41.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>987 mb; 29.15 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-41.5,34,0</coordinates> 
+	       </Point> 
+	       <lat>34</lat> 
+	       <lon>-41.5</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>987</minSeaLevelPres> 
+	       <atcfdtg>2012081806</atcfdtg> 
+	       <dtg>0600 UTC AUG 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.0 N, 39.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>979 mb; 28.91 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>75 knots;  86 mph;  139 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-39.6,34,0</coordinates> 
+	       </Point> 
+	       <lat>34</lat> 
+	       <lon>-39.6</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>75</intensity> 
+	       <intensityMPH>86</intensityMPH> 
+	       <intensityKPH>139</intensityKPH> 
+	       <minSeaLevelPres>979</minSeaLevelPres> 
+	       <atcfdtg>2012081812</atcfdtg> 
+	       <dtg>1200 UTC AUG 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 18</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 18</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.0 N, 37.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>969 mb; 28.62 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>90 knots;  104 mph;  167 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat2</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-37.5,34,0</coordinates> 
+	       </Point> 
+	       <lat>34</lat> 
+	       <lon>-37.5</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>90</intensity> 
+	       <intensityMPH>104</intensityMPH> 
+	       <intensityKPH>167</intensityKPH> 
+	       <minSeaLevelPres>969</minSeaLevelPres> 
+	       <atcfdtg>2012081818</atcfdtg> 
+	       <dtg>1800 UTC AUG 18</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.3 N, 35.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>965 mb; 28.50 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>95 knots;  109 mph;  176 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat2</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-35,34.3,0</coordinates> 
+	       </Point> 
+	       <lat>34.3</lat> 
+	       <lon>-35</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>95</intensity> 
+	       <intensityMPH>109</intensityMPH> 
+	       <intensityKPH>176</intensityKPH> 
+	       <minSeaLevelPres>965</minSeaLevelPres> 
+	       <atcfdtg>2012081900</atcfdtg> 
+	       <dtg>0000 UTC AUG 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>34.7 N, 32.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>969 mb; 28.62 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>90 knots;  104 mph;  167 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat2</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-32.6,34.7,0</coordinates> 
+	       </Point> 
+	       <lat>34.7</lat> 
+	       <lon>-32.6</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>90</intensity> 
+	       <intensityMPH>104</intensityMPH> 
+	       <intensityKPH>167</intensityKPH> 
+	       <minSeaLevelPres>969</minSeaLevelPres> 
+	       <atcfdtg>2012081906</atcfdtg> 
+	       <dtg>0600 UTC AUG 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>35.2 N, 30.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>969 mb; 28.62 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>90 knots;  104 mph;  167 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat2</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-30.6,35.2,0</coordinates> 
+	       </Point> 
+	       <lat>35.2</lat> 
+	       <lon>-30.6</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>90</intensity> 
+	       <intensityMPH>104</intensityMPH> 
+	       <intensityKPH>167</intensityKPH> 
+	       <minSeaLevelPres>969</minSeaLevelPres> 
+	       <atcfdtg>2012081912</atcfdtg> 
+	       <dtg>1200 UTC AUG 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 19</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 19</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>35.7 N, 28.5 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>977 mb; 28.85 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>80 knots;  92 mph;  148 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-28.5,35.7,0</coordinates> 
+	       </Point> 
+	       <lat>35.7</lat> 
+	       <lon>-28.5</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>80</intensity> 
+	       <intensityMPH>92</intensityMPH> 
+	       <intensityKPH>148</intensityKPH> 
+	       <minSeaLevelPres>977</minSeaLevelPres> 
+	       <atcfdtg>2012081918</atcfdtg> 
+	       <dtg>1800 UTC AUG 19</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 20</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 20</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>36.4 N, 26.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>981 mb; 28.97 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>70 knots;  81 mph;  130 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-26.6,36.4,0</coordinates> 
+	       </Point> 
+	       <lat>36.4</lat> 
+	       <lon>-26.6</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>70</intensity> 
+	       <intensityMPH>81</intensityMPH> 
+	       <intensityKPH>130</intensityKPH> 
+	       <minSeaLevelPres>981</minSeaLevelPres> 
+	       <atcfdtg>2012082000</atcfdtg> 
+	       <dtg>0000 UTC AUG 20</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 20</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Hurricane GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 20</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>37.1 N, 25.0 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>984 mb; 29.06 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#cat1</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-25,37.1,0</coordinates> 
+	       </Point> 
+	       <lat>37.1</lat> 
+	       <lon>-25</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Hurricane</stormType> 
+	       <intensity>65</intensity> 
+	       <intensityMPH>75</intensityMPH> 
+	       <intensityKPH>120</intensityKPH> 
+	       <minSeaLevelPres>984</minSeaLevelPres> 
+	       <atcfdtg>2012082006</atcfdtg> 
+	       <dtg>0600 UTC AUG 20</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 20</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Tropical Storm GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 20</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>37.9 N, 23.2 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>990 mb; 29.24 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#ts</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-23.2,37.9,0</coordinates> 
+	       </Point> 
+	       <lat>37.9</lat> 
+	       <lon>-23.2</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Tropical Storm</stormType> 
+	       <intensity>60</intensity> 
+	       <intensityMPH>69</intensityMPH> 
+	       <intensityKPH>111</intensityKPH> 
+	       <minSeaLevelPres>990</minSeaLevelPres> 
+	       <atcfdtg>2012082012</atcfdtg> 
+	       <dtg>1200 UTC AUG 20</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1800 UTC AUG 20</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low GORDON (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1800 UTC AUG 20</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>38.9 N, 21.1 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>996 mb; 29.42 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-21.1,38.9,0</coordinates> 
+	       </Point> 
+	       <lat>38.9</lat> 
+	       <lon>-21.1</lon> 
+	       <stormName>GORDON</stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>45</intensity> 
+	       <intensityMPH>52</intensityMPH> 
+	       <intensityKPH>83</intensityKPH> 
+	       <minSeaLevelPres>996</minSeaLevelPres> 
+	       <atcfdtg>2012082018</atcfdtg> 
+	       <dtg>1800 UTC AUG 20</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0000 UTC AUG 21</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low  (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0000 UTC AUG 21</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>39.8 N, 19.3 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-19.3,39.8,0</coordinates> 
+	       </Point> 
+	       <lat>39.8</lat> 
+	       <lon>-19.3</lon> 
+	       <stormName></stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1000</minSeaLevelPres> 
+	       <atcfdtg>2012082100</atcfdtg> 
+	       <dtg>0000 UTC AUG 21</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>0600 UTC AUG 21</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low  (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>0600 UTC AUG 21</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>40.0 N, 17.7 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1002 mb; 29.59 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-17.7,40,0</coordinates> 
+	       </Point> 
+	       <lat>40</lat> 
+	       <lon>-17.7</lon> 
+	       <stormName></stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>40</intensity> 
+	       <intensityMPH>46</intensityMPH> 
+	       <intensityKPH>74</intensityKPH> 
+	       <minSeaLevelPres>1002</minSeaLevelPres> 
+	       <atcfdtg>2012082106</atcfdtg> 
+	       <dtg>0600 UTC AUG 21</dtg> 
+	   </Placemark> 
+	   <Placemark> 
+	      <name>1200 UTC AUG 21</name> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+	       		<tr><td>Low  (al082012)</td></tr> 
+	       		<tr><td><hr></td></tr> 
+	       		<tr><td>1200 UTC AUG 21</td></tr> 
+	       		<tr><td>Storm Location:</td></tr> 
+	       		<tr><td> <B>39.8 N, 16.6 W</B> </td></tr> 
+	       		<tr><td>Min Sea Level Pressure:</td></tr> 
+	       		<tr><td>1004 mb; 29.65 in Hg</td></tr> 
+	       		<tr><td>Maxium Intensity:</td></tr> 
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]> 
+	       </description> 
+	       <styleUrl>#lo</styleUrl>> 
+	       <Point> 
+	   	   <coordinates>-16.6,39.8,0</coordinates> 
+	       </Point> 
+	       <lat>39.8</lat> 
+	       <lon>-16.6</lon> 
+	       <stormName></stormName> 
+	       <stormNum>08</stormNum> 
+	       <basin>AL</basin> 
+	       <stormType>Low</stormType> 
+	       <intensity>30</intensity> 
+	       <intensityMPH>35</intensityMPH> 
+	       <intensityKPH>56</intensityKPH> 
+	       <minSeaLevelPres>1004</minSeaLevelPres> 
+	       <atcfdtg>2012082112</atcfdtg> 
+	       <dtg>1200 UTC AUG 21</dtg> 
+	   </Placemark> 
+	</Folder>
+<Folder>
+<name>Legend</name>
+<open>0</open>
+<visibility>1</visibility>
+<ScreenOverlay>
+<name>Legend</name>
+<Icon>
+   <href>breakPoint_legend.png</href>
+</Icon>
+ <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+         <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+         <size x="-1" y="-1" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay>
+</Folder>
+</Document> 
+</kml>

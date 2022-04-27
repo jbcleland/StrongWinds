@@ -1,0 +1,1338 @@
+,Category_x,Name,Year,Month_only,Month-Year,Sustainedwind speeds,Deaths, Actual Dollars ,Category_y,DateImpact,Landfall
+0,2.0,Eight,1851,July,"July,1851",105.0,,,,,
+1,2.0,Five,1851,June,"June,1851",105.0,,,,,
+2,3.0,Mobile,1851,July,"July,1851",115.0,300.0,,,,
+3,1.0,One,1851,June,"June,1851",90.0,1.0,,,,
+4,3.0,San Agapito,1851,June,"June,1851",115.0,23.0,,,,
+5,1.0,Two,1851,July,"July,1851",90.0,0.0,,,,
+6,2.0,Four,1852,September,"September,1852",105.0,4.0," $20,000.00 ",,,
+7,1.0,Four,1852,September,"September,1852",90.0,0.0,,,,
+8,3.0,Coastal,1852,September,"September,1852",125.0,26.0,,,,
+9,1.0,Hurricane San Lorenzo of 1852,1852,September,"September,1852",80.0,,,,,
+10,3.0,Middle Gulf Coast,1852,September,"September,1852",125.0,,,,,
+11,2.0,One,1852,September,"September,1852",105.0,,,,,
+12,1.0,Three,1852,September,"September,1852",80.0,0.0,,,,
+13,2.0,Two,1852,September,"September,1852",105.0,0.0,,,,
+14,3.0,Unnamed,1852,September,"September,1852",115.0,,,3,August 26,Alabama
+15,3.0,Unnamed,1852,September,"September,1852",115.0,,,1,August 26,Florida
+16,3.0,Unnamed,1852,September,"September,1852",115.0,,,1,September 12,Florida
+17,3.0,Unnamed,1852,September,"September,1852",115.0,,,2,October 9,Florida
+18,3.0,Unnamed,1852,September,"September,1852",115.0,,,1,October 10,Georgia
+19,3.0,Unnamed,1852,September,"September,1852",115.0,,,2,August 25,Louisiana
+20,3.0,Unnamed,1852,September,"September,1852",115.0,,,3,August 26,Mississippi
+21,1.0,Six,1853,September,"September,1853",80.0,0.0,,,,
+22,3.0,Southeastern,1853,September,"September,1853",115.0,4.0,,,,
+23,2.0,Two,1853,September,"September,1853",105.0,424.0,,,,
+24,2.0,Four,1854,June,"June,1854",105.0,0.0,,,,
+25,1.0,One,1854,June,"June,1854",80.0,0.0,,,,
+26,3.0,Unnamed,1854,June,"June,1854",125.0,,,1,September 8,Florida
+27,3.0,Unnamed,1854,June,"June,1854",125.0,,,3,September 8,Georgia
+28,3.0,Unnamed,1854,June,"June,1854",125.0,,,2,September 8,South Carolina
+29,3.0,Unnamed,1854,June,"June,1854",125.0,,,1,June 26,Texas
+30,3.0,Unnamed,1854,June,"June,1854",125.0,,,2,September 18,Texas
+31,3.0,San Narciso,1855,August,"August,1855",125.0,811.0,,,,
+32,2.0,Three,1855,August,"August,1855",105.0,0.0,,,,
+33,1.0,Three,1855,August,"August,1855",80.0,0.0,,,,
+34,4.0,Last Island,1856,August,"August,1856",,,,,,
+35,3.0,New England,1856,August,"August,1856",115.0,12.0,,,,
+36,2.0,One,1856,September,"September,1856",105.0,0.0,,,,
+37,2.0,Six,1856,August,"August,1856",105.0,0.0,,,,
+38,1.0,Six,1856,September,"September,1856",80.0,0.0,,,,
+39,1.0,Two,1856,August,"August,1856",80.0,0.0,,,,
+40,3.0,Unnamed,1856,September,"September,1856",125.0,,,1,August 31,Alabama
+41,3.0,Unnamed,1856,September,"September,1856",125.0,,,2,August 31,Florida
+42,3.0,Unnamed,1856,September,"September,1856",125.0,,,1,August 31,Georgia
+43,3.0,Unnamed,1856,September,"September,1856",125.0,,,4,August 11,Louisiana
+44,3.0,San Marcos,1857,September,"September,1857",115.0,1200.0,,,,
+45,1.0,Three,1857,September,"September,1857",80.0,0.0,,,,
+46,2.0,Two,1857,September,"September,1857",105.0,0.0,,,,
+47,3.0,Central Florida,1858,September,"September,1858",115.0,26.0,,,,
+48,1.0,Five,1858,September,"September,1858",90.0,0.0,,,,
+49,2.0,Four,1858,June,"June,1858",105.0,0.0,,,,
+50,1.0,Four,1858,September,"September,1858",90.0,0.0,,,,
+51,2.0,Four,1858,September,"September,1858",100.0,,,,,
+52,3.0,Nova Scotia,1858,September,"September,1858",115.0,600.0,,,,
+53,1.0,One,1858,June,"June,1858",80.0,0.0,,,,
+54,3.0,Santa Juana,1858,August,"August,1858",115.0,27.0,,,,
+55,2.0,Six,1858,September,"September,1858",105.0,,,,,
+56,2.0,Two,1858,August,"August,1858",100.0,0.0,,,,
+57,1.0,Two,1858,August,"August,1858",80.0,0.0,,,,
+58,3.0,Unnamed,1858,June,"June,1858",115.0,,,1,September 16,Conneticut
+59,3.0,Unnamed,1858,June,"June,1858",115.0,,,1,September 16,Massachusetts
+60,3.0,Unnamed,1858,June,"June,1858",115.0,,,1,September 16,New York
+61,3.0,Unnamed,1858,June,"June,1858",115.0,,,1,September 16,Rhode Island
+62,1.0,Eight,1859,October,"October,1859",90.0,,,,,
+63,1.0,Five,1859,September,"September,1859",80.0,2.0,,,,
+64,3.0,Indianola,1859,September,"September,1859",115.0,829.0,,,,
+65,2.0,One,1859,September,"September,1859",105.0,0.0,,,,
+66,3.0,San Felipe,1859,September,"September,1859",115.0,21.0,,,,
+67,2.0,Seven,1859,September,"September,1859",105.0,0.0,,,,
+68,1.0,Three,1859,September,"September,1859",80.0,0.0,,,,
+69,2.0,Three,1859,October,"October,1859",105.0,0.0,,,,
+70,3.0,Unnamed,1859,October,"October,1859",115.0,,,1,September 16,Alabama
+71,3.0,Unnamed,1859,October,"October,1859",115.0,,,1,September 16,Florida
+72,3.0,Unnamed,1859,October,"October,1859",115.0,,,1,October 28,Florida
+73,1.0,Three,1860,September,"September,1860",80.0,0.0,,,,
+74,2.0,Two,1860,September,"September,1860",105.0,0.0,,,,
+75,3.0,Unnamed,1860,September,"September,1860",115.0,84.0,,2,August 12,Alabama
+76,3.0,Unnamed,1860,September,"September,1860",115.0,84.0,,1,September 16,Alabama
+77,3.0,Unnamed,1860,September,"September,1860",115.0,84.0,,3,August 11,Louisiana
+78,3.0,Unnamed,1860,September,"September,1860",115.0,84.0,,2,September 15,Louisiana
+79,3.0,Unnamed,1860,September,"September,1860",115.0,84.0,,2,October 2,Louisiana
+80,3.0,Unnamed,1860,September,"September,1860",115.0,84.0,,3,August 12,Mississippi
+81,3.0,Unnamed,1860,September,"September,1860",115.0,84.0,,2,September 15,Mississippi
+82,1.0,Five,1861,September,"September,1861",80.0,0.0,,,,
+83,1.0,Four,1861,September,"September,1861",80.0,0.0,,,,
+84,2.0,One,1861,September,"September,1861",105.0,0.0,,,,
+85,1.0,The Expedition Hurricane of 1861,1861,November,"November,1861",80.0,0.0,,,,
+86,2.0,Three,1861,August,"August,1861",105.0,0.0,,,,
+87,2.0,Three,1861,November,"November,1861",105.0,0.0,,,,
+88,1.0,Two,1861,August,"August,1861",90.0,0.0,,,,
+89,2.0,Two,1861,September,"September,1861",105.0,0.0,,,,
+90,3.0,Unnamed,1861,September,"September,1861",115.0,46.0,,1,August 16,Florida
+91,3.0,Unnamed,1861,September,"September,1861",115.0,46.0,,1,September 27,North Carolina
+92,3.0,Unnamed,1861,September,"September,1861",115.0,46.0,,1,November 2,North Carolina
+93,3.0,Unnamed,1861,November,"November,1861",125.0,9.0,,1,August 16,Florida
+94,3.0,Unnamed,1861,November,"November,1861",125.0,9.0,,1,September 27,North Carolina
+95,3.0,Unnamed,1861,November,"November,1861",125.0,9.0,,1,November 2,North Carolina
+96,3.0,Unnamed,1861,September,"September,1861",125.0,1.0,,1,August 16,Florida
+97,3.0,Unnamed,1861,September,"September,1861",125.0,1.0,,1,September 27,North Carolina
+98,3.0,Unnamed,1861,September,"September,1861",125.0,1.0,,1,November 2,North Carolina
+99,3.0,Unnamed,1861,August,"August,1861",115.0,,,1,August 16,Florida
+100,3.0,Unnamed,1861,August,"August,1861",115.0,,,1,September 27,North Carolina
+101,3.0,Unnamed,1861,August,"August,1861",115.0,,,1,November 2,North Carolina
+102,1.0,Five,1862,October,"October,1862",80.0,3.0,,,,
+103,2.0,Four,1862,October,"October,1862",105.0,0.0,,,,
+104,3.0,Unnamed,1862,October,"October,1862",125.0,,,,,
+105,1.0,Five,1863,September,"September,1863",80.0,0.0,,,,
+106,2.0,Four,1863,September,"September,1863",105.0,325.0,,,,
+107,3.0,Unnamed,1863,September,"September,1863",125.0,106.0,,,,
+108,2.0,Seven,1864,July,"July,1864",105.0,1.0," $300,000.00 ",,,
+109,1.0,Five,1864,October,"October,1864",80.0,0.0,,,,
+110,1.0,One,1864,July,"July,1864",80.0,0.0,,,,
+111,2.0,One,1864,August,"August,1864",105.0,,,,,
+112,1.0,Three,1864,August,"August,1864",80.0,0.0,,,,
+113,2.0,Two,1864,October,"October,1864",105.0,,,,,
+114,3.0,Unnamed,1864,August,"August,1864",120.0,4.0,,,,
+115,3.0,Unnamed,1864,October,"October,1864",115.0,,,,,
+116,3.0,Unnamed,1864,July,"July,1864",125.0,,,,,
+117,2.0,Four,1866,September,"September,1866",105.0,8.0,,,,
+118,1.0,Four,1866,September,"September,1866",80.0,0.0,,,,
+119,1.0,Three,1866,September,"September,1866",80.0,0.0,,,,
+120,2.0,Two,1866,September,"September,1866",105.0,13.0,,,,
+121,3.0,Unnamed,1866,September,"September,1866",120.0,150.0,,2,July 15,Texas
+122,3.0,Unnamed,1866,September,"September,1866",120.0,,,2,July 15,Texas
+123,1.0,Four,1867,August,"August,1867",80.0,0.0,,,,
+124,1.0,One,1867,June,"June,1867",80.0,0.0,,,,
+125,2.0,Six,1867,August,"August,1867",105.0,0.0,,,,
+126,2.0,Three,1867,June,"June,1867",105.0,0.0,,,,
+127,3.0,Unnamed,1867,August,"August,1867",125.0,12.0,,1,October 6,Florida
+128,3.0,Unnamed,1867,August,"August,1867",125.0,12.0,,2,October 4,Louisiana
+129,3.0,Unnamed,1867,August,"August,1867",125.0,12.0,,1,June 22,South Carolina
+130,3.0,Unnamed,1867,August,"August,1867",125.0,12.0,,1,October 2,Texas
+131,3.0,Unnamed,1867,June,"June,1867",120.0,,,1,October 6,Florida
+132,3.0,Unnamed,1867,June,"June,1867",120.0,,,2,October 4,Louisiana
+133,3.0,Unnamed,1867,June,"June,1867",120.0,,,1,June 22,South Carolina
+134,3.0,Unnamed,1867,June,"June,1867",120.0,,,1,October 2,Texas
+135,1.0,Five,1869,September,"September,1869",80.0,0.0,,,,
+136,2.0,Seven,1869,September,"September,1869",105.0,,,,,
+137,3.0,Unnamed,1869,September,"September,1869",125.0,921.0,,1,September 8,Conneticut
+138,3.0,Unnamed,1869,September,"September,1869",125.0,921.0,,1,September 5,Louisiana
+139,3.0,Unnamed,1869,September,"September,1869",125.0,921.0,,2,October 4,Maine
+140,3.0,Unnamed,1869,September,"September,1869",125.0,921.0,,3,September 8,Massachusetts
+141,3.0,Unnamed,1869,September,"September,1869",125.0,921.0,,1,October 4,Massachusetts
+142,3.0,Unnamed,1869,September,"September,1869",125.0,921.0,,1,September 8,New York
+143,3.0,Unnamed,1869,September,"September,1869",125.0,921.0,,1,September 8,Rhode Island
+144,3.0,Unnamed,1869,September,"September,1869",125.0,921.0,,2,August 17,Texas
+145,1.0,Eight,1870,October,"October,1870",80.0,0.0,,,,
+146,1.0,Eleven,1870,October,"October,1870",80.0,0.0,,,,
+147,1.0,Five,1870,September,"September,1870",90.0,0.0,,,,
+148,2.0,Four,1870,October,"October,1870",105.0,0.0,,,,
+149,3.0,Midnight Storm,1870,October,"October,1870",115.0,34.0,,,,
+150,2.0,One,1870,July,"July,1870",105.0,2.0,,,,
+151,2.0,One,1870,October,"October,1870",105.0,0.0,,,,
+152,3.0,San Mag√≠n,1870,September,"September,1870",125.0,703.0,,,,
+153,3.0,San Roque,1870,October,"October,1870",120.0,4.0,,,,
+154,3.0,Sea Islands,1870,October,"October,1870",120.0,1000.0,,,,
+155,1.0,Seven,1870,October,"October,1870",80.0,0.0,,,,
+156,1.0,The Mobile Hurricane of 1870,1870,July,"July,1870",80.0,,,,,
+157,2.0,Three,1870,September,"September,1870",105.0,0.0,,,,
+158,2.0,Two,1870,October,"October,1870",105.0,,,,,
+159,3.0,Unnamed,1870,July,"July,1870",120.0,10.0,,1,July 30,Alabama
+160,3.0,Unnamed,1870,July,"July,1870",120.0,10.0,,1,October 9,Florida
+161,3.0,Unnamed,1870,July,"July,1870",120.0,10.0,,1,October 20,Florida
+162,1.0,Eight,1871,October,"October,1871",80.0,0.0,,,,
+163,1.0,Seven,1871,September,"September,1871",80.0,0.0,,,,
+164,2.0,Seven,1871,September,"September,1871",105.0,0.0,,,,
+165,1.0,Six,1871,September,"September,1871",80.0,0.0,,,,
+166,2.0,Ten,1871,September,"September,1871",105.0,37.0,,,,
+167,2.0,Two,1871,October,"October,1871",105.0,0.0,,,,
+168,3.0,Unnamed,1871,October,"October,1871",120.0,200.0,,3,August 16,Florida
+169,3.0,Unnamed,1871,October,"October,1871",120.0,200.0,,2,August 25,Florida
+170,3.0,Unnamed,1871,October,"October,1871",120.0,200.0,,1,September 6,Florida
+171,3.0,Unnamed,1871,September,"September,1871",120.0,28.0,,3,August 16,Florida
+172,3.0,Unnamed,1871,September,"September,1871",120.0,28.0,,2,August 25,Florida
+173,3.0,Unnamed,1871,September,"September,1871",120.0,28.0,,1,September 6,Florida
+174,3.0,Unnamed,1871,September,"September,1871",115.0,1.0,,3,August 16,Florida
+175,3.0,Unnamed,1871,September,"September,1871",115.0,1.0,,2,August 25,Florida
+176,3.0,Unnamed,1871,September,"September,1871",115.0,1.0,,1,September 6,Florida
+177,3.0,Cedar Keys,1872,October,"October,1872",125.0,202.0,,,,
+178,1.0,Five,1872,October,"October,1872",80.0,0.0,,,,
+179,2.0,Five,1872,October,"October,1872",105.0,0.0,,,,
+180,1.0,Four,1872,September,"September,1872",80.0,0.0,,,,
+181,2.0,Nine,1872,September,"September,1872",105.0,52.0,,,,
+182,3.0,San Ram√≥n,1872,September,"September,1872",115.0,,,,,
+183,2.0,Ten,1872,September,"September,1872",105.0,0.0,,,,
+184,1.0,Three,1872,September,"September,1872",80.0,0.0,,,,
+185,3.0,Unnamed,1872,September,"September,1872",120.0,9.0,,,,
+186,1.0,Three,1873,September,"September,1873",80.0,0.0,,,,
+187,2.0,Two,1873,September,"September,1873",105.0,0.0,,,,
+188,3.0,Unnamed,1873,September,"September,1873",115.0,17.0,,3,October 7,Florida
+189,3.0,Unnamed,1873,September,"September,1873",115.0,17.0,,1,September 19,Florida
+190,2.0,Five,1874,August,"August,1874",105.0,0.0,,,,
+191,2.0,Four,1874,September,"September,1874",105.0,0.0,,,,
+192,2.0,Seven,1874,August,"August,1874",105.0,0.0,,,,
+193,1.0,Six,1874,September,"September,1874",90.0,0.0,,,,
+194,1.0,Three,1874,August,"August,1874",90.0,0.0,,,,
+195,1.0,Two,1874,August,"August,1874",80.0,0.0,,,,
+196,3.0,Unnamed,1874,August,"August,1874",120.0,149.0,,1,September 28,Florida
+197,3.0,Unnamed,1874,August,"August,1874",120.0,149.0,,1,September 24,North Carolina
+198,3.0,Unnamed,1874,August,"August,1874",120.0,149.0,,1,September 28,South Carolina
+199,3.0,Unnamed,1874,September,"September,1874",120.0,5.0,,1,September 28,Florida
+200,3.0,Unnamed,1874,September,"September,1874",120.0,5.0,,1,September 24,North Carolina
+201,3.0,Unnamed,1874,September,"September,1874",120.0,5.0,,1,September 28,South Carolina
+202,3.0,Unnamed,1874,August,"August,1874",120.0,,,1,September 28,Florida
+203,3.0,Unnamed,1874,August,"August,1874",120.0,,,1,September 24,North Carolina
+204,3.0,Unnamed,1874,August,"August,1874",120.0,,,1,September 28,South Carolina
+205,2.0,Five,1875,September,"September,1875",105.0,9.0,,,,
+206,2.0,Four,1875,August,"August,1875",105.0,0.0,,,,
+207,1.0,One,1875,August,"August,1875",80.0,0.0,,,,
+208,1.0,Six,1875,October,"October,1875",80.0,0.0,,,,
+209,2.0,Six,1875,October,"October,1875",105.0,0.0,,,,
+210,1.0,Two,1875,September,"September,1875",80.0,0.0,,,,
+211,3.0,Unnamed,1875,September,"September,1875",120.0,240.0,,3,September 16,Texas
+212,3.0,Unnamed,1875,August,"August,1875",120.0,134.0,,3,September 16,Texas
+213,3.0,Unnamed,1875,October,"October,1875",120.0,19.0,,3,September 16,Texas
+214,2.0,Eleven,1876,September,"September,1876",105.0,72.0," $2,000,000.00 ",,,
+215,1.0,One,1876,September,"September,1876",90.0,0.0,,,,
+216,3.0,Unnamed,1876,September,"September,1876",115.0,41.0,,2,October 20,Florida
+217,3.0,Unnamed,1876,September,"September,1876",115.0,41.0,,1,September 17,North Carolina
+218,3.0,Unnamed,1876,September,"September,1876",115.0,41.0,,1,September 17,Virginia
+219,2.0,Eight,1877,September,"September,1877",105.0,0.0,,,,
+220,1.0,Three,1877,September,"September,1877",80.0,0.0,,,,
+221,2.0,Two,1877,September,"September,1877",105.0,0.0,,,,
+222,1.0,Two,1877,September,"September,1877",80.0,0.0,,,,
+223,3.0,Unnamed,1877,September,"September,1877",120.0,4000.0,,1,September 19,Florida
+224,3.0,Unnamed,1877,September,"September,1877",120.0,4000.0,,3,October 3,Florida
+225,3.0,Unnamed,1877,September,"September,1877",120.0,4000.0,,1,October 3,Georgia
+226,3.0,Unnamed,1877,September,"September,1877",120.0,4000.0,,1,September 18,Louisiana
+227,3.0,Unnamed,1877,September,"September,1877",120.0,400.0,,1,September 19,Florida
+228,3.0,Unnamed,1877,September,"September,1877",120.0,400.0,,3,October 3,Florida
+229,3.0,Unnamed,1877,September,"September,1877",120.0,400.0,,1,October 3,Georgia
+230,3.0,Unnamed,1877,September,"September,1877",120.0,400.0,,1,September 18,Louisiana
+231,1.0,Eight,1878,October,"October,1878",80.0,27.0,,,,
+232,2.0,Five,1878,August,"August,1878",105.0,700.0,,,,
+233,2.0,Four,1878,August,"August,1878",105.0,68.0,,,,
+234,2.0,Four,1878,October,"October,1878",105.0,8.0,,,,
+235,1.0,Nine,1878,October,"October,1878",80.0,0.0,,,,
+236,2.0,Six,1878,October,"October,1878",105.0,0.0,,,,
+237,1.0,Three,1878,August,"August,1878",90.0,0.0,,,,
+238,1.0,Two,1878,August,"August,1878",80.0,,,,,
+239,3.0,Unnamed,1878,August,"August,1878",115.0,200.0,,1,October 23,Deleware
+240,3.0,Unnamed,1878,August,"August,1878",115.0,200.0,,2,September 10,Florida
+241,3.0,Unnamed,1878,August,"August,1878",115.0,200.0,,1,September 11,Georgia
+242,3.0,Unnamed,1878,August,"August,1878",115.0,200.0,,1,October 23,Maryland
+243,3.0,Unnamed,1878,August,"August,1878",115.0,200.0,,1,October 23,New Jersey
+244,3.0,Unnamed,1878,August,"August,1878",115.0,200.0,,2,October 23,North Carolina
+245,3.0,Unnamed,1878,August,"August,1878",115.0,200.0,,1,September 12,South Carolina
+246,3.0,Unnamed,1878,August,"August,1878",115.0,200.0,,1,October 23,Virginia
+247,3.0,Unnamed,1878,August,"August,1878",120.0,34.0,,1,October 23,Deleware
+248,3.0,Unnamed,1878,August,"August,1878",120.0,34.0,,2,September 10,Florida
+249,3.0,Unnamed,1878,August,"August,1878",120.0,34.0,,1,September 11,Georgia
+250,3.0,Unnamed,1878,August,"August,1878",120.0,34.0,,1,October 23,Maryland
+251,3.0,Unnamed,1878,August,"August,1878",120.0,34.0,,1,October 23,New Jersey
+252,3.0,Unnamed,1878,August,"August,1878",120.0,34.0,,2,October 23,North Carolina
+253,3.0,Unnamed,1878,August,"August,1878",120.0,34.0,,1,September 12,South Carolina
+254,3.0,Unnamed,1878,August,"August,1878",120.0,34.0,,1,October 23,Virginia
+255,3.0,Unnamed,1878,October,"October,1878",120.0,34.0,,1,October 23,Deleware
+256,3.0,Unnamed,1878,October,"October,1878",120.0,34.0,,2,September 10,Florida
+257,3.0,Unnamed,1878,October,"October,1878",120.0,34.0,,1,September 11,Georgia
+258,3.0,Unnamed,1878,October,"October,1878",120.0,34.0,,1,October 23,Maryland
+259,3.0,Unnamed,1878,October,"October,1878",120.0,34.0,,1,October 23,New Jersey
+260,3.0,Unnamed,1878,October,"October,1878",120.0,34.0,,2,October 23,North Carolina
+261,3.0,Unnamed,1878,October,"October,1878",120.0,34.0,,1,September 12,South Carolina
+262,3.0,Unnamed,1878,October,"October,1878",120.0,34.0,,1,October 23,Virginia
+263,3.0,Unnamed,1878,October,"October,1878",120.0,1.0,,1,October 23,Deleware
+264,3.0,Unnamed,1878,October,"October,1878",120.0,1.0,,2,September 10,Florida
+265,3.0,Unnamed,1878,October,"October,1878",120.0,1.0,,1,September 11,Georgia
+266,3.0,Unnamed,1878,October,"October,1878",120.0,1.0,,1,October 23,Maryland
+267,3.0,Unnamed,1878,October,"October,1878",120.0,1.0,,1,October 23,New Jersey
+268,3.0,Unnamed,1878,October,"October,1878",120.0,1.0,,2,October 23,North Carolina
+269,3.0,Unnamed,1878,October,"October,1878",120.0,1.0,,1,September 12,South Carolina
+270,3.0,Unnamed,1878,October,"October,1878",120.0,1.0,,1,October 23,Virginia
+271,2.0,Two,1879,August,"August,1879",105.0,25.0," $1,800,000.00 ",,,
+272,1.0,One,1879,August,"August,1879",80.0,0.0,,,,
+273,2.0,One,1879,October,"October,1879",100.0,,,,,
+274,1.0,Seven,1879,October,"October,1879",80.0,0.0,,,,
+275,3.0,Unnamed,1879,August,"August,1879",120.0,26.0,,2,August 23,Louisiana
+276,3.0,Unnamed,1879,August,"August,1879",120.0,26.0,,3,September 1,Louisiana
+277,3.0,Unnamed,1879,August,"August,1879",120.0,26.0,,1,August 19,Massachusetts
+278,3.0,Unnamed,1879,August,"August,1879",120.0,26.0,,3,August 18,North Carolina
+279,3.0,Unnamed,1879,August,"August,1879",120.0,26.0,,2,August 23,Texas
+280,3.0,Unnamed,1879,August,"August,1879",120.0,26.0,,2,August 18,Virginia
+281,3.0,Unnamed,1879,October,"October,1879",120.0,,,2,August 23,Louisiana
+282,3.0,Unnamed,1879,October,"October,1879",120.0,,,3,September 1,Louisiana
+283,3.0,Unnamed,1879,October,"October,1879",120.0,,,1,August 19,Massachusetts
+284,3.0,Unnamed,1879,October,"October,1879",120.0,,,3,August 18,North Carolina
+285,3.0,Unnamed,1879,October,"October,1879",120.0,,,2,August 23,Texas
+286,3.0,Unnamed,1879,October,"October,1879",120.0,,,2,August 18,Virginia
+287,2.0,Eight,1880,September,"September,1880",100.0,0.0,,,,
+288,2.0,Eight,1880,October,"October,1880",105.0,0.0,,,,
+289,1.0,Five,1880,August,"August,1880",90.0,0.0,,,,
+290,2.0,Four,1880,October,"October,1880",100.0,0.0,,,,
+291,1.0,Nine,1880,October,"October,1880",80.0,0.0,,,,
+292,2.0,Nine,1880,September,"September,1880",100.0,0.0,,,,
+293,3.0,San Pedro,1880,September,"September,1880",125.0,80.0,,,,
+294,1.0,Seven,1880,September,"September,1880",90.0,0.0,,,,
+295,1.0,Six,1880,September,"September,1880",80.0,0.0,,,,
+296,1.0,Ten,1880,October,"October,1880",90.0,0.0,,,,
+297,2.0,Three,1880,August,"August,1880",100.0,18.0,,,,
+298,1.0,Three,1880,August,"August,1880",90.0,0.0,,,,
+299,2.0,Two,1880,August,"August,1880",100.0,0.0,,,,
+300,3.0,Unnamed,1880,August,"August,1880",120.0,34.0,,2,August 29,Florida
+301,3.0,Unnamed,1880,August,"August,1880",120.0,34.0,,1,October 8,Florida
+302,3.0,Unnamed,1880,August,"August,1880",120.0,34.0,,1,September 9,North Carolina
+303,3.0,Unnamed,1880,August,"August,1880",120.0,34.0,,3,August 13,Texas
+304,3.0,Unnamed,1880,October,"October,1880",120.0,2.0,,2,August 29,Florida
+305,3.0,Unnamed,1880,October,"October,1880",120.0,2.0,,1,October 8,Florida
+306,3.0,Unnamed,1880,October,"October,1880",120.0,2.0,,1,September 9,North Carolina
+307,3.0,Unnamed,1880,October,"October,1880",120.0,2.0,,3,August 13,Texas
+308,3.0,Unnamed,1880,September,"September,1880",120.0,,,2,August 29,Florida
+309,3.0,Unnamed,1880,September,"September,1880",120.0,,,1,October 8,Florida
+310,3.0,Unnamed,1880,September,"September,1880",120.0,,,1,September 9,North Carolina
+311,3.0,Unnamed,1880,September,"September,1880",120.0,,,3,August 13,Texas
+312,3.0,Unnamed,1880,October,"October,1880",120.0,,,2,August 29,Florida
+313,3.0,Unnamed,1880,October,"October,1880",120.0,,,1,October 8,Florida
+314,3.0,Unnamed,1880,October,"October,1880",120.0,,,1,September 9,North Carolina
+315,3.0,Unnamed,1880,October,"October,1880",120.0,,,3,August 13,Texas
+316,3.0,Unnamed,1880,August,"August,1880",120.0,,,2,August 29,Florida
+317,3.0,Unnamed,1880,August,"August,1880",120.0,,,1,October 8,Florida
+318,3.0,Unnamed,1880,August,"August,1880",120.0,,,1,September 9,North Carolina
+319,3.0,Unnamed,1880,August,"August,1880",120.0,,,3,August 13,Texas
+320,2.0,Fifteen,1881,August,"August,1881",105.0,0.0,,,,
+321,1.0,Four,1881,August,"August,1881",80.0,,,,,
+322,2.0,Nine,1881,August,"August,1881",100.0,14.0,,,,
+323,1.0,Three,1881,August,"August,1881",90.0,0.0,,,,
+324,3.0,Unnamed,1881,August,"August,1881",120.0,55.0,,2,August 28,Georgia
+325,3.0,Unnamed,1881,August,"August,1881",120.0,55.0,,2,September 9,North Carolina
+326,3.0,Unnamed,1881,August,"August,1881",120.0,55.0,,1,August 28,South Carolina
+327,3.0,Unnamed,1881,August,"August,1881",115.0,25.0,,2,August 28,Georgia
+328,3.0,Unnamed,1881,August,"August,1881",115.0,25.0,,2,September 9,North Carolina
+329,3.0,Unnamed,1881,August,"August,1881",115.0,25.0,,1,August 28,South Carolina
+330,1.0,Five,1882,September,"September,1882",80.0,0.0,,,,
+331,2.0,Nine,1882,September,"September,1882",100.0,0.0,,,,
+332,1.0,One,1882,August,"August,1882",80.0,0.0,,,,
+333,2.0,Seven,1882,August,"August,1882",110.0,0.0,,,,
+334,3.0,Unnamed,1882,August,"August,1882",125.0,175.0,,1,September 10,Alabama
+335,3.0,Unnamed,1882,August,"August,1882",125.0,175.0,,3,September 10,Florida
+336,3.0,Unnamed,1882,August,"August,1882",125.0,175.0,,1,October 11,Florida
+337,3.0,Unnamed,1882,September,"September,1882",125.0,,,1,September 10,Alabama
+338,3.0,Unnamed,1882,September,"September,1882",125.0,,,3,September 10,Florida
+339,3.0,Unnamed,1882,September,"September,1882",125.0,,,1,October 11,Florida
+340,2.0,Four,1883,August,"August,1883",105.0,40.0,,,,
+341,1.0,One,1883,August,"August,1883",90.0,0.0,,,,
+342,3.0,Unnamed,1883,August,"August,1883",125.0,10.0,,2,September 11,North Carolina
+343,3.0,Unnamed,1883,August,"August,1883",125.0,10.0,,1,September 11,South Carolina
+344,2.0,Four,1884,September,"September,1884",100.0,0.0,,,,
+345,1.0,One,1884,September,"September,1884",80.0,0.0,,,,
+346,2.0,Six,1884,September,"September,1884",110.0,0.0,,,,
+347,1.0,Three,1884,September,"September,1884",90.0,0.0,,,,
+348,3.0,Unnamed,1884,September,"September,1884",120.0,2.0,,,,
+349,3.0,Unnamed,1884,September,"September,1884",115.0,,,,,
+350,2.0,Five,1885,September,"September,1885",100.0,0.0,,,,
+351,2.0,Five,1885,August,"August,1885",100.0,0.0,,,,
+352,1.0,Five,1885,September,"September,1885",80.0,0.0,,,,
+353,1.0,Four,1885,September,"September,1885",90.0,4.0,,,,
+354,1.0,One,1885,August,"August,1885",90.0,0.0,,,,
+355,2.0,Seven,1885,September,"September,1885",100.0,0.0,,,,
+356,1.0,Seven,1885,September,"September,1885",90.0,0.0,,,,
+357,2.0,Six,1885,September,"September,1885",100.0,0.0,,,,
+358,1.0,Six,1885,September,"September,1885",80.0,,,,,
+359,2.0,Three,1885,September,"September,1885",100.0,0.0,,,,
+360,3.0,Unnamed,1885,September,"September,1885",120.0,10.0,,1,August 24,Florida
+361,3.0,Unnamed,1885,September,"September,1885",120.0,10.0,,1,August 25,Georgia
+362,3.0,Unnamed,1885,September,"September,1885",120.0,10.0,,2,September 25,North Carolina
+363,3.0,Unnamed,1885,September,"September,1885",120.0,10.0,,3,August 25,South Carolina
+364,3.0,Unnamed,1885,September,"September,1885",115.0,8.0,,1,August 24,Florida
+365,3.0,Unnamed,1885,September,"September,1885",115.0,8.0,,1,August 25,Georgia
+366,3.0,Unnamed,1885,September,"September,1885",115.0,8.0,,2,September 25,North Carolina
+367,3.0,Unnamed,1885,September,"September,1885",115.0,8.0,,3,August 25,South Carolina
+368,3.0,Unnamed,1885,September,"September,1885",125.0,7.0,,1,August 24,Florida
+369,3.0,Unnamed,1885,September,"September,1885",125.0,7.0,,1,August 25,Georgia
+370,3.0,Unnamed,1885,September,"September,1885",125.0,7.0,,2,September 25,North Carolina
+371,3.0,Unnamed,1885,September,"September,1885",125.0,7.0,,3,August 25,South Carolina
+372,3.0,Unnamed,1885,September,"September,1885",120.0,,,1,August 24,Florida
+373,3.0,Unnamed,1885,September,"September,1885",120.0,,,1,August 25,Georgia
+374,3.0,Unnamed,1885,September,"September,1885",120.0,,,2,September 25,North Carolina
+375,3.0,Unnamed,1885,September,"September,1885",120.0,,,3,August 25,South Carolina
+376,3.0,Unnamed,1885,August,"August,1885",125.0,,,1,August 24,Florida
+377,3.0,Unnamed,1885,August,"August,1885",125.0,,,1,August 25,Georgia
+378,3.0,Unnamed,1885,August,"August,1885",125.0,,,2,September 25,North Carolina
+379,3.0,Unnamed,1885,August,"August,1885",125.0,,,3,August 25,South Carolina
+380,1.0,Four,1886,July,"July,1886",85.0,,,,,
+381,4.0,Indianola,1886,August,"August,1886",,,,,,
+382,2.0,Two,1886,July,"July,1886",100.0,,,,,
+383,3.0,Unnamed,1886,July,"July,1886",120.0,,,2,June 21,Florida
+384,3.0,Unnamed,1886,July,"July,1886",120.0,,,2,June 30,Florida
+385,3.0,Unnamed,1886,July,"July,1886",120.0,,,1,July 18,Florida
+386,3.0,Unnamed,1886,July,"July,1886",120.0,,,1,June 21,Georgia
+387,3.0,Unnamed,1886,July,"July,1886",120.0,,,1,June 30,Georgia
+388,3.0,Unnamed,1886,July,"July,1886",120.0,,,2,June 14,Louisiana
+389,3.0,Unnamed,1886,July,"July,1886",120.0,,,3,October 12,Louisiana
+390,3.0,Unnamed,1886,July,"July,1886",120.0,,,2,June 14,Texas
+391,3.0,Unnamed,1886,July,"July,1886",120.0,,,4,August 20,Texas
+392,3.0,Unnamed,1886,July,"July,1886",120.0,,,1,September 23,Texas
+393,3.0,Unnamed,1886,July,"July,1886",120.0,,,2,October 12,Texas
+394,3.0,Able,1887,November,"November,1887",120.0,,,,,
+395,2.0,Eight,1887,October,"October,1887",100.0,0.0,,,,
+396,1.0,Eighteen,1887,December,"December,1887",80.0,0.0,,,,
+397,2.0,Five,1887,September,"September,1887",100.0,0.0,,,,
+398,1.0,Fourteen,1887,October,"October,1887",85.0,0.0,,,,
+399,3.0,Fox,1887,December,"December,1887",125.0,11.0,,,,
+400,3.0,Love,1887,October,"October,1887",120.0,,,,,
+401,2.0,Seven,1887,October,"October,1887",100.0,5.0,,,,
+402,2.0,Seven,1887,November,"November,1887",,0.0,,,,
+403,1.0,Seventeen,1887,November,"November,1887",80.0,0.0,,,,
+404,1.0,Ten,1887,September,"September,1887",80.0,0.0,,,,
+405,1.0,Thirteen,1887,October,"October,1887",85.0,,,,,
+406,2.0,Two,1887,December,"December,1887",110.0,0.0,,,,
+407,3.0,Unnamed,1887,September,"September,1887",120.0,216.0,,1,July 27,Florida
+408,3.0,Unnamed,1887,September,"September,1887",120.0,216.0,,1,October 19,Louisiana
+409,3.0,Unnamed,1887,September,"September,1887",120.0,216.0,,1,August 20,North Carolina
+410,3.0,Unnamed,1887,September,"September,1887",120.0,216.0,,2,September 21,Texas
+411,3.0,Unnamed,1887,October,"October,1887",115.0,3.0,,1,July 27,Florida
+412,3.0,Unnamed,1887,October,"October,1887",115.0,3.0,,1,October 19,Louisiana
+413,3.0,Unnamed,1887,October,"October,1887",115.0,3.0,,1,August 20,North Carolina
+414,3.0,Unnamed,1887,October,"October,1887",115.0,3.0,,2,September 21,Texas
+415,2.0,One,1888,September,"September,1888",100.0,1.0," $100,000.00 ",,,
+416,1.0,One,1888,June,"June,1888",80.0,,,,,
+417,3.0,Able,1888,September,"September,1888",115.0,11.0,,,,
+418,2.0,Five,1888,June,"June,1888",105.0,,,,,
+419,1.0,Six,1888,September,"September,1888",80.0,,,,,
+420,3.0,Unnamed,1888,June,"June,1888",125.0,,,3,August 16,Florida
+421,3.0,Unnamed,1888,June,"June,1888",125.0,,,2,October 11,Florida
+422,3.0,Unnamed,1888,June,"June,1888",125.0,,,2,August 19,Louisiana
+423,3.0,Unnamed,1888,June,"June,1888",125.0,,,1,August 20,Mississippi
+424,3.0,Unnamed,1888,June,"June,1888",125.0,,,1,June 17,Texas
+425,2.0,Five,1889,June,"June,1889",100.0,4.0," $500,000.00 ",,,
+426,1.0,Five,1889,September,"September,1889",80.0,0.0,,,,
+427,3.0,Charlie,1889,September,"September,1889",120.0,4.0,,,,
+428,3.0,Easy,1889,May,"May,1889",120.0,2.0,,,,
+429,3.0,Fox,1889,August,"August,1889",115.0,,,,,
+430,3.0,Jig,1889,June,"June,1889",115.0,,,,,
+431,2.0,One,1889,September,"September,1889",100.0,45.0,,,,
+432,1.0,One,1889,May,"May,1889",80.0,0.0,,,,
+433,2.0,Six,1889,August,"August,1889",100.0,0.0,,,,
+434,2.0,Three,1889,May,"May,1889",100.0,0.0,,,,
+435,1.0,Three,1889,August,"August,1889",80.0,,,,,
+436,1.0,Two,1889,June,"June,1889",75.0,,,,,
+437,2.0,Four,1890,October,"October,1890",110.0,383.0," $2,500,000.00 ",,,
+438,1.0,Four,1890,October,"October,1890",90.0,,,,,
+439,3.0,Edna,1890,October,"October,1890",115.0,,,,,
+440,2.0,Two,1891,July,"July,1891",100.0,7.0," $1,000,000.00 ",,,
+441,1.0,Two,1891,August,"August,1891",80.0,0.0,,,,
+442,2.0,Nine,1891,October,"October,1891",110.0,," $200,000.00 ",,,
+443,1.0,Nine,1891,October,"October,1891",85.0,,,,,
+444,3.0,Carol,1891,August,"August,1891",115.0,72.0,,,,
+445,3.0,Edna,1891,October,"October,1891",125.0,27.0,,,,
+446,3.0,Florence,1891,July,"July,1891",115.0,,,,,
+447,2.0,Four,1891,August,"August,1891",105.0,0.0,,,,
+448,1.0,One,1891,July,"July,1891",90.0,10.0,,,,
+449,3.0,Betsy,1892,October,"October,1892",120.0,36.0,,,,
+450,1.0,Eight,1892,October,"October,1892",90.0,0.0,,,,
+451,3.0,Hilda,1892,August,"August,1892",120.0,304.0,,,,
+452,2.0,Seven,1892,October,"October,1892",105.0,0.0,,,,
+453,2.0,Three,1892,August,"August,1892",100.0,0.0,,,,
+454,1.0,Two,1892,August,"August,1892",75.0,,,,,
+455,3.0,Audrey,1893,June,"June,1893",125.0,431.0,,,,
+456,4.0,Cheniere Caminada,1893,August,"August,1893",,,,,,
+457,1.0,One,1893,June,"June,1893",80.0,,,,,
+458,2.0,Three,1893,June,"June,1893",100.0,0.0,,,,
+459,4.0,Unnamed,1894,,",1894",,,,1,October 10,Conneticut
+460,4.0,Unnamed,1894,,",1894",,,,2,September 25,Florida
+461,4.0,Unnamed,1894,,",1894",,,,3,October 9,Florida
+462,4.0,Unnamed,1894,,",1894",,,,1,October 9,Georgia
+463,4.0,Unnamed,1894,,",1894",,,,1,October 10,New York
+464,4.0,Unnamed,1894,,",1894",,,,1,October 10,Rhode Island
+465,4.0,Unnamed,1894,,",1894",,,,1,September 27,South Carolina
+466,4.0,Unnamed,1894,,",1894",,,,1,September 29,Virginia
+467,2.0,Four,1897,October,"October,1897",100.0,57.0," $9,000,000.00 ",,,
+468,2.0,Four,1897,September,"September,1897",105.0,0.0,,,,
+469,3.0,Ethel,1897,October,"October,1897",115.0,1.0,,,,
+470,1.0,Five,1897,October,"October,1897",80.0,188.0,,,,
+471,3.0,Hannah,1897,September,"September,1897",120.0,,,,,
+472,1.0,Two,1897,September,"September,1897",85.0,29.0,,,,
+473,3.0,Arlene,1898,August,"August,1898",115.0,,,,,
+474,3.0,Beulah,1898,August,"August,1898",120.0,,,,,
+475,4.0,Georgia,1898,,",1898",,,,,,
+476,3.0,Isbell,1898,September,"September,1898",115.0,7.0,,,,
+477,1.0,One,1898,August,"August,1898",80.0,12.0,,,,
+478,2.0,Seven,1898,August,"August,1898",100.0,0.0,,,,
+479,2.0,Six,1898,August,"August,1898",110.0,2.0,,,,
+480,1.0,Three,1898,September,"September,1898",80.0,0.0,,,,
+481,2.0,Two,1898,September,"September,1898",105.0,0.0,,,,
+482,1.0,Two,1898,August,"August,1898",85.0,,,,,
+483,4.0,San Ciriaco,1899,,",1899",,,,,,
+484,4.0,Galveston,1900,August,"August,1900",,,,,,
+485,2.0,Twelve,1901,October,"October,1901",105.0,198.0," $10,000,000.00 ",,,
+486,2.0,Two,1901,September,"September,1901",100.0,0.0," $1,300,000.00 ",,,
+487,1.0,1901 Louisiana hurricane,1901,August,"August,1901",90.0,,,,,
+488,3.0,Alma,1901,July,"July,1901",125.0,93.0,,,,
+489,3.0,Debbie,1901,August,"August,1901",120.0,,,,,
+490,2.0,Eight,1901,August,"August,1901",110.0,0.0,,,,
+491,3.0,Faith,1901,August,"August,1901",120.0,5.0,,,,
+492,3.0,Francelia,1901,September,"September,1901",115.0,271.0,,,,
+493,3.0,Gerda,1901,October,"October,1901",125.0,,,,,
+494,1.0,Hurricane San Cirillo of 1901,1901,July,"July,1901",80.0,,,,,
+495,1.0,Hurricane San Vicente of 1901,1901,September,"September,1901",80.0,,,,,
+496,2.0,Nine,1901,August,"August,1901",105.0,0.0,,,,
+497,2.0,One,1901,July,"July,1901",100.0,0.0,,,,
+498,1.0,Six,1901,August,"August,1901",80.0,0.0,,,,
+499,1.0,Thirteen,1901,October,"October,1901",80.0,0.0,,,,
+500,3.0,Inga,1902,June,"June,1902",115.0,,,,,
+501,2.0,Three,1902,June,"June,1902",110.0,0.0,,,,
+502,1.0,Two,1902,June,"June,1902",80.0,,,,,
+503,2.0,Three,1903,September,"September,1903",100.0,17.0," $27,400,000.00 ",,,
+504,2.0,Four,1903,November,"November,1903",100.0,10.0," $2,000,000.00 ",,,
+505,2.0,Four,1903,July,"July,1903",100.0,0.0,,,,
+506,1.0,1903 Florida hurricane,1903,September,"September,1903",90.0,," $500,000.00 ",,,
+507,3.0,Becky,1903,November,"November,1903",115.0,,,,,
+508,3.0,Ella,1903,July,"July,1903",125.0,1.0,,,,
+509,3.0,Ellen,1903,September,"September,1903",115.0,,,,,
+510,1.0,One,1903,July,"July,1903",80.0,,,,,
+511,1.0,Ten,1903,November,"November,1903",80.0,0.0,,,,
+512,2.0,Seven,1904,October,"October,1904",110.0,0.0," $1,000,000.00 ",,,
+513,1.0,Two,1904,September,"September,1904",80.0,27.0," $500,000.00 ",,,
+514,2.0,Six,1904,June,"June,1904",100.0,42.0," $28,000.00 ",,,
+515,3.0,Belle,1904,September,"September,1904",120.0,12.0,,,,
+516,3.0,Caroline,1904,June,"June,1904",115.0,2.0,,,,
+517,3.0,Eloise,1904,September,"September,1904",125.0,80.0,,,,
+518,2.0,Four,1904,September,"September,1904",100.0,0.0,,,,
+519,1.0,Four,1904,October,"October,1904",80.0,,,,,
+520,3.0,Frances,1904,October,"October,1904",115.0,,,,,
+521,1.0,One,1904,June,"June,1904",80.0,,,,,
+522,2.0,Three,1904,September,"September,1904",105.0,0.0,,,,
+523,1.0,Three,1904,September,"September,1904",80.0,,,,,
+524,1.0,Five,1906,September,"September,1906",90.0,7.0," $2,000,000.00 ",,,
+525,1.0,Eleven,1906,November,"November,1906",80.0,,,,,
+526,3.0,Floyd,1906,November,"November,1906",115.0,,,,,
+527,2.0,Fourteen,1906,September,"September,1906",110.0,69.0,,,,
+528,3.0,Frances,1906,September,"September,1906",115.0,,,,,
+529,2.0,Two,1906,November,"November,1906",105.0,0.0,,,,
+530,3.0,Alicia,1908,July,"July,1908",115.0,21.0," $8,490,000,000.00 ",,,
+531,2.0,Five,1908,May,"May,1908",110.0,21.0,,,,
+532,3.0,Irene,1908,May,"May,1908",120.0,,,,,
+533,2.0,One,1908,July,"July,1908",110.0,0.0,,,,
+534,1.0,Three,1908,July,"July,1908",80.0,,,,,
+535,1.0,Two,1908,May,"May,1908",75.0,,,,,
+536,4.0,Unnamed,1910,,",1910",,,,2,October 18,Florida
+537,4.0,Unnamed,1910,,",1910",,,,2,September 14,Texas
+538,3.0,Elena,1911,August,"August,1911",125.0,9.0," $1,300,000,000.00 ",,,
+539,2.0,Two,1911,August,"August,1911",100.0,1.0," $1,450,000.00 ",,,
+540,1.0,Two,1911,August,"August,1911",80.0,," $12,600.00 ",,,
+541,1.0,Four,1912,September,"September,1912",90.0,," $39,000.00 ",,,
+542,2.0,Four,1912,September,"September,1912",110.0,0.0,,,,
+543,3.0,Emily,1912,October,"October,1912",125.0,3.0,,,,
+544,1.0,Five,1912,October,"October,1912",90.0,,,,,
+545,3.0,Kate,1912,September,"September,1912",120.0,15.0,,,,
+546,2.0,Two,1912,October,"October,1912",105.0,0.0,,,,
+547,1.0,Four,1913,August,"August,1913",85.0,5.0," $4,000,000.00 ",,,
+548,2.0,Four,1913,June,"June,1913",110.0,89.0,,,,
+549,2.0,Four,1913,October,"October,1913",110.0,0.0,,,,
+550,1.0,Five,1913,October,"October,1913",75.0,," $75,000.00 ",,,
+551,2.0,Five,1913,August,"August,1913",105.0,0.0,,,,
+552,3.0,Bob,1913,August,"August,1913",115.0,17.0,,,,
+553,2.0,Eight,1913,October,"October,1913",105.0,0.0,,,,
+554,3.0,Emily,1913,October,"October,1913",115.0,3.0,,,,
+555,3.0,Gustav,1913,June,"June,1913",120.0,0.0,,,,
+556,3.0,Marilyn,1913,October,"October,1913",115.0,12.0,,,,
+557,1.0,One,1913,June,"June,1913",75.0,0.0,,,,
+558,1.0,Six,1913,October,"October,1913",75.0,0.0,,,,
+559,1.0,One,1915,July,"July,1915",75.0,," $250,000.00 ",,,
+560,2.0,One,1915,July,"July,1915",105.0,2.0," $235,000.00 ",,,
+561,4.0,Galveston,1915,August,"August,1915",,,,,,
+562,4.0,New Orleans,1915,September,"September,1915",,,,,,
+563,3.0,Roxanne,1915,July,"July,1915",115.0,29.0,,,,
+564,3.0,Bertha,1916,August,"August,1916",115.0,12.0,,,,
+565,1.0,Eight,1916,August,"August,1916",80.0,,,,,
+566,2.0,Fifteen,1916,September,"September,1916",100.0,0.0,,,,
+567,3.0,Fran,1916,September,"September,1916",120.0,27.0,,,,
+568,2.0,Seven,1916,August,"August,1916",100.0,2.0,,,,
+569,1.0,Ten,1916,September,"September,1916",85.0,0.0,,,,
+570,2.0,Two,1918,August,"August,1918",110.0,35.0," $7,500,000.00 ",,,
+571,3.0,Isidore,1918,August,"August,1918",115.0,0.0,,,,
+572,1.0,Three,1918,August,"August,1918",75.0,0.0,,,,
+573,4.0,Florida Keys,1919,September,"September,1919",,,,,,
+574,2.0,One,1920,September,"September,1920",100.0,," $4,400,000.00 ",,,
+575,3.0,Erika,1920,September,"September,1920",125.0,2.0,,,,
+576,1.0,Five,1920,September,"September,1920",85.0,1.0,,,,
+577,3.0,Lili,1920,September,"September,1920",115.0,22.0,,,,
+578,2.0,Thirteen,1920,September,"September,1920",110.0,67.0,,,,
+579,1.0,Three,1920,September,"September,1920",85.0,1.0,,,,
+580,1.0,Two,1921,September,"September,1921",80.0,215.0," $19,000,000.00 ",,,
+581,2.0,Seven,1921,September,"September,1921",105.0,19.0," $5,500,000.00 ",,,
+582,2.0,Seven,1921,June,"June,1921",105.0,8.0," $10,000.00 ",,,
+583,3.0,Alberto,1921,September,"September,1921",125.0,0.0,,,,
+584,3.0,Bonnie,1921,June,"June,1921",115.0,5.0,,,,
+585,3.0,Erin,1921,September,"September,1921",120.0,,,,,
+586,1.0,Four,1921,September,"September,1921",90.0,0.0,,,,
+587,1.0,One,1921,June,"June,1921",90.0,0.0,,,,
+588,4.0,Tampa Bay,1921,October,"October,1921",,,,,,
+589,2.0,Ten,1921,September,"September,1921",100.0,0.0,,,,
+590,2.0,Five,1922,September,"September,1922",105.0,4.0," $200,000.00 ",,,
+591,3.0,Felix,1922,September,"September,1922",115.0,,,,,
+592,1.0,Three,1922,September,"September,1922",80.0,0.0,,,,
+593,2.0,Fifteen,1923,October,"October,1923",105.0,0.0,,,,
+594,1.0,Four,1923,September,"September,1923",80.0,0.0,,,,
+595,3.0,Isidore,1923,September,"September,1923",125.0,22.0,,,,
+596,3.0,Kate,1923,October,"October,1923",125.0,,,,,
+597,1.0,Six,1923,October,"October,1923",80.0,0.0,,,,
+598,2.0,Ten,1923,September,"September,1923",110.0,0.0,,,,
+599,2.0,Four,1924,September,"September,1924",100.0,0.0," $1,500,000.00 ",,,
+600,5.0,Cuba,1924,October,"October,1924",165.0,90.0,,,,
+601,3.0,Alex,1924,September,"September,1924",120.0,1.0,,,,
+602,2.0,Eight,1924,November,"November,1924",100.0,0.0,,,,
+603,1.0,Eleven,1924,November,"November,1924",80.0,,,,,
+604,1.0,Five,1924,September,"September,1924",85.0,,,,,
+605,3.0,Jeanne,1924,November,"November,1924",120.0,3037.0,,,,
+606,2.0,Two,1925,August,"August,1925",100.0,7.0," $10,750,000.00 ",,,
+607,3.0,Maria,1925,August,"August,1925",115.0,3.0,,,,
+608,1.0,One,1925,August,"August,1925",80.0,0.0,,,,
+609,4.0,Miami,1926,September,"September,1926",,,,,,
+610,4.0,Nassau,1926,July,"July,1926",,,,,,
+611,4.0,Unnamed,1926,,",1926",,,,3,August 21,Alabama
+612,4.0,Unnamed,1926,,",1926",,,,2,July 27,Florida
+613,4.0,Unnamed,1926,,",1926",,,,4,September 18,Florida
+614,4.0,Unnamed,1926,,",1926",,,,1,October 21,Florida
+615,4.0,Unnamed,1926,,",1926",,,,3,August 26,Louisiana
+616,4.0,Unnamed,1926,,",1926",,,,1,September 21,Mississippi
+617,2.0,Three,1927,September,"September,1927",100.0,52.0," $13,000,000.00 ",,,
+618,1.0,Three,1927,September,"September,1927",80.0,19.0," $4,360,000.00 ",,,
+619,2.0,Four,1927,September,"September,1927",110.0,7.0," $4,000,000.00 ",,,
+620,3.0,Beta,1927,September,"September,1927",115.0,9.0,,,,
+621,3.0,Gordon,1927,September,"September,1927",120.0,,,,,
+622,1.0,Two,1927,September,"September,1927",90.0,0.0,,,,
+623,1.0,1928 Haiti hurricane,1928,August,"August,1928",90.0,210.0," $2,000,000.00 ",,,
+624,2.0,Five,1928,August,"August,1928",100.0,3.0," $1,490,000.00 ",,,
+625,5.0,San Felipe IIOkeechobee,1928,September,"September,1928",160.0,4000.0,,,,
+626,3.0,Bertha,1928,September,"September,1928",125.0,3.0,,,,
+627,3.0,Helene,1928,August,"August,1928",120.0,,,,,
+628,2.0,Seven,1928,September,"September,1928",100.0,0.0,,,,
+629,1.0,Six,1928,September,"September,1928",90.0,0.0,,,,
+630,2.0,Eleven,1929,October,"October,1929",110.0,9.0," $9,000,000.00 ",,,
+631,1.0,One,1929,June,"June,1929",90.0,," $365,000.00 ",,,
+632,1.0,Five,1929,October,"October,1929",80.0,0.0,,,,
+633,2.0,Four,1929,June,"June,1929",110.0,0.0,,,,
+634,3.0,Fred,1929,June,"June,1929",120.0,,,,,
+635,3.0,Karl,1929,October,"October,1929",125.0,22.0,,,,
+636,4.0,Unnamed,1929,,",1929",,,,3,September 28,Florida
+637,4.0,Unnamed,1929,,",1929",,,,1,June 28,Texas
+638,4.0,San Zen√≥n,1930,,",1930",,,,,,
+639,2.0,One,1931,September,"September,1931",105.0,19.0," $17,000,000.00 ",,,
+640,1.0,Eight,1931,September,"September,1931",75.0,0.0,,,,
+641,3.0,Irene,1931,September,"September,1931",120.0,48.0,,,,
+642,2.0,Six,1932,August,"August,1932",100.0,0.0," $419,000.00 ",,,
+643,1.0,1932 Florida‚ÄìAlabama hurricane,1932,August,"August,1932",85.0,," $226,000.00 ",,,
+644,5.0,Bahamas,1932,September,"September,1932",160.0,16.0,,,,
+645,5.0,Camagey,1932,November,"November,1932",175.0,3103.0,,,,
+646,3.0,Rina,1932,August,"August,1932",115.0,,,,,
+647,4.0,San Cipri√°n,1932,,",1932",,,,,,
+648,4.0,Unnamed,1932,,",1932",,,,1,September 1,Alabama
+649,4.0,Unnamed,1932,,",1932",,,,1,September 1,Florida
+650,4.0,Unnamed,1932,,",1932",,,,4,August 14,Texas
+651,3.0,Sandy,1933,September,"September,1933",115.0,159.0," $79,998,500,000.00 ",,,
+652,1.0,Eighteen,1933,October,"October,1933",90.0,23.0," $3,000,000.00 ",,,
+653,2.0,One,1933,October,"October,1933",100.0,1.0," $750,000.00 ",,,
+654,1.0,1933 Florida‚ÄìMexico hurricane,1933,July,"July,1933",90.0,," $500,000.00 ",,,
+655,2.0,Nine,1933,July,"July,1933",110.0,0.0," $300,000.00 ",,,
+656,2.0,Nine,1933,September,"September,1933",100.0,0.0,,,,
+657,5.0,Cuba Brownsville,1933,August,"August,1933",160.0,179.0,,,,
+658,5.0,Tampico,1933,September,"September,1933",160.0,184.0,,,,
+659,4.0,Chesapeake,1933,August,"August,1933",,,,,,
+660,3.0,Edouard,1933,October,"October,1933",120.0,2.0,,,,
+661,1.0,Fifteen,1933,September,"September,1933",75.0,0.0,,,,
+662,3.0,Michael,1933,July,"July,1933",115.0,,,,,
+663,4.0,Outer Banks,1933,September,"September,1933",,,,,,
+664,4.0,Treasure Coast,1933,August,"August,1933",,,,,,
+665,2.0,Six,1934,August,"August,1934",100.0,5.0," $5,200,000.00 ",,,
+666,2.0,Eleven,1934,July,"July,1934",100.0,5.0," $2,000,000.00 ",,,
+667,3.0,Danny,1934,July,"July,1934",125.0,,,,,
+668,1.0,Five,1934,August,"August,1934",80.0,,,,,
+669,2.0,Four,1934,July,"July,1934",100.0,0.0,,,,
+670,3.0,Gaston,1934,July,"July,1934",115.0,,,,,
+671,3.0,Otto,1934,August,"August,1934",115.0,23.0,,,,
+672,1.0,Three,1934,July,"July,1934",85.0,,,,,
+673,1.0,Two,1934,July,"July,1934",90.0,0.0,,,,
+674,5.0,Labor Day,1935,September,"September,1935",185.0,408.0,,,,
+675,1.0,1935 hurricane,1935,October,"October,1935",85.0,2150.0,,,,
+676,2.0,Charlie,1935,October,"October,1935",110.0,48.0,,,,
+677,3.0,Lee,1935,October,"October,1935",115.0,,,,,
+678,3.0,Humberto,1936,August,"August,1936",125.0,2.0," $25,000,000.00 ",,,
+679,2.0,Eleven,1936,August,"August,1936",110.0,2.0," $6,700,000.00 ",,,
+680,1.0,Eleven,1936,August,"August,1936",80.0,0.0,,,,
+681,2.0,King,1936,June,"June,1936",105.0,1.0," $3,260,000.00 ",,,
+682,1.0,Three,1936,June,"June,1936",80.0,," $550,000.00 ",,,
+683,2.0,One,1936,August,"August,1936",110.0,2.0," $50,000.00 ",,,
+684,1.0,Eight,1936,August,"August,1936",75.0,0.0,,,,
+685,3.0,Epsilon,1936,August,"August,1936",115.0,1.0,,,,
+686,3.0,Ophelia,1936,June,"June,1936",115.0,3.0,,,,
+687,3.0,Zeta,1937,October,"October,1937",115.0,6.0," $4,743,700,000.00 ",,,
+688,2.0,Baker,1937,October,"October,1937",105.0,38.0," $2,500,000.00 ",,,
+689,1.0,Eleven,1937,October,"October,1937",80.0,0.0,,,,
+690,5.0,New England,1938,September,"September,1938",160.0,682.0,,,,
+691,3.0,Grace,1939,August,"August,1939",120.0,15.0," $513,000,000.00 ",,,
+692,3.0,Larry,1939,October,"October,1939",125.0,7.0," $80,000,000.00 ",,,
+693,1.0,Two,1939,August,"August,1939",75.0,0.0, $200.00 ,,,
+694,2.0,Charlie,1939,August,"August,1939",110.0,0.0,,,,
+695,2.0,George,1939,October,"October,1939",110.0,0.0,,,,
+696,1.0,Six,1939,October,"October,1939",90.0,2.0,,,,
+697,2.0,Item,1940,October,"October,1940",105.0,0.0," $1,500,000.00 ",,,
+698,1.0,Eight,1940,October,"October,1940",80.0,0.0,,,,
+699,2.0,How,1941,September,"September,1941",100.0,17.0," $2,000,000.00 ",,,
+700,1.0,Three,1941,September,"September,1941",80.0,0.0,,,,
+701,2.0,Able,1942,August,"August,1942",100.0,3.0," $21,700,000.00 ",,,
+702,1.0,Two,1942,August,"August,1942",80.0,0.0," $790,000.00 ",,,
+703,2.0,Alice,1944,September,"September,1944",110.0,56.0," $2,000,000.00 ",,,
+704,1.0,Three,1944,July,"July,1944",80.0,0.0," $2,000,000.00 ",,,
+705,2.0,Baker,1944,July,"July,1944",110.0,0.0,,,,
+706,2.0,Easy,1944,July,"July,1944",105.0,0.0,,,,
+707,1.0,Eight,1944,September,"September,1944",80.0,,,,,
+708,4.0,Great Atlantic hurricane,1944,September,"September,1944",,,,,,
+709,1.0,One,1944,July,"July,1944",80.0,0.0,,,,
+710,2.0,Thirteen,1944,October,"October,1944",100.0,0.0,,,,
+711,1.0,Twelve,1944,October,"October,1944",80.0,0.0,,,,
+712,2.0,Diane,1945,October,"October,1945",105.0,184.0," $754,000,000.00 ",,,
+713,1.0,Ten,1945,October,"October,1945",90.0,1.0,,,,
+714,4.0,Unnamed,1945,,",1945",,,,1,June 24,Florida
+715,4.0,Unnamed,1945,,",1945",,,,3,September 15,Florida
+716,4.0,Unnamed,1945,,",1945",,,,2,August 27,Texas
+717,2.0,Edith,1946,July,"July,1946",105.0,0.0,,,,
+718,1.0,Two,1946,July,"July,1946",80.0,0.0,,,,
+719,1.0,Three,1947,August,"August,1947",80.0,1.0," $800,000.00 ",,,
+720,2.0,Flora,1947,August,"August,1947",105.0,0.0,,,,
+721,2.0,Greta,1948,November,"November,1948",100.0,1.0," $3,580,000.00 ",,,
+722,1.0,Five,1948,September,"September,1948",80.0,0.0," $900,000.00 ",,,
+723,2.0,Katie,1948,September,"September,1948",110.0,7.0," $200,000.00 ",,,
+724,1.0,Ten,1948,November,"November,1948",75.0,0.0,,,,
+725,4.0,Unnamed,1948,,",1948",,,,4,September 21,Florida
+726,4.0,Unnamed,1948,,",1948",,,,2,October 5,Florida
+727,4.0,Unnamed,1948,,",1948",,,,1,September 4,Louisiana
+728,1.0,Ten,1949,September,"September,1949",80.0,15.0," $1,012,000.00 ",,,
+729,2.0,Ella,1949,September,"September,1949",110.0,37.0," $100,000.00 ",,,
+730,2.0,Ilsa,1949,October,"October,1949",110.0,0.0,,,,
+731,1.0,Thirteen,1949,October,"October,1949",90.0,0.0,,,,
+732,4.0,Unnamed,1949,,",1949",,,,4,August 26,Florida
+733,4.0,Unnamed,1949,,",1949",,,,1,August 27,Georgia
+734,4.0,Unnamed,1949,,",1949",,,,1,August 24,North Carolina
+735,4.0,Unnamed,1949,,",1949",,,,2,October 4,Texas
+736,2.0,Janice,1950,October,"October,1950",100.0,9.0," $200,000.00 ",,,
+737,1.0,Love,1950,October,"October,1950",80.0,0.0,,,,
+738,2.0,Edith,1951,September,"September,1951",100.0,10.0," $46,600,000.00 ",,,
+739,1.0,Dog,1951,August,"August,1951",90.0,7.0," $3,000,000.00 ",,,
+740,2.0,Daisy,1951,August,"August,1951",105.0,32.0," $1,100,000.00 ",,,
+741,2.0,Anna,1951,May,"May,1951",105.0,1.0," $300,000.00 ",,,
+742,1.0,Able,1951,May,"May,1951",90.0,0.0,,,,
+743,4.0,Charlie,1951,August,"August,1951",,,,,,
+744,2.0,Ella,1951,October,"October,1951",110.0,2.0,,,,
+745,1.0,Jig,1951,October,"October,1951",75.0,0.0,,,,
+746,1.0,Twelve,1951,September,"September,1951",80.0,0.0,,,,
+747,4.0,Fox,1952,October,"October,1952",,,,,,
+748,1.0,Barbara,1953,August,"August,1953",90.0,9.0," $1,300,000.00 ",1,August 14,North Carolina
+749,2.0,Ginny,1953,August,"August,1953",110.0,5.0," $500,000.00 ",,,
+750,1.0,Hazel,1953,October,"October,1953",85.0,0.0," $250,000.00 ",1,October 9,Florida
+751,2.0,Anna,1953,October,"October,1953",105.0,0.0,,,,
+752,5.0,Carol,1953,September,"September,1953",160.0,5.0,,,,
+753,1.0,Dolly,1953,September,"September,1953",75.0,0.0,,,,
+754,2.0,Elena,1953,October,"October,1953",110.0,0.0,,,,
+755,2.0,Ethel,1953,September,"September,1953",105.0,0.0,,,,
+756,1.0,Gail,1953,October,"October,1953",80.0,0.0,,,,
+757,1.0,Alice,1954,December,"December,1954",90.0,0.0," $623,000.00 ",,,
+758,2.0,Chloe,1954,August,"August,1954",110.0,14.0,,,,
+759,1.0,Dolly,1954,August,"August,1954",85.0,0.0,,,,
+760,4.0,Hazel,1954,October,"October,1954",,,,4,October 15,North Carolina
+761,4.0,Hazel,1954,October,"October,1954",,,,4,October 15,South Carolina
+762,1.0,Gladys,1955,September,"September,1955",90.0,0.0," $500,000.00 ",,,
+763,4.0,Connie,1955,August,"August,1955",,,,2,August 12,North Carolina
+764,4.0,Connie,1955,August,"August,1955",,,,1,August 12,Virginia
+765,5.0,Janet,1955,September,"September,1955",175.0,1023.0,,,,
+766,2.0,Laurie,1955,September,"September,1955",105.0,0.0,,,,
+767,1.0,Flossy,1956,September,"September,1956",90.0,15.0," $24,900,000.00 ",1,September 24,Florida
+768,1.0,Flossy,1956,September,"September,1956",90.0,15.0," $24,900,000.00 ",2,September 24,Louisiana
+769,2.0,Ginger,1956,September,"September,1956",110.0,1.0," $10,000,000.00 ",,,
+770,1.0,Anna,1956,July,"July,1956",85.0,0.0," $50,000.00 ",,,
+771,2.0,Eighteen,1956,July,"July,1956",105.0,0.0,,,,
+772,2.0,Betty,1957,September,"September,1957",105.0,0.0,,,,
+773,4.0,Carrie,1957,September,"September,1957",,,,,,
+774,1.0,Frieda,1957,September,"September,1957",85.0,0.0,,,,
+775,2.0,Fifi,1958,September,"September,1958",110.0,8210.0," $1,800,000,000.00 ",,,
+776,1.0,Fifi,1958,September,"September,1958",85.0,0.0,,,,
+777,4.0,Helene,1958,September,"September,1958",,,,3,September 27,North Carolina
+778,1.0,Escuminac (Three),1959,June,"June,1959",85.0,35.0," $2,500,000.00 ",,,
+779,1.0,Debra,1959,July,"July,1959",85.0,0.0," $700,000.00 ",1,July 25,Texas
+780,1.0,Cindy,1959,July,"July,1959",75.0,6.0," $75,000.00 ",1,July 9,South Carolina
+781,2.0,Doris,1959,June,"June,1959",110.0,0.0,,,,
+782,2.0,Emmy,1959,July,"July,1959",105.0,68.0,,,,
+783,2.0,Faye,1959,July,"July,1959",105.0,0.0,,,,
+784,1.0,Flora,1959,September,"September,1959",75.0,0.0,,,,
+785,2.0,Flossie,1959,October,"October,1959",100.0,0.0,,,,
+786,2.0,Gloria,1959,September,"September,1959",105.0,0.0,,,,
+787,4.0,Gracie,1959,September,"September,1959",,,,4,September 29,South Carolina
+788,1.0,Judith,1959,October,"October,1959",85.0,0.0,,,,
+789,1.0,Abby,1960,July,"July,1960",80.0,6.0," $640,000.00 ",,,
+790,2.0,Bonnie,1960,August,"August,1960",100.0,0.0,,,,
+791,1.0,Cleo,1960,August,"August,1960",85.0,0.0,,,,
+792,4.0,Donna,1960,September,"September,1960",,,,1,September 12,Conneticut
+793,4.0,Donna,1960,September,"September,1960",,,,4,September 10,Florida
+794,4.0,Donna,1960,September,"September,1960",,,,1,September 12,Massachusetts
+795,4.0,Donna,1960,September,"September,1960",,,,2,September 12,New York
+796,4.0,Donna,1960,September,"September,1960",,,,2,September 12,North Carolina
+797,4.0,Donna,1960,September,"September,1960",,,,1,September 12,Rhode Island
+798,4.0,Donna,1960,September,"September,1960",,,,1,September 12,Virginia
+799,2.0,Gloria,1960,July,"July,1960",100.0,0.0,,,,
+800,1.0,Debbie,1961,September,"September,1961",90.0,78.0," $50,000,000.00 ",,,
+801,4.0,Carla,1961,September,"September,1961",,,,4,September 11,Texas
+802,5.0,Esther,1961,September,"September,1961",160.0,7.0,,,,
+803,5.0,Hattie,1961,October,"October,1961",165.0,319.0,,,,
+804,2.0,Ivan,1961,September,"September,1961",105.0,0.0,,,,
+805,2.0,Jeanne,1961,November,"November,1961",100.0,0.0,,,,
+806,1.0,Jenny,1961,November,"November,1961",80.0,0.0,,,,
+807,1.0,Alma,1962,August,"August,1962",85.0,1.0," $1,000,000.00 ",,,
+808,2.0,Gert,1962,August,"August,1962",105.0,0.0,,,,
+809,2.0,Josephine,1962,November,"November,1962",105.0,1.0,,,,
+810,1.0,Ten,1962,November,"November,1962",90.0,0.0,,,,
+811,2.0,Dean,1963,September,"September,1963",105.0,0.0," $8,900,000.00 ",,,
+812,1.0,Debra,1963,September,"September,1963",75.0,0.0,,,,
+813,2.0,Earl,1963,September,"September,1963",105.0,0.0,,,,
+814,4.0,Flora,1963,October,"October,1963",,,,,,
+815,1.0,Four,1963,September,"September,1963",80.0,0.0,,,,
+816,4.0,Cleo,1964,August,"August,1964",,,,2,August 27,Florida
+817,4.0,Dora,1964,September,"September,1964",,,,2,September 10,Florida
+818,2.0,Erin,1964,July,"July,1964",105.0,0.0,,,,
+819,4.0,Hilda,1964,October,"October,1964",,,,2,October 3,Louisiana
+820,1.0,Three,1964,July,"July,1964",85.0,0.0,,,,
+821,2.0,Diana,1965,September,"September,1965",100.0,139.0," $90,700,000.00 ",,,
+822,4.0,Betsy,1965,September,"September,1965",,,,3,September 8,Florida
+823,4.0,Betsy,1965,September,"September,1965",,,,4,September 10,Louisiana
+824,1.0,Carol,1965,September,"September,1965",90.0,0.0,,,,
+825,1.0,Becky,1966,July,"July,1966",75.0,0.0,,,,
+826,2.0,Bonnie,1966,July,"July,1966",110.0,1.0,,,,
+827,1.0,Celia,1966,July,"July,1966",80.0,0.0,,,,
+828,2.0,Charley,1966,November,"November,1966",110.0,0.0,,,,
+829,1.0,Dorothy,1966,July,"July,1966",85.0,0.0,,,,
+830,2.0,Grace,1966,July,"July,1966",105.0,0.0,,,,
+831,5.0,Inez,1966,September,"September,1966",165.0,756.0,,2,October 8,Florida
+832,2.0,Isidore,1966,July,"July,1966",100.0,0.0,,,,
+833,1.0,Lois,1966,November,"November,1966",80.0,0.0,,,,
+834,2.0,Erin,1967,October,"October,1967",100.0,13.0," $700,000,000.00 ",,,
+835,2.0,Gert,1967,August,"August,1967",100.0,116.0," $170,000,000.00 ",,,
+836,1.0,Doria,1967,September,"September,1967",85.0,3.0," $150,000.00 ",,,
+837,1.0,Arlene,1967,August,"August,1967",85.0,0.0,,,,
+838,5.0,Beulah,1967,September,"September,1967",160.0,59.0,,3,September 20,Texas
+839,1.0,Fern,1967,October,"October,1967",85.0,3.0,,,,
+840,2.0,Florence,1967,September,"September,1967",110.0,0.0,,,,
+841,1.0,Heidi,1967,October,"October,1967",90.0,0.0,,,,
+842,2.0,Humberto,1967,October,"October,1967",110.0,0.0,,,,
+843,2.0,Earl,1968,August,"August,1968",100.0,3.0," $79,000,000.00 ",,,
+844,1.0,Gladys,1968,October,"October,1968",85.0,11.0," $18,700,000.00 ",2,October 19,Florida
+845,1.0,Abby,1968,June,"June,1968",75.0,6.0," $450,000.00 ",,,
+846,2.0,Danielle,1968,June,"June,1968",105.0,0.0," $50,000.00 ",,,
+847,1.0,Brenda,1968,June,"June,1968",75.0,0.0,,,,
+848,1.0,Dolly,1968,August,"August,1968",80.0,0.0,,,,
+849,2.0,Iris,1968,June,"June,1968",110.0,5.0,,,,
+850,2.0,Jeanne,1968,October,"October,1968",105.0,0.0,,,,
+851,2.0,Irene,1969,September,"September,1969",110.0,18.0," $800,000,000.00 ",,,
+852,2.0,Dennis,1969,September,"September,1969",105.0,4.0," $157,000,000.00 ",,,
+853,1.0,Martha,1969,November,"November,1969",90.0,5.0," $30,000,000.00 ",,,
+854,2.0,Jose,1969,October,"October,1969",100.0,3.0," $5,000,000.00 ",,,
+855,1.0,Blanche,1969,August,"August,1969",85.0,0.0,,,,
+856,5.0,Camille,1969,August,"August,1969",175.0,259.0,,1,August 18,Alabama
+857,5.0,Camille,1969,August,"August,1969",175.0,259.0,,5,August 17,Louisiana
+858,5.0,Camille,1969,August,"August,1969",175.0,259.0,,5,August 18,Mississippi
+859,1.0,Holly,1969,September,"September,1969",85.0,0.0,,,,
+860,2.0,Karl,1969,August,"August,1969",105.0,0.0,,,,
+861,2.0,Michael,1969,November,"November,1969",110.0,0.0,,,,
+862,1.0,Seventeen,1969,October,"October,1969",75.0,0.0,,,,
+863,1.0,Ten,1969,September,"September,1969",75.0,0.0,,,,
+864,2.0,Gustav,1970,October,"October,1970",100.0,4.0," $340,000.00 ",,,
+865,1.0,Alma,1970,May,"May,1970",75.0,8.0,,,,
+866,4.0,Celia,1970,August,"August,1970",,,,4,August 3,Texas
+867,2.0,Humberto,1970,May,"May,1970",105.0,0.0,,,,
+868,1.0,Nineteen,1970,October,"October,1970",80.0,0.0,,,,
+869,2.0,Dolly,1971,September,"September,1971",100.0,26.0," $1,600,000,000.00 ",,,
+870,2.0,Juan,1971,August,"August,1971",110.0,8.0," $200,000,000.00 ",,,
+871,1.0,Fern,1971,September,"September,1971",90.0,2.0," $30,200,000.00 ",1,September 10,Texas
+872,1.0,Beth,1971,August,"August,1971",85.0,1.0," $5,100,000.00 ",,,
+873,1.0,Irene,1971,September,"September,1971",80.0,3.0," $1,000,000.00 ",,,
+874,2.0,Irene,1971,September,"September,1971",105.0,1.0,,,,
+875,2.0,Danielle,1971,August,"August,1971",110.0,0.0,,,,
+876,5.0,Edith,1971,September,"September,1971",160.0,37.0,,2,September 16,Louisiana
+877,1.0,Two,1971,August,"August,1971",85.0,0.0,,,,
+878,1.0,Agnes,1972,June,"June,1972",90.0,128.0," $2,100,000,000.00 ",1,June 19,Florida
+879,1.0,Agnes,1972,June,"June,1972",90.0,128.0," $2,100,000,000.00 ",1,June 22,New York
+880,2.0,Ida,1972,June,"June,1972",105.0,4.0," $11,400,000.00 ",,,
+881,2.0,Alex,1972,September,"September,1972",110.0,52.0," $1,520,000.00 ",,,
+882,1.0,Dawn,1972,September,"September,1972",80.0,0.0,,,,
+883,2.0,Richard,1973,August,"August,1973",100.0,2.0," $80,000,000.00 ",,,
+884,2.0,Tomas,1973,October,"October,1973",100.0,51.0," $4,634,000.00 ",,,
+885,1.0,Alice,1973,July,"July,1973",90.0,0.0,,,,
+886,1.0,Brenda,1973,August,"August,1973",90.0,10.0,,,,
+887,1.0,Fran,1973,October,"October,1973",80.0,0.0,,,,
+888,2.0,Paula,1973,July,"July,1973",105.0,1.0,,,,
+889,2.0,Ernesto,1974,September,"September,1974",100.0,12.0," $252,200,000.00 ",,,
+890,4.0,Carmen,1974,September,"September,1974",,,,3,September 8,Louisiana
+891,1.0,Gertrude,1974,September,"September,1974",75.0,0.0,,,,
+892,1.0,Blanche,1975,July,"July,1975",85.0,0.0," $6,200,000.00 ",,,
+893,2.0,Gordon,1975,July,"July,1975",110.0,0.0,,,,
+894,2.0,Arthur,1976,October,"October,1976",100.0,1.0," $28,600,000.00 ",,,
+895,1.0,Candice,1976,August,"August,1976",90.0,0.0,,,,
+896,1.0,Holly,1976,October,"October,1976",75.0,0.0,,,,
+897,2.0,Kirk,1976,August,"August,1976",105.0,0.0,,,,
+898,1.0,Babe,1977,September,"September,1977",75.0,0.0," $13,000,000.00 ",1,September 5,Louisiana
+899,2.0,Katia,1977,September,"September,1977",105.0,3.0," $3,260,000.00 ",,,
+900,5.0,Anita,1977,September,"September,1977",175.0,11.0,,,,
+901,2.0,Chris,1977,September,"September,1977",105.0,1.0,,,,
+902,1.0,Clara,1977,September,"September,1977",75.0,0.0,,,,
+903,1.0,Dorothy,1977,September,"September,1977",85.0,0.0,,,,
+904,1.0,Evelyn,1977,October,"October,1977",80.0,0.0,,,,
+905,2.0,Gert,1977,September,"September,1977",110.0,2.0,,,,
+906,2.0,Helene,1977,October,"October,1977",110.0,3.0,,,,
+907,1.0,Kendra,1978,October,"October,1978",80.0,1.0," $6,000,000.00 ",,,
+908,1.0,Cora,1978,August,"August,1978",90.0,1.0,,,,
+909,4.0,Greta,1978,September,"September,1978",,,,,,
+910,2.0,Jerry,1978,October,"October,1978",105.0,0.0,,,,
+911,2.0,Oscar,1978,August,"August,1978",110.0,0.0,,,,
+912,2.0,Sally,1979,September,"September,1979",110.0,5.0," $7,928,700,000.00 ",,,
+913,2.0,Paulette,1979,July,"July,1979",105.0,1.0," $50,000,000.00 ",,,
+914,1.0,Bob,1979,July,"July,1979",75.0,1.0," $20,000,000.00 ",1,September 11,Louisiana
+915,5.0,David,1979,August,"August,1979",175.0,2068.0,,2,September 3,Florida
+916,5.0,David,1979,August,"August,1979",175.0,2068.0,,2,September 4,Georgia
+917,5.0,David,1979,August,"August,1979",175.0,2068.0,,2,September 4,South Carolina
+918,4.0,Frederic,1979,September,"September,1979",,,,4,September 13,Alabama
+919,4.0,Frederic,1979,September,"September,1979",,,,3,September 13,Mississippi
+920,1.0,Henri,1979,September,"September,1979",85.0,0.0,,,,
+921,5.0,Allen,1980,August,"August,1980",190.0,13.0," $2,012,000,000.00 ",3,August 10,Texas
+922,1.0,Charley,1980,August,"August,1980",80.0,7.0,,,,
+923,1.0,Earl,1980,September,"September,1980",75.0,0.0,,,,
+924,1.0,Georges,1980,September,"September,1980",80.0,0.0,,,,
+925,1.0,Karl,1980,November,"November,1980",85.0,0.0,,,,
+926,1.0,Dennis,1981,August,"August,1981",80.0,0.0," $15,000,000.00 ",,,
+927,1.0,Emily,1981,August,"August,1981",90.0,0.0,,,,
+928,1.0,Katrina,1981,November,"November,1981",85.0,2.0,,,,
+929,1.0,Alberto,1982,June,"June,1982",85.0,23.0," $85,000,000.00 ",,,
+930,1.0,Barry,1983,August,"August,1983",80.0,0.0,,,,
+931,1.0,Chantal,1983,September,"September,1983",75.0,0.0,,,,
+932,1.0,Klaus,1984,November,"November,1984",90.0,2.0," $152,000,000.00 ",,,
+933,4.0,Diana,1984,September,"September,1984",,,,2,September 13,North Carolina
+934,1.0,Hortense,1984,September,"September,1984",75.0,0.0,,,,
+935,1.0,Lili,1984,December,"December,1984",80.0,0.0,,,,
+936,1.0,Juan,1985,October,"October,1985",85.0,63.0," $3,906,500,000.00 ",1,October 28,Louisiana
+937,4.0,Gloria,1985,September,"September,1985",,11.0," $2,242,900,000.00 ",1,September 27,Conneticut
+938,4.0,Gloria,1985,September,"September,1985",,11.0," $2,242,900,000.00 ",1,September 27,Maine
+939,4.0,Gloria,1985,September,"September,1985",,11.0," $2,242,900,000.00 ",1,September 27,New Hampshire
+940,4.0,Gloria,1985,September,"September,1985",,11.0," $2,242,900,000.00 ",1,September 27,New York
+941,4.0,Gloria,1985,September,"September,1985",,11.0," $2,242,900,000.00 ",3,September 27,North Carolina
+942,1.0,Danny,1985,August,"August,1985",90.0,5.0," $100,000,000.00 ",1,August 15,Louisiana
+943,1.0,Bob,1985,July,"July,1985",75.0,5.0," $20,000,000.00 ",1,July 25,South Carolina
+944,1.0,Claudette,1985,August,"August,1985",85.0,0.0,,,,
+945,1.0,Bonnie,1986,June,"June,1986",85.0,5.0," $42,000,000.00 ",1,June 28,Texas
+946,1.0,Charley,1986,August,"August,1986",80.0,15.0," $15,000,000.00 ",1,August 17,North Carolina
+947,1.0,Frances,1986,November,"November,1986",85.0,0.0,,,,
+948,1.0,Floyd,1987,October,"October,1987",75.0,1.0," $500,000.00 ",1,October 12,Florida
+949,1.0,Arlene,1987,August,"August,1987",75.0,0.0," $8,000.00 ",,,
+950,1.0,Florence,1988,September,"September,1988",80.0,1.0," $2,900,000.00 ",1,September 10,Louisiana
+951,1.0,Debby,1988,August,"August,1988",75.0,20.0,,,,
+952,5.0,Gilbert,1988,September,"September,1988",185.0,318.0,,,,
+953,4.0,Joan,1988,October,"October,1988",,,,,,
+954,5.0,Hugo,1989,September,"September,1989",160.0,86.0," $20,429,700,000.00 ",1,September 22,North Carolina
+955,5.0,Hugo,1989,September,"September,1989",160.0,86.0," $20,429,700,000.00 ",4,September 22,South Carolina
+956,1.0,Chantal,1989,July,"July,1989",80.0,13.0," $100,000,000.00 ",1,August 1,Texas
+957,1.0,Jerry,1989,October,"October,1989",85.0,3.0," $70,000,000.00 ",1,October 16,Texas
+958,1.0,Felix,1989,August,"August,1989",85.0,0.0,,,,
+959,1.0,Bertha,1990,July,"July,1990",80.0,9.0," $3,910,000.00 ",,,
+960,1.0,Klaus,1990,October,"October,1990",80.0,11.0," $1,000,000.00 ",,,
+961,1.0,Josephine,1990,September,"September,1990",85.0,0.0,,,,
+962,1.0,Lili,1990,October,"October,1990",75.0,0.0,,,,
+963,1.0,Nana,1990,October,"October,1990",85.0,0.0,,,,
+964,1.0,1991 Perfect Storm,1991,October,"October,1991",75.0,13.0," $200,000,000.00 ",,,
+965,5.0,Andrew,1992,August,"August,1992",175.0,61.0," $54,270,000,000.00 ",5,August 24,Florida
+966,5.0,Andrew,1992,August,"August,1992",175.0,61.0," $54,270,000,000.00 ",3,August 26,Louisiana
+967,1.0,Frances,1992,October,"October,1992",85.0,0.0,,,,
+968,1.0,Floyd,1993,September,"September,1993",75.0,0.0,,,,
+969,1.0,Harvey,1993,September,"September,1993",75.0,0.0,,,,
+970,1.0,Gordon,1994,November,"November,1994",85.0,1152.0," $594,000,000.00 ",,,
+971,1.0,Chris,1994,August,"August,1994",80.0,0.0,,,,
+972,4.0,Opal,1995,October,"October,1995",,27.0," $8,674,700,000.00 ",1,October 4,Alabama
+973,4.0,Opal,1995,October,"October,1995",,27.0," $8,674,700,000.00 ",3,October 4,Florida
+974,1.0,Allison,1995,June,"June,1995",75.0,1.0," $1,700,000.00 ",,,
+975,4.0,Luis,1995,September,"September,1995",,,,,,
+976,1.0,Noel,1995,September,"September,1995",75.0,0.0,,,,
+977,1.0,Tanya,1995,October,"October,1995",85.0,1.0,,,,
+978,1.0,Marco,1996,November,"November,1996",75.0,13.0," $3,885,000,000.00 ",,,
+979,1.0,Cesar,1996,July,"July,1996",85.0,113.0," $203,000,000.00 ",,,
+980,1.0,Dolly,1996,August,"August,1996",80.0,14.0,,,,
+981,4.0,Hortense,1996,September,"September,1996",,,,,,
+982,1.0,Danny,1997,July,"July,1997",80.0,9.0," $100,000,000.00 ",1,July 19,Alabama
+983,1.0,Danny,1997,July,"July,1997",80.0,9.0," $100,000,000.00 ",1,July 18,Louisiana
+984,1.0,Bill,1997,July,"July,1997",75.0,0.0,,,,
+985,4.0,Georges,1998,September,"September,1998",,16.0," $10,353,200,000.00 ",2,September 25,Florida
+986,4.0,Georges,1998,September,"September,1998",,16.0," $10,353,200,000.00 ",2,September 29,Mississippi
+987,1.0,Ivan,1998,September,"September,1998",90.0,0.0,,,,
+988,1.0,Lisa,1998,October,"October,1998",75.0,0.0,,,,
+989,5.0,Mitch,1998,October,"October,1998",180.0,19325.0,,,,
+990,1.0,Nicole,1998,November,"November,1998",85.0,0.0,,,,
+991,4.0,Floyd,1999,September,"September,1999",,77.0," $10,969,900,000.00 ",2,September 16,North Carolina
+992,4.0,Bret,1999,August,"August,1999",,,,3,August 23,Texas
+993,4.0,Lenny,1999,November,"November,1999",,,,,,
+994,1.0,Gordon,2000,September,"September,2000",80.0,26.0," $10,800,000.00 ",,,
+995,1.0,Debby,2000,August,"August,2000",85.0,1.0," $7,350,000.00 ",,,
+996,1.0,Florence,2000,September,"September,2000",80.0,3.0,,,,
+997,1.0,Joyce,2000,September,"September,2000",90.0,0.0,,,,
+998,4.0,Keith,2000,October,"October,2000",,,,,,
+999,1.0,Gabrielle,2001,September,"September,2001",80.0,3.0," $230,000,000.00 ",,,
+1000,1.0,Karen,2001,October,"October,2001",80.0,0.0," $1,400,000.00 ",,,
+1001,4.0,Iris,2001,October,"October,2001",,,,,,
+1002,4.0,Michelle,2001,November,"November,2001",,,,,,
+1003,1.0,Noel,2001,November,"November,2001",75.0,0.0,,,,
+1004,1.0,Olga,2001,November,"November,2001",90.0,0.0,,,,
+1005,4.0,Lili,2002,October,"October,2002",,2.0," $1,734,100,000.00 ",1,October 3,Louisiana
+1006,1.0,Kyle,2002,September,"September,2002",85.0,1.0," $5,000,000.00 ",,,
+1007,5.0,Isabel,2003,September,"September,2003",165.0,55.0," $8,390,600,000.00 ",2,September 18,North Carolina
+1008,5.0,Isabel,2003,September,"September,2003",165.0,55.0," $8,390,600,000.00 ",1,September 19,Virginia
+1009,1.0,Claudette,2003,July,"July,2003",90.0,3.0," $181,000,000.00 ",1,July 15,Texas
+1010,1.0,Erika,2003,August,"August,2003",75.0,2.0," $100,000.00 ",,,
+1011,1.0,Danny,2003,July,"July,2003",75.0,0.0,,,,
+1012,5.0,Ivan,2004,September,"September,2004",165.0,57.0," $30,545,800,000.00 ",3,September 16,Alabama
+1013,5.0,Ivan,2004,September,"September,2004",165.0,57.0," $30,545,800,000.00 ",3,September 16,Florida
+1014,4.0,Frances,2004,September,"September,2004",,48.0," $14,601,900,000.00 ",2,September 5,Florida
+1015,4.0,Charley,2004,August,"August,2004",,35.0," $2,399,300,000.00 ",4,August 13,Florida
+1016,4.0,Charley,2004,August,"August,2004",,35.0," $2,399,300,000.00 ",1,August 14,North Carolina
+1017,4.0,Charley,2004,August,"August,2004",,35.0," $2,399,300,000.00 ",1,August 14,South Carolina
+1018,1.0,Gaston,2004,August,"August,2004",75.0,9.0," $130,000,000.00 ",1,August 29,South Carolina
+1019,1.0,Lisa,2004,September,"September,2004",75.0,0.0,,,,
+1020,5.0,Katrina,2005,August,"August,2005",175.0,1833.0," $180,042,400,000.00 ",1,August 29,Alabama
+1021,5.0,Katrina,2005,August,"August,2005",175.0,1833.0," $180,042,400,000.00 ",1,August 25,Florida
+1022,5.0,Katrina,2005,August,"August,2005",175.0,1833.0," $180,042,400,000.00 ",3,August 29,Louisiana
+1023,5.0,Katrina,2005,August,"August,2005",175.0,1833.0," $180,042,400,000.00 ",3,August 29,Mississippi
+1024,5.0,Wilma,2005,October,"October,2005",185.0,35.0," $26,980,000,000.00 ",3,October 24,Florida
+1025,5.0,Rita,2005,September,"September,2005",180.0,119.0," $26,455,100,000.00 ",1,September 20,Florida
+1026,5.0,Rita,2005,September,"September,2005",180.0,119.0," $26,455,100,000.00 ",3,September 24,Louisiana
+1027,5.0,Rita,2005,September,"September,2005",180.0,119.0," $26,455,100,000.00 ",2,September 24,Texas
+1028,1.0,Stan,2005,October,"October,2005",80.0,1668.0," $3,960,000,000.00 ",,,
+1029,4.0,Dennis,2005,July,"July,2005",,15.0," $3,617,800,000.00 ",1,July 10,Alabama
+1030,4.0,Dennis,2005,July,"July,2005",,15.0," $3,617,800,000.00 ",3,July 10,Florida
+1031,1.0,Cindy,2005,July,"July,2005",75.0,3.0," $320,000,000.00 ",1,July 6,Louisiana
+1032,1.0,Ophelia,2005,September,"September,2005",85.0,3.0," $70,000,000.00 ",1,September 14,North Carolina
+1033,5.0,Emily,2005,July,"July,2005",160.0,17.0,,,,
+1034,1.0,Epsilon,2005,November,"November,2005",85.0,0.0,,,,
+1035,1.0,Nate,2005,September,"September,2005",90.0,2.0,,,,
+1036,1.0,Philippe,2005,September,"September,2005",80.0,0.0,,,,
+1037,1.0,Vince,2005,October,"October,2005",75.0,0.0,,,,
+1038,1.0,Ernesto,2006,August,"August,2006",75.0,11.0," $500,000,000.00 ",,,
+1039,1.0,Florence,2006,September,"September,2006",90.0,0.0," $20,000.00 ",,,
+1040,1.0,Isaac,2006,September,"September,2006",85.0,0.0,,,,
+1041,1.0,Noel,2007,October,"October,2007",80.0,222.0," $580,000,000.00 ",,,
+1042,1.0,Lorenzo,2007,September,"September,2007",80.0,6.0," $92,000,000.00 ",,,
+1043,1.0,Humberto,2007,September,"September,2007",90.0,1.0," $50,000,000.00 ",1,September 13,Louisiana
+1044,1.0,Humberto,2007,September,"September,2007",90.0,1.0," $50,000,000.00 ",1,September 13,Texas
+1045,5.0,Dean,2007,August,"August,2007",175.0,45.0,,,,
+1046,5.0,Felix,2007,September,"September,2007",175.0,133.0,,,,
+1047,1.0,Karen,2007,September,"September,2007",75.0,0.0,,,,
+1048,4.0,Ike,2008,September,"September,2008",,112.0," $38,998,400,000.00 ",2,September 13,Texas
+1049,4.0,Gustav,2008,August,"August,2008",,53.0," $7,736,100,000.00 ",2,September 1,Louisiana
+1050,1.0,Hanna,2008,August,"August,2008",85.0,537.0," $160,000,000.00 ",,,
+1051,1.0,Kyle,2008,September,"September,2008",85.0,8.0," $57,000,000.00 ",,,
+1052,4.0,Paloma,2008,November,"November,2008",,,,,,
+1053,4.0,Bill,2009,August,"August,2009",,,,,,
+1054,4.0,Earl,2010,August,"August,2010",,,,,,
+1055,4.0,Igor,2010,September,"September,2010",,,,,,
+1056,1.0,Lisa,2010,September,"September,2010",85.0,0.0,,,,
+1057,1.0,Otto,2010,October,"October,2010",85.0,0.0,,,,
+1058,1.0,Shary,2010,October,"October,2010",75.0,0.0,,,,
+1059,1.0,Maria,2011,September,"September,2011",80.0,0.0,,,,
+1060,1.0,Nate,2011,September,"September,2011",75.0,5.0,,,,
+1061,1.0,Philippe,2011,September,"September,2011",90.0,0.0,,,,
+1062,1.0,Isaac,2012,August,"August,2012",80.0,9.0," $3,399,100,000.00 ",1,August 28,Louisiana
+1063,1.0,Chris,2012,June,"June,2012",85.0,0.0,,,,
+1064,1.0,Leslie,2012,August,"August,2012",80.0,0.0,,,,
+1065,1.0,Nadine,2012,September,"September,2012",90.0,0.0,,,,
+1066,1.0,Humberto,2013,September,"September,2013",90.0,0.0,,,,
+1067,1.0,Ingrid,2013,September,"September,2013",85.0,32.0,,,,
+1068,1.0,Bertha,2014,August,"August,2014",80.0,0.0,,,,
+1069,1.0,Cristobal,2014,August,"August,2014",85.0,7.0,,,,
+1070,1.0,Fay,2014,October,"October,2014",80.0,0.0,,,,
+1071,4.0,Gonzalo,2014,October,"October,2014",,,,,,
+1072,1.0,Fred,2015,August,"August,2015",85.0,9.0,,,,
+1073,4.0,Joaquin,2015,October,"October,2015",,,,,,
+1074,1.0,Kate,2015,November,"November,2015",85.0,0.0,,,,
+1075,5.0,Matthew,2016,October,"October,2016",165.0,49.0," $11,700,000,000.00 ",2,October 7,Florida
+1076,5.0,Matthew,2016,October,"October,2016",165.0,49.0," $11,700,000,000.00 ",1,October 8,Georgia
+1077,5.0,Matthew,2016,October,"October,2016",165.0,49.0," $11,700,000,000.00 ",1,October 8,North Carolina
+1078,5.0,Matthew,2016,October,"October,2016",165.0,49.0," $11,700,000,000.00 ",1,October 8,South Carolina
+1079,1.0,Alex,2016,January,"January,2016",85.0,1.0,,,,
+1080,1.0,Earl,2016,August,"August,2016",85.0,94.0,,,,
+1081,1.0,Hermine,2016,August,"August,2016",80.0,5.0,,1,September 2,Florida
+1082,4.0,Harvey,2017,August,"August,2017",,89.0," $143,750,000,000.00 ",4,August 26,Texas
+1083,5.0,Maria,2017,September,"September,2017",175.0,2981.0," $103,500,000,000.00 ",,,
+1084,5.0,Irma,2017,September,"September,2017",180.0,97.0," $57,500,000,000.00 ",4,September 10,Florida
+1085,1.0,Franklin,2017,August,"August,2017",85.0,0.0,,,,
+1086,1.0,Nate,2017,October,"October,2017",90.0,48.0,,1,October 7,Louisiana
+1087,1.0,Nate,2017,October,"October,2017",90.0,48.0,,1,October 8,Mississippi
+1088,5.0,Michael,2018,October,"October,2018",160.0,49.0," $27,972,000,000.00 ",1,October 10,Alabama
+1089,5.0,Michael,2018,October,"October,2018",160.0,49.0," $27,972,000,000.00 ",5,October 10,Florida
+1090,5.0,Michael,2018,October,"October,2018",160.0,49.0," $27,972,000,000.00 ",2,October 10,Georgia
+1091,4.0,Florence,2018,September,"September,2018",,53.0," $26,880,000,000.00 ",1,September 14,North Carolina
+1092,1.0,Beryl,2018,July,"July,2018",80.0,0.0,,,,
+1093,1.0,Isaac,2018,September,"September,2018",75.0,0.0,,,,
+1094,1.0,Leslie,2018,September,"September,2018",90.0,17.0,,,,
+1095,5.0,Dorian,2019,September,"September,2019",185.0,10.0," $1,787,100,000.00 ",2,September 6,North Carolina
+1096,1.0,Barry,2019,July,"July,2019",75.0,1.0,,1,July 13,Louisiana
+1097,5.0,Lorenzo,2019,September,"September,2019",160.0,19.0,,,,
+1098,1.0,Pablo,2019,October,"October,2019",80.0,0.0,,,,
+1099,4.0,Laura,2020,August,"August,2020",,42.0," $25,304,500,000.00 ",4,August 27,Louisiana
+1100,4.0,Laura,2020,August,"August,2020",,42.0," $25,304,500,000.00 ",1,August 27,Texas
+1101,1.0,Isaias,2020,July,"July,2020",90.0,16.0," $5,185,200,000.00 ",1,August 4,North Carolina
+1102,1.0,Isaias,2020,July,"July,2020",90.0,16.0," $5,185,200,000.00 ",1,August 4,South Carolina
+1103,4.0,Delta,2020,October,"October,2020",,5.0," $3,125,300,000.00 ",2,October 9,Louisiana
+1104,1.0,Hanna,2020,July,"July,2020",90.0,0.0," $1,171,800,000.00 ",1,July 25,Texas
+1105,4.0,Eta,2020,November,"November,2020",,,,,,
+1106,1.0,Gamma,2020,October,"October,2020",75.0,6.0,,,,
+1107,4.0,Iota,2020,November,"November,2020",,,,,,
+1108,1.0,Marco,2020,August,"August,2020",75.0,1.0,,,,
+1109,1.0,Nana,2020,September,"September,2020",75.0,0.0,,,,
+1110,1.0,Nicholas,2021,September,"September,2021",75.0,0.0," $1,056,600,000.00 ",1,September 14,Texas
+1111,4.0,Ida,2021,August,"August,2021",105.0,96.0,#REF!,4,August 29,Louisiana
+1112,1.0,Elsa,2021,June,"June,2021",85.0,13.0,,,,
+1113,1.0,Henri,2021,August,"August,2021",75.0,2.0,,,,
+1114,4.0,Sam,2021,September,"September,2021",,,,,,
+1115,2.0,Kara,"1954 ‚Äì January 6, 1955",December,"December,1954 ‚Äì January 6, 1955",105.0,0.0,,,,
+1116,,Unnamed,1893,,,,,,2,October 3,Alabama
+1117,,Unnamed,1893,,,,,,1,August 24,Conneticut
+1118,,Unnamed,1893,,,,,,1,August 27,Florida
+1119,,Unnamed,1893,,,,,,3,August 28,Georgia
+1120,,Unnamed,1893,,,,,,2,September 7,Louisiana
+1121,,Unnamed,1893,,,,,,4,October 2,Louisiana
+1122,,Unnamed,1893,,,,,,2,October 2,Mississippi
+1123,,Unnamed,1893,,,,,,1,August 24,New York
+1124,,Unnamed,1893,,,,,,1,August 28,North Carolina
+1125,,Unnamed,1893,,,,,,1,October 13,North Carolina
+1126,,Unnamed,1893,,,,,,3,August 28,South Carolina
+1127,,Unnamed,1893,,,,,,3,October 13,South Carolina
+1128,,Unnamed,1893,,,,,,1,October 13,Virginia
+1129,,Unnamed,1901,,,,,,1,August 15,Alabama
+1130,,Unnamed,1901,,,,,,1,August 14,Louisiana
+1131,,Unnamed,1901,,,,,,1,August 15,Mississippi
+1132,,Unnamed,1901,,,,,,1,July 11,North Carolina
+1133,,Unnamed,1906,,,,,,2,September 27,Alabama
+1134,,Unnamed,1906,,,,,,1,June 16,Florida
+1135,,Unnamed,1906,,,,,,2,September 27,Florida
+1136,,Unnamed,1906,,,,,,3,October 18,Florida
+1137,,Unnamed,1906,,,,,,1,September 27,Louisiana
+1138,,Unnamed,1906,,,,,,2,September 27,Mississippi
+1139,,Unnamed,1906,,,,,,1,September 17,North Carolina
+1140,,Unnamed,1906,,,,,,1,September 17,South Carolina
+1141,,Unnamed,1912,,,,,,1,September 14,Alabama
+1142,,Unnamed,1912,,,,,,1,September 14,Florida
+1143,,Unnamed,1912,,,,,,2,October 16,Texas
+1144,,Unnamed,1916,,,,,,2,July 5,Alabama
+1145,,Unnamed,1916,,,,,,2,October 18,Alabama
+1146,,Unnamed,1916,,,,,,2,July 5,Florida
+1147,,Unnamed,1916,,,,,,2,October 18,Florida
+1148,,Unnamed,1916,,,,,,3,July 6,Mississippi
+1149,,Unnamed,1916,,,,,,2,July 14,South Carolina
+1150,,Unnamed,1916,,,,,,4,August 18,Texas
+1151,,Unnamed,1917,,,,,,1,September 29,Alabama
+1152,,Unnamed,1917,,,,,,3,September 29,Florida
+1153,,Unnamed,1917,,,,,,2,September 29,Louisiana
+1154,,Baker,1950,,,,,,1,August 31,Alabama
+1155,,Eloise,1975,,,,,,1,September 23,Alabama
+1156,,Eloise,1975,,,,,,3,September 23,Florida
+1157,,Elena,1985,,,,,,3,September 2,Alabama
+1158,,Elena,1985,,,,,,3,September 1,Florida
+1159,,Elena,1985,,,,,,3,September 2,Mississippi
+1160,,Sally,2020,,,,,,2,September 16,Alabama
+1161,,Sally,2020,,,,,,2,September 16,Florida
+1162,,Zeta,2020,,,,,,1,October 29,Alabama
+1163,,Zeta,2020,,,,,,3,October 28,Louisiana
+1164,,Zeta,2020,,,,,,2,October 29,Mississippi
+1165,,Unnamed,1938,,,,,,3,September 21,Conneticut
+1166,,Unnamed,1938,,,,,,1,August 15,Louisiana
+1167,,Unnamed,1938,,,,,,2,September 21,Massachusetts
+1168,,Unnamed,1938,,,,,,3,September 21,New York
+1169,,Unnamed,1938,,,,,,3,September 21,Rhode Island
+1170,,Unnamed,1944,,,,,,1,September 15,Conneticut
+1171,,Unnamed,1944,,,,,,4,October 19,Florida
+1172,,Unnamed,1944,,,,,,1,September 15,Massachusetts
+1173,,Unnamed,1944,,,,,,1,September 14,New Jersey
+1174,,Unnamed,1944,,,,,,2,September 15,New York
+1175,,Unnamed,1944,,,,,,1,August 1,North Carolina
+1176,,Unnamed,1944,,,,,,2,September 14,North Carolina
+1177,,Unnamed,1944,,,,,,2,September 15,Rhode Island
+1178,,Unnamed,1944,,,,,,2,September 14,Virginia
+1179,,Carol,1954,,,,,,3,August 31,Conneticut
+1180,,Carol,1954,,,,,,2,August 31,Massachusetts
+1181,,Carol,1954,,,,,,3,August 31,New York
+1182,,Carol,1954,,,,,,1,August 31,North Carolina
+1183,,Carol,1954,,,,,,3,August 31,Rhode Island
+1184,,Bob,1991,,,,,,2,August 19,Conneticut
+1185,,Bob,1991,,,,,,2,August 19,Massachusetts
+1186,,Bob,1991,,,,,,2,August 19,New York
+1187,,Bob,1991,,,,,,2,August 19,Rhode Island
+1188,,Unnamed,1903,,,,,,1,September 16,Deleware
+1189,,Unnamed,1903,,,,,,1,August 11,Florida
+1190,,Unnamed,1903,,,,,,1,September 16,New Jersey
+1191,,Unnamed,1851,,,,,,3,August 23,Florida
+1192,,Unnamed,1851,,,,,,1,August 24,Georgia
+1193,,Unnamed,1851,,,,,,1,June 25,Texas
+1194,,Unnamed,1865,,,,,,2,October 23,Florida
+1195,,Unnamed,1865,,,,,,2,September 13,Louisiana
+1196,,Unnamed,1865,,,,,,1,September 13,Texas
+1197,,Unnamed,1891,,,,,,1,August 24,Florida
+1198,,Unnamed,1891,,,,,,1,July 5,Texas
+1199,,Unnamed,1896,,,,,,2,July 7,Florida
+1200,,Unnamed,1896,,,,,,3,September 29,Florida
+1201,,Unnamed,1896,,,,,,2,September 29,Georgia
+1202,,Unnamed,1896,,,,,,1,September 10,Massachusetts
+1203,,Unnamed,1896,,,,,,1,September 29,North Carolina
+1204,,Unnamed,1896,,,,,,1,September 10,Rhode Island
+1205,,Unnamed,1896,,,,,,1,September 29,South Carolina
+1206,,Unnamed,1896,,,,,,1,September 30,Virginia
+1207,,Unnamed,1898,,,,,,1,August 3,Florida
+1208,,Unnamed,1898,,,,,,2,October 2,Florida
+1209,,Unnamed,1898,,,,,,1,August 31,Georgia
+1210,,Unnamed,1898,,,,,,4,October 2,Georgia
+1211,,Unnamed,1898,,,,,,1,August 31,South Carolina
+1212,,Unnamed,1899,,,,,,2,August 1,Florida
+1213,,Unnamed,1899,,,,,,3,August 18,North Carolina
+1214,,Unnamed,1899,,,,,,2,October 31,North Carolina
+1215,,Unnamed,1899,,,,,,2,October 31,South Carolina
+1216,,Unnamed,1900,,,,,,4,August 27,Florida
+1217,,Unnamed,1900,,,,,,4,September 9,Texas
+1218,,Unnamed,1904,,,,,,1,October 17,Florida
+1219,,Unnamed,1904,,,,,,1,September 14,South Carolina
+1220,,Unnamed,1909,,,,,,3,October 11,Florida
+1221,,Unnamed,1909,,,,,,3,September 20,Louisiana
+1222,,Unnamed,1909,,,,,,2,September 21,Mississippi
+1223,,Unnamed,1909,,,,,,2,June 29,Texas
+1224,,Unnamed,1909,,,,,,3,July 21,Texas
+1225,,Unnamed,1909,,,,,,1,August 27,Texas
+1226,,Unnamed,1911,,,,,,1,August 11,Florida
+1227,,Unnamed,1911,,,,,,1,August 28,Georgia
+1228,,Unnamed,1911,,,,,,2,August 28,South Carolina
+1229,,Unnamed,1915,,,,,,1,August 1,Florida
+1230,,Unnamed,1915,,,,,,1,September 4,Florida
+1231,,Unnamed,1915,,,,,,1,August 17,Louisiana
+1232,,Unnamed,1915,,,,,,3,September 29,Louisiana
+1233,,Unnamed,1915,,,,,,2,September 29,Mississippi
+1234,,Unnamed,1915,,,,,,4,August 17,Texas
+1235,,Unnamed,1919,,,,,,4,September 10,Florida
+1236,,Unnamed,1919,,,,,,3,September 14,Texas
+1237,,Unnamed,1921,,,,,,3,October 25,Florida
+1238,,Unnamed,1921,,,,,,1,June 22,Texas
+1239,,Unnamed,1924,,,,,,1,September 15,Florida
+1240,,Unnamed,1924,,,,,,1,October 21,Florida
+1241,,Unnamed,1924,,,,,,1,August 26,Massachusetts
+1242,,Unnamed,1924,,,,,,1,August 26,North Carolina
+1243,,Unnamed,1928,,,,,,2,August 8,Florida
+1244,,Unnamed,1928,,,,,,4,September 17,Florida
+1245,,Unnamed,1928,,,,,,1,September 18,Georgia
+1246,,Unnamed,1928,,,,,,1,September 18,South Carolina
+1247,,Unnamed,1933,,,,,,1,July 30,Florida
+1248,,Unnamed,1933,,,,,,3,September 4,Florida
+1249,,Unnamed,1933,,,,,,1,August 23,Maryland
+1250,,Unnamed,1933,,,,,,1,August 23,North Carolina
+1251,,Unnamed,1933,,,,,,2,September 16,North Carolina
+1252,,Unnamed,1933,,,,,,2,August 7,Texas
+1253,,Unnamed,1933,,,,,,3,September 5,Texas
+1254,,Unnamed,1933,,,,,,1,September 16,Virginia
+1255,,Unnamed,1935,,,,,,5,September 3,Florida
+1256,,Unnamed,1935,,,,,,2,November 4,Florida
+1257,,Unnamed,1936,,,,,,2,July 31,Florida
+1258,,Unnamed,1936,,,,,,1,September 18,North Carolina
+1259,,Unnamed,1936,,,,,,1,June 27,Texas
+1260,,Unnamed,1936,,,,,,1,September 18,Virginia
+1261,,Unnamed,1939,,,,,,1,August 11,Florida
+1262,,Unnamed,1941,,,,,,2,October 6,Florida
+1263,,Unnamed,1941,,,,,,3,September 23,Texas
+1264,,Unnamed,1946,,,,,,1,October 8,Florida
+1265,,Unnamed,1947,,,,,,4,September 17,Florida
+1266,,Unnamed,1947,,,,,,1,October 11,Florida
+1267,,Unnamed,1947,,,,,,2,October 15,Georgia
+1268,,Unnamed,1947,,,,,,2,September 19,Louisiana
+1269,,Unnamed,1947,,,,,,2,September 19,Mississippi
+1270,,Unnamed,1947,,,,,,2,October 15,South Carolina
+1271,,Unnamed,1947,,,,,,1,August 24,Texas
+1272,,Easy,1950,,,,,,3,September 5,Florida
+1273,,King,1950,,,,,,4,October 18,Florida
+1274,,Florence,1953,,,,,,1,September 26,Florida
+1275,,Isbell,1964,,,,,,2,October 14,Florida
+1276,,Alma,1966,,,,,,3,June 9,Florida
+1277,,Kate,1985,,,,,,2,November 21,Florida
+1278,,Kate,1985,,,,,,1,November 22,Georgia
+1279,,Erin,1995,,,,,,2,August 3,Florida
+1280,,Earl,1998,,,,,,1,September 3,Florida
+1281,,Irene,1999,,,,,,1,October 15,Florida
+1282,,Irene,1999,,,,,,2,October 18,North Carolina
+1283,,Jeanne,2004,,,,,,3,September 26,Florida
+1284,,Unnamed,1853,,,,,,1,October 21,Georgia
+1285,,"""Labor Day""",1935,,,,,,1,September 5,Georgia
+1286,,Unnamed,1940,,,,,,1,August 11,Georgia
+1287,,Unnamed,1940,,,,,,2,August 7,Louisiana
+1288,,Unnamed,1940,,,,,,2,August 11,South Carolina
+1289,,Unnamed,1940,,,,,,2,August 8,Texas
+1290,,Unnamed,1855,,,,,,3,September 16,Louisiana
+1291,,Unnamed,1855,,,,,,3,August 16,Mississippi
+1292,,Unnamed,1889,,,,,,1,September 23,Louisiana
+1293,,Unnamed,1897,,,,,,1,September 12,Louisiana
+1294,,Unnamed,1897,,,,,,1,September 13,Texas
+1295,,Unnamed,1918,,,,,,3,August 7,Louisiana
+1296,,Unnamed,1918,,,,,,1,August 24,North Carolina
+1297,,Unnamed,1918,,,,,,1,August 7,Texas
+1298,,Unnamed,1920,,,,,,2,September 21,Louisiana
+1299,,Unnamed,1923,,,,,,1,October 16,Louisiana
+1300,,Unnamed,1923,,,,,,1,October 16,Mississippi
+1301,,Unnamed,1934,,,,,,2,June 16,Louisiana
+1302,,Unnamed,1934,,,,,,1,September 8,New Jersey
+1303,,Unnamed,1934,,,,,,1,September 8,New York
+1304,,Unnamed,1934,,,,,,1,September 9,North Carolina
+1305,,Unnamed,1934,,,,,,2,July 25,Texas
+1306,,Audrey,1957,,,,,,3,June 27,Louisiana
+1307,,Audrey,1957,,,,,,2,June 27,Texas
+1308,,Ethel,1964,,,,,,1,September 15,Louisiana
+1309,,Edna,1954,,,,,,2,September 11,Massachusetts
+1310,,Edna,1954,,,,,,1,September 11,New York
+1311,,Edna,1954,,,,,,1,September 11,North Carolina
+1312,,Edna,1954,,,,,,1,September 11,Rhode Island
+1313,,Ethel,1960,,,,,,1,September 15,Mississippi
+1314,,Belle,1976,,,,,,1,August 10,New York
+1315,,Sandy,2012,,,,,,1,October 29,New York
+1316,,Unnamed,1857,,,,,,1,September 13,North Carolina
+1317,,Unnamed,1908,,,,,,1,July 31,North Carolina
+1318,,Unnamed,1913,,,,,,1,September 3,North Carolina
+1319,,Unnamed,1913,,,,,,1,October 8,South Carolina
+1320,,Unnamed,1913,,,,,,1,June 27,Texas
+1321,,Ione,1955,,,,,,2,September 19,North Carolina
+1322,,Ginger,1971,,,,,,1,September 30,North Carolina
+1323,,Emily,1993,,,,,,3,August 31,North Carolina
+1324,,Bertha,1996,,,,,,2,July 12,North Carolina
+1325,,Fran,1996,,,,,,3,September 6,North Carolina
+1326,,Bonnie,1998,,,,,,2,August 27,North Carolina
+1327,,Alex,2004,,,,,,1,August 3,North Carolina
+1328,,Irene,2011,,,,,,1,August 27,North Carolina
+1329,,Arthur,2014,,,,,,2,July 4,North Carolina
+1330,,Able,1952,,,,,,2,August 31,South Carolina
+1331,,Unnamed,1895,,,,,,1,August 30,Texas
+1332,,Unnamed,1942,,,,,,1,August 21,Texas
+1333,,Unnamed,1942,,,,,,3,August 30,Texas
+1334,,Unnamed,1943,,,,,,2,July 27,Texas
+1335,,Alicia,1983,,,,,,3,August 18,Texas
+1336,,Dolly,2008,,,,,,1,July 23,Texas
